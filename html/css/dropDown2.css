@@ -1,0 +1,113 @@
+/* Single-level CSS dropdown menu, based on Patrick Griffiths's "SuckerFish"
+(see http://htmldog.com/articles/suckerfish/dropdowns/example/).
+*/
+
+/*
+!KLUDGE ALERT!
+20120425 jtb: PG's Suckerfish code relies on a single CSS id (here, #toolMenu), which
+makes it hard (impossible?) to put multiple instances of these nifty dropdowns on a single page.
+To accommodate a Tipitaka dropdown in the crumbtrail, I'm using the cheap kludge of "cloning" this
+suckerfish code with a second id (#toolMenu2). It works ok now, but I will heartily regret this later,
+when I decide to put dropdowns on ALL the breadcrumb links (#toolMenu3, #toolMenu376, ...).
+*/
+#tools {
+	padding-left:10px;
+}
+.ddTitle:hover {
+	color:red;
+}
+
+#toolMenu, #toolMenu2 {
+	background-color:inherit;
+	font: 9pt Verdana, sans-serif;
+	list-style-type: none;
+	list-style-image: none;
+	text-align:left;
+	margin:0 0 0 0;
+}
+#toolMenu2 li,
+#toolMenu2 a,
+#toolMenu li,
+#toolMenu a {
+	padding: 0 0 0 0;
+	margin:0 0 0 0;
+}
+#toolMenu2 ul,
+#toolMenu ul {
+	margin:0;
+	padding:0;
+	background-color:#eee;
+	border: 1px solid #ccc;
+}
+#toolMenu2 a,
+#toolMenu a {
+	text-decoration: none;
+	border:none;
+}
+
+#toolMenu2 li ul,
+#toolMenu li ul 
+{
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 110px; /* (A) width of pop-up menu */
+	margin: 0;
+}
+
+
+#toolMenu2 li li,
+#toolMenu li li 
+{
+	margin: 0 0 0 0;
+	padding: 3px 10px 3px 10px;
+	width: 90px;
+	height:20px;
+	white-space:pre; /*don't let text wrap*/
+	overflow:hidden; /*long text gets truncated*/
+	display:block; /* (overrides inline from crumblist) */
+}
+
+#toolMenu2 li li a,
+#toolMenu li li a 
+{
+	padding: 2px 10px 2px 10px;
+	margin: 0 0 0 -10px;
+	width: 110px;
+	height:20px;
+	display:block; /*entire box is hot*/
+}
+
+#toolMenu2 li:before,
+#toolMenu2 li li:before,
+#toolMenu li:before,
+#toolMenu li li:before
+{
+	content:''; /*jtb hack: needed for Safari (Safari doesn't know 'none') */
+	content:none;
+}
+
+#toolMenu2 li:hover ul,
+#toolMenu2 li.sfhover ul,
+#toolMenu li:hover ul,
+#toolMenu li.sfhover ul
+{
+	left: auto;
+}
+
+#toolMenu2 li li:hover,
+#toolMenu2 li li.sfhover,
+#toolMenu li li:hover,
+#toolMenu li li.sfhover
+{
+	background: #ddd;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	padding: 2px 10px; /*to make room for the borders*/
+}
+
+#toolMenu2 .ddTitle ul,
+#toolMenu .ddTitle ul
+{
+	margin:15px 0 0 -25px;
+}
