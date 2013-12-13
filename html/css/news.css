@@ -1,0 +1,89 @@
+div.newsItem {
+	padding-left:1em;
+	border-bottom:1px solid #ccc;
+}
+
+.newsItem h1
+{
+	letter-spacing:0;
+	font-size:13pt;
+}
+
+.newsStory {
+	margin-left:3em;
+}
+
+.newsDate {
+	color:#ccc;
+	font-weight:normal;
+	font-size:10pt;
+/*	display:block;*/
+}
+
+
+
+
+
+/*
+	jtb 090427
+	for legacy code only
+*/
+
+#main {
+	width:79%;
+	padding-right:1%;
+	margin-right:-1%;
+	float:left;
+}
+.item {
+	margin-bottom:2em;
+}
+.item dl{
+	margin-left:1em;
+}
+.item ul{
+	margin-left:1em;
+}
+.item ol{
+	margin-left:1em;
+}
+.dateline{
+	color:black;
+	font-size:normal;
+	font-style:italic;
+	margin-bottom:1em;
+	margin-top:0;
+	padding: 2px 0 2px 10px;
+	border-left:1px solid #395AB9;
+	border-top:1px solid #395AB9;
+}
+.dateline-continue{
+	color:black;
+	font-size:normal;
+	font-style:italic;
+	margin-left:1em;
+	margin-bottom:1em;
+	margin-top:1em;
+	padding-bottom:2px;
+}
+a.sr_alert {
+	color:#395AB9;
+	font-style:italic;
+	text-decoration:none;
+}
+a.sr_alert:hover {color:red;}
+a.sr_alert:active {color:red;}
+
+/* for highlighting special announcements */
+div.billboard {
+	background-color:#F4E8C5;
+	color:black;
+	margin:1%;
+	padding:1em;
+	border:1px solid #395AB9;
+}
+.NEWS_retired{
+	background:#ddd;
+	text-decoration:line-through;
+	}
+
