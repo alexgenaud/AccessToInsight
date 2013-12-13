@@ -1,0 +1,34 @@
+/*
+CSS style definitions for "The Buddhist Monastic Code".
+* Originally modified from Access to Insight's css (http://www.accesstoinsight.org/css/base.css)
+by Michael Olds in April 2007.
+* jtb Aug 2007: Further additions, deletions, confabulations, tweakages, and mods.
+* jtb May 2009: Deprecating Gentium. It simply doesn't render well in italic and bold.
+*/
+
+/* Use the prefix BMC_ for all selectors defined herein. */
+div.BMC_rule {
+	padding-top:2em;
+ 	padding-bottom:1em;
+ 	border-bottom:1px solid #ddd;
+ }
+.BMC_definition, 
+.BMC_summary {
+	font-style: italic;
+}
+.BMC_definition .BMC_num {
+	font-size:180%;
+	font-weight:bold;
+}
+.BMC_summary .BMC_sum {
+	font-weight: bold;
+}
+table.BMC_Grammar {
+}
+.BMC_Grammar td {
+	padding:5px;
+}
+.BMC_Grammar th {
+	font-weight:bold;
+	font-style:italic;
+}
