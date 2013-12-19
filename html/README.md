@@ -23,7 +23,7 @@ The relevant copyright license appears at the bottom of each rendered page on th
 It is this chunk of text that is governed by the license that appears at the bottom of the page. You are free to strip off everything from that file that lies outside of this "protected text chunk" and replace it with your own formatting, packaging, etc., provided that you also abide by the terms of the copyright license. In general, this means that you must also include these three elements:
 
 1. The copyright notice. For example: _"Copyright 1997 Thanissaro Bhikkhu"_
-2. The license restatement. For example: _"The text of this page is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License. To view a copy of the license, visit [http://creativecommons.org/licenses/by-nc/3.0/deed.en\_US](http://creativecommons.org/licenses/by-nc/3.0/deed.en\_US)"_. Please include a link back to the "official" Creative Commons license page, so that your readers can read the fine print of the official license.
+2. The license restatement. For example: _"The text of this page is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit [http://creativecommons.org/licenses/by-nc/4.0](http://creativecommons.org/licenses/by-nc/4.0)"_. Please include a link back to the "official" Creative Commons license page, so that your readers can read the fine print of the official license.
 3. The attribution. For example: _"From [Access to Insight](http://www.accesstoinsight.org) (Offline Edition 2013.12.01.01)"_ Please include a link back to the "official" Access to Insight website, so that your readers can easily track down the original source.
 
 The particular order or placement on the page of these three elements is not important, as long as you make it easy for your readers to find them.
@@ -34,7 +34,7 @@ In general, the HTML markup within the protected text chunk is __not__ subject t
 
 These guidelines also apply when converting the files into entirely different formats. For example, if you convert a file to Microsoft Word, PDF, or some other format, please include the three elements described above.
 
-A few PDF files have been encrypted and password-protected by their publisher, to restrict reformatting. Please do _not_ attempt to circumvent these security measures. If you are interested in altering or converting password-protected files, please ask the author or publisher for permission.
+A few PDF files have been locked and password-protected by their publisher, to restrict reformatting. Please do _not_ attempt to circumvent these security measures. If you are interested in altering or converting password-protected files, please ask the author or publisher for permission.
 
 
 > -- jtb, 20131203
