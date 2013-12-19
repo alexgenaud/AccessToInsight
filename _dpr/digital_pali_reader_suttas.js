@@ -1,4 +1,4 @@
-// This static file was generated from digital_pali_reader_suttas.php on 2013.12.09.11.23.06 by dpr_update.tcsh
+// This static file was generated from digital_pali_reader_suttas.php on 2013.12.17.18.00.51 by dpr_update.tcsh
 var atiD = [], atiM = [], atiS = [], atiA = [], atiK = [], atiV = [];
 atiA.push('an/an01/an01.021-040.than.html');
 atiA.push('an/an01/an01.031-040x.wood.html');

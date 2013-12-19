@@ -1,3 +1,13 @@
+ati-legacy-2013.12.17.18: Corrected 4 broken links that arose from previous changes
+
+ati-legacy-2013.12.17.17: HTML versions of BMC1, BMC2, Not-self Strategy withdrawn per the author's request
+
+ati-legacy-2013.12.13.09: Fixed broken link in news201310
+
+ati-legacy-2013.12.13.08: Corrections to farewell news item
+
+ati-legacy-2013.12.13.07: typo in SN 35.63; links from 404.html are now relative;
+
 ati-legacy-2013.12.09.11: fixed link in tech/index.html; changed repackaged example to CC 4.0
 
 ati-legacy-2013.12.09.11: updated news page with "farewell" message; added "A Parting Note to Techies"; Updated CC licenses to 4.0 International
