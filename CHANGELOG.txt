@@ -1,3 +1,19 @@
+ati-legacy-2013.12.28.08: Removed file orphaned from last update
+
+ati-legacy-2013.12.28.08: New (corrected) versions of BMC1, BMC2
+
+ati-legacy-2013.12.26.09: clearing out unlinked/orphan files
+
+ati-legacy-2013.12.26.09: moved final news message off of front page;
+
+ati-legacy-2013.12.21.11: rebuilding static version
+
+ati-legacy-2013.12.21.08: small corrections
+
+ati-legacy-2013.12.21.08: link and syntax cleanup
+
+ati-legacy-2013.12.21.08: removed /_dpr and /retired; removed Sati Center as distributor of Handful of Leaves
+
 ati-legacy-2013.12.17.18: Corrected 4 broken links that arose from previous changes
 
 ati-legacy-2013.12.17.17: HTML versions of BMC1, BMC2, Not-self Strategy withdrawn per the author's request
