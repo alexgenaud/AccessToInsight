@@ -69,7 +69,7 @@ echo "	dest: ${staticPath}"
 
 
 # update the DPR javascript file
-${dynamicSitePath}/tech/scripts/dpr_update.tcsh
+#   ${dynamicSitePath}/tech/scripts/dpr_update.tcsh
 # NB: the previous line generates a time stamped javascript (.js) file. 
 # The wget command, below, also invokes the DPR PHP file, generating the javascript in place. 
 # That file (.php) is really not needed in the static site. Someday I'll add some cleanup code

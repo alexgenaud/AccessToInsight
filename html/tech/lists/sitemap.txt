@@ -669,12 +669,6 @@ http://www.accesstoinsight.org/random-article.html
 http://www.accesstoinsight.org/random-sutta-nojs.html
 http://www.accesstoinsight.org/random-sutta.html
 http://www.accesstoinsight.org/repackaged-example-01.html
-http://www.accesstoinsight.org/retired/audio.html
-http://www.accesstoinsight.org/retired/books.html
-http://www.accesstoinsight.org/retired/e-books.html
-http://www.accesstoinsight.org/retired/foreign.html
-http://www.accesstoinsight.org/retired/index.html
-http://www.accesstoinsight.org/retired/pali.html
 http://www.accesstoinsight.org/search_results.html
 http://www.accesstoinsight.org/sources.html
 http://www.accesstoinsight.org/tech/download/bulk.html

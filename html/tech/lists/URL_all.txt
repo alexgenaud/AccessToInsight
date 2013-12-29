@@ -669,12 +669,6 @@ random-article.html
 random-sutta-nojs.html
 random-sutta.html
 repackaged-example-01.html
-retired/audio.html
-retired/books.html
-retired/e-books.html
-retired/foreign.html
-retired/index.html
-retired/pali.html
 search_results.html
 sources.html
 tech/download/bulk.html
