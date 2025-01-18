@@ -1,0 +1,1041 @@
+@import url('reset.css');
+@import url('dropDown2.css');
+
+/* 	Restore some basic tags following the reset.
+(See http://www.w3.org/TR/CSS2/sample.html for some common browser default values.)*/
+p	{margin: 1.33em 0;}
+em	{font-style:italic;}
+sup {vertical-align: super; font-size:80%;}
+table {border-spacing: 2px;}
+small {font-size:80%;}
+blockquote {margin: 1.12em 20px 1.12em 20px;}
+ul	{margin-left:2em;list-style: none;}
+li	{margin-bottom:0.5em;}
+dl	{margin: 1.33em 0 1.33em 0;}
+dt	{font-weight:bold;}
+dd	{margin: 0 0 1em 1.33em;}
+ol	{margin-left:2em; list-style-type:decimal;}
+ol ol {list-style-type:upper-alpha;}
+ol ol ol {list-style-type:lower-roman;}
+ol ol ol ol {list-style-type:lower-alpha;}
+
+/* naughty non-semantic cruftitudes */
+ol.nonSemantic-listA {list-style-type:upper-alpha;}
+ol.nonSemantic-listi {list-style-type:lower-roman;}
+ol.nonSemantic-listI {list-style-type:upper-roman;}
+ol.nonSemantic-list1 {list-style-type:decimal;}
+
+body {
+	background-color: #fffeff;
+	text-align:center;
+}
+
+/* prefixes of ID selectors indicate where they're used:
+	H_		header.*.php
+	F_		footer.php
+	ZZ_		[defined in inidividual files on an ad hoc basis]
+*/
+
+/****** Major divisions ******/
+
+
+#H_container {
+	margin:auto;
+	color: #111; 
+	font: 0.9em Verdana, Arial, sans-serif;
+	line-height: 1.1em;
+	text-align:left;
+	padding-top:10px;
+	width:680px;
+}
+
+#H_billboard {
+	margin:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+	min-height: 180px;
+	height:auto !important; height: 180px; /*ie6 min-height 'fast-hack' */
+	width:680px;
+}
+#H_billboardHome {
+	margin:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+	height:180px;
+	width:680px;
+}
+	
+	.mainsail {
+		float:left;
+		width:430px;
+		margin-top:40px;
+	}	
+	.jib {
+		float:right;
+		width:200px;
+		height:120px;
+	}
+	
+	#H_billboardHome h1 {
+		font: 30pt/1.0 "Arial Unicode MS", sans-serif;
+		padding-top:0;
+		margin-top:0;
+		font-weight:normal;
+		letter-spacing:+1.5px;
+	}
+	#H_billboardHome h2 {
+		font: 15pt/.1 "Arial Unicode MS", sans-serif;
+		font-weight:normal;
+		margin-top:0;
+	}
+	#H_billboardHome .dhp {
+		margin-top:25px;
+		margin-left:20px;
+		height:80px;
+		font: 9pt/12pt sans-serif;
+		text-align:left;
+		font-style:italic;
+	}
+/* ---- close #head ----*/
+
+
+/* ---- document metadata styling ----*/
+#H_meta {
+	width:100%;
+	text-align:center;
+	padding:2em 0 1em 0 ;
+/*	border-bottom:1px solid #ddd;*/
+}
+	#H_docTitle {
+		font-size:24px;
+		line-height:36px;
+	}
+	#H_docSubtitle,
+	#H_docSubtitle2 {
+		font-size:20px;
+		line-height:30px;
+	}
+	#H_docEdition {
+		font-size:90%;
+		line-height:90%;
+	}
+	.isExcerpt {
+		display: inline;
+		font-size:60%;
+		color: #888;
+	}
+	#H_copyright {
+		font-size:90%;
+	}
+
+	#H_docAuthor,
+	#H_docAuthor2 {
+		font-size:18px;
+		line-height:27px;
+	}
+	#H_moreabout {
+		font-size:50%;
+		vertical-align:super;
+	}
+	#H_docBy,
+	#H_docBy2,
+	#H_docAltTrans,
+	#H_sutta-note{
+		margin-top:2px;
+		font-size:9.5pt;
+		line-height:12pt;
+	}
+
+	#H_tipitakaID {
+	}
+	#H_ptsID,
+	#H_altID {
+		display:inline;
+		margin-left:10px;
+		font-size:80%;
+		color: #888;
+	}
+
+	#H_seeAlso,	/*e.g., other books, articles, etc., in this series*/
+	#H_extraInfo,
+	#H_surpriseMe
+		{	
+		padding-top:1em;
+		font-size:80%;
+		text-align:center;
+	}
+	#H_altFormat {
+		font-size:80%;
+	}
+
+
+/* search styling */
+#H_search {
+	color: #2787aa;
+	float:right;
+	margin: 0;
+	margin-right:20px;
+	width:200px;
+}
+#H_search:hover{
+}
+#H_search select {
+}
+#H_search .searchTerms2 {
+}
+#H_search #mySubmit {
+	margin-left:0px;
+	border: 2px solid #ccc;
+}
+#H_search #mySubmit:hover {border:1px solid #ccc;}
+
+
+/* used in the body of  multi-sutta files */
+.altID {
+	font-size:80%;
+	color: #888;
+}
+.altTrans {
+	font-size:80%;
+}
+
+
+
+#H_crumbtrail {
+	font-family: Arial , Helvetica, Geneva, sans-serif;
+	font-size:80%;
+	font-weight:normal;
+}
+#H_tipitakaLinks {
+	font-family: Arial , Helvetica, Geneva, sans-serif;
+	font-size:80%;
+	font-weight:normal;
+	color:#ccc;
+	margin-left:25px;
+}
+
+#H_homeicon {
+	float:left;
+
+	width:16px;
+}
+
+
+
+#H_content {
+	width:660px;
+	line-height:130%;
+	padding:0 10px 10px 10px;
+}
+	#sidebar {
+		float:right;
+		width:190px;
+		min-height: 300px;
+		height:auto !important; height: 300px; /*ie6 min-height 'fast-hack' */
+		padding: 0 0 0 10px;
+		border-left:1px dashed #ddd;
+	}
+
+	#sidebar dl {
+		padding:3px 0 0 0;
+		font-size: 9pt;
+	}
+	#sidebar dt {
+		float:left;
+		padding-right:5px;
+	}
+	#sidebar dd {
+		margin:0 0 10px 10px;
+	}
+	#sidebar h1,
+	#whatsnew h1 {
+		font: 1.5em Verdana, Arial, sans-serif;
+		letter-spacing: 1px;
+		width:150px;
+		padding-top:10px;
+		margin-top:0;
+	}
+
+#whatsnew {
+	padding:0 0 10px 0;
+	width:450px;
+}
+	#whatsnew #more {
+		margin-right:50px;
+		text-align:right;
+		font-style:italic;
+	}
+	div.newsGroup {
+		font-size:10pt;
+		margin-bottom:2em;
+	}
+	.newsGroup h2 {
+		font-size:10pt;
+		text-transform:uppercase;
+		letter-spacing:0;
+	}
+	.newsGroup .item {
+		margin-left:1em;
+		margin-bottom:1em;
+	
+	}
+	.newsGroup .story {
+		display:inline;
+	}
+	.newsGroup .storyTitle {
+		font-weight:bold;
+		display:inline;
+	}
+	.newsGroup .storyTitle .byline {
+		font-weight:normal;
+	}
+
+	.newsDate {
+		color:#999;
+		font-weight:normal;
+		font-size:10pt;
+		margin-left:1em;
+	}
+	
+	
+	
+
+	
+	
+/* --------------- end of #whatsnew --------------- */
+
+
+#F_footer {
+/*	border-top:1px solid #ddd; */
+/*	font-family: Arial , Helvetica, Geneva, sans-serif;*/
+	width:100%;
+	clear:both;
+	margin:0 auto;
+	font-size:75%;
+	line-height: 140%;
+}
+
+#F_colophon {
+	border:1px solid #ddd;
+	margin:20px;
+	padding:10px;
+	background-color:#efefef;
+}
+
+#F_publisherColophon {
+	margin: 0 5px 10px 5px;
+	padding:0px 10px 0 10px;
+	border:2px solid #ddd;
+}
+#F_publisherColophon legend {
+	font-size:1.1em;
+	letter-spacing:0.1em;
+}
+#F_citation,
+#F_provenance,
+#F_termsOfUse {
+	margin-bottom: .3em;
+}
+#F_alt-formats {
+}
+
+#F_newCopyrightSymbol a {
+	float:left;
+	padding:10px 10px 0 0;
+	display:block;
+	height:50px;
+	width:50px;
+	background:url('img/copyright.gif') 0 0 no-repeat;
+}
+#F_newCopyrightSymbol a:hover {
+	background:url('img/copyright-hover.gif') 0 0 no-repeat;
+	border:none;
+}
+
+#F_copyrightSymbol {
+	float:left;
+	width:50px;
+	min-height: 50px;
+	height:auto !important; height: 50px; /*ie6 min-height 'fast-hack' */
+	margin:0;
+	padding-right:10px;
+}
+
+
+#F_toenail {
+	padding:10px;
+	width:80%;
+	text-align:center;
+	font-size: 1.2em;
+	border-top:1px solid #ddd;
+	margin:auto;
+}
+
+#F_toenail .version {
+	font-size:0.9em;
+	margin-top:0.4em;
+	color:#888;
+}
+/******* End of major divisions ********/
+
+
+/* a translator's or editor's prefatory note */
+.preface 
+{	
+	margin: 0 2em 0 2em;
+	font-size:90%;
+	border-bottom:1px solid #eee;
+}
+
+/******* Definition lists galore *******/
+dl.faq dt {}
+dl.faq dl dt {
+	font-weight:normal;
+}
+
+dl.faq dd {
+	padding-bottom:1em;
+	margin-bottom:2em;
+	border-bottom:1px solid #ddd;
+}
+dl.faq dl dd {
+	border-bottom:none;
+}
+
+
+
+dl.index, 			
+dl.gindex, 			/* e.g., in General index */
+dl.indexInline, 	/* e.g., in Names index */
+dl.suttaList,		/* e.g., in sn/index.html */	/*DEPRECATED!*/
+dl.abbrevList,		/* e.g., in abbrev.html */
+dl.glossary,		/* e.g., in glossary.html */
+dl.bookList,		/* e.g., in an author's index.html */
+div.notes dl		/* e.g., in footnotes */
+{
+/*	font-size:11.5px;*/
+	padding: 0 0 1em 0;
+	margin: 0 0 1em 0;
+}
+dl.biblio,
+dl.biblioA /* (author first) */
+	{
+/*	font-size:14.4px;*/
+	padding: 0 0 1em 0;
+	margin: 0 0 1em 0;
+}
+dl.index dt,
+dl.gindex dt {
+	font-weight:bold;
+	margin: 1em 0 0 1em;
+}
+dl.gindex dt {
+	font-weight:normal;
+}
+dl.index dd,
+dl.glossary dd,
+dl.gindex dd {
+	margin-left:2em;
+	margin-bottom:0;
+	padding-left:2em;
+	text-indent:-1em;/* for hanging indent */
+}
+dl.index dd dl { /*e.g., <dl class='index'><dt>Bodhi, Bhikkhu</dt><dd>Essays:<dl><dd>...</dd></dl></dd></dl>*/
+	margin-top:0;
+}
+
+
+dl.indexInline,
+dl.suttaList,	/*DEPRECATED!*/
+dl.abbrevList,
+dl.glossary,
+dl.biblio,
+dl.biblioA,
+dl.contact,
+div.notes dl,
+dl.bookList {
+	padding-left:2em;/* for hanging indent */
+}
+
+dl.indexInline dt,
+dl.glossary dt,
+dl.biblio dt,
+dl.biblioA dt,
+dl.suttaList dt,	/*DEPRECATED!*/
+dl.abbrevList dt,
+div.notes dl dt {
+	font-weight:normal;
+	float:left;
+	margin-top: 0;
+	margin-left:-1em;/* for hanging indent */
+	margin-right:0.3em; /*space between the following <dd>*/
+}
+
+dl.contact dt,
+dl.bookList dt {
+	font-weight:normal;
+	margin-top: 0;
+	margin-left:-1em;/* for hanging indent */
+	margin-right:0.3em; /*space between the following <dd>*/
+}
+dl.bookList dt {
+	font-weight:bold;
+}
+dl.bookList dd {
+	margin:0 0 1.12em 0;
+}
+
+dl.bookList .filedata {
+	font-weight:normal;
+	color: #aaa;
+	font-size:90%;
+}
+dl.bookList .by {
+	font-weight:normal;
+}
+
+
+dl.glossary dt {
+}
+dl.biblio dt {
+	font-style:italic;
+}
+dl.biblioA dt {
+	font-style:normal;
+}
+
+dl.indexInline dd,
+dl.glossary dd,
+dl.biblio dd,
+dl.biblioA dd,
+div.notes dl dd
+{
+	margin:0 0 .3em 0;
+	padding-left:0;
+	text-indent:0;
+}
+dl.abbrevList dd {
+	margin-bottom:.5em;
+}
+
+
+.availability {
+	margin-left:2em;
+	margin-right:2em;
+	font-size:90%;
+}
+
+ul.faviconLinks {
+	list-style: disc;
+}
+ul.faviconLinks li {
+	text-indent:0px;/* for hanging indent */
+}
+ul.faviconLinks li:first-line {
+	margin-left:0px;
+}
+ul.faviconLinks div {
+	width:16px;
+	height:16px;
+	float:left;
+	border:1px dotted #ccc;
+}
+
+dl.index ul,
+dl.gindex ul {
+	list-style-type:disc;
+	list-style-position: inside;
+	margin-left:2em;
+}
+
+dd > p { /* <p> should be inline with the <dd>*/
+	margin-top:0;
+}
+
+
+
+
+
+/* used, e.g., in the Sutta index */
+ul.index {
+	list-style-type:none;
+	list-style-image:none;
+	font-size:11.5px;
+	padding: 0 0 1em 1em;
+	margin: 0 0 1em 0;
+	border-bottom:1px solid #ddd;
+}
+ul.index li {
+	text-indent:-1em;/* for hanging indent */
+}
+
+
+dl.suttaList p,	/* DEPRECATED !*/ 
+dl.abbrevList p
+{
+	display:inline;
+}
+
+
+ul.suttaList {
+	padding-left:1em;/* for hanging indent */
+}
+ul.suttaList li  {
+	text-indent:-2em;/* for hanging indent */
+	margin-bottom:1em;
+}
+
+ul.suttaList li.sutta_group_member {
+	margin-bottom:0;
+/*	color:green;*/
+}
+
+
+.sutta_summary {
+	display:inline;
+}
+.sutta_ref {	/* the reference (e.g., "{SN 1.2}"*/
+	font-size:90%;
+	color: #888;
+}
+.sutta_trans {	/* the translator*/
+	font-weight:normal;
+}
+.summary_source {
+	font-size:90%;
+	color: #888;
+}
+
+.lifespan {	/* (1956 -   ) */
+	font-size:9pt;
+}
+
+.sutta_section {
+	margin-top:3em;
+	margin-bottom:3em;
+}
+.sutta_section h4 {
+	margin-bottom:0;
+}
+
+/* 	hlist: horizontal list
+	crumblist: breadcrumb list
+*/
+ul.crumblist,
+ul.hlist  {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	border: none;
+}
+ul.crumblist li,
+ul.hlist li {
+	margin-left: 0;
+	padding-left: 2px;
+	border: none;
+	list-style: none;
+	display: inline;
+}
+ul.crumblist li ul {
+	display: inline;
+}	
+
+ul.crumblist li:before {
+	content: " \00bb  ";
+	color:#ccc;
+}
+ul.hlist  li:before {
+	content: " | ";
+	color:#ccc;
+}
+ul.hlist  li.first:before,
+ul.crumblist  li.first:before {
+	content: "";
+}
+
+
+/*shaded box handy for long hlists */
+.alphalist {
+	font-size:80%;
+	margin:3em 0 3em 0;
+	padding:1em 0 1em 0;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#f5f5f5;
+}
+
+
+h1 {
+	font: 1.8em Verdana, Arial, sans-serif;
+	letter-spacing: 1px;
+	margin: 1.2em 0 .67em  0;
+}
+h2 {
+	font: 1.5em Verdana, Arial, sans-serif;
+	letter-spacing: 1px;
+	margin: 1.5em 0 .5em  0;
+}
+h3 {
+	font: bold 1em Verdana, Arial, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 1.5em 0 .5em  0;
+}
+h4 {
+	font: bold 1em Verdana, Arial, sans-serif;
+	letter-spacing: 1.5px;
+	margin-top:1em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+h5 {
+	font: small-caps 1em Verdana, Arial, sans-serif;
+	letter-spacing: 2px;
+	margin-top:1em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+h6 {
+	font: bold 1em Georgia, serif;
+	letter-spacing: 2px;
+	margin-top:1em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+/* try to close-up the space between h5, h6 and their following elements */
+h5 + p,
+h5 + div,
+h6 + p,
+h6 + div {
+	padding-top:0;
+	margin-top:0;
+}
+
+
+/* --------- hyperlinks -------- */
+a:link,
+a:active,
+a:visited {
+	text-decoration:none;
+	color: #1E3478 /*#00435F*/;
+}
+a:link:hover,
+a:visited:hover {
+	border-bottom:1px dotted #aaa;
+	color:#b36935; 
+}
+a.offsite {
+	background:url("img/offsite.gif") top right no-repeat ;
+	padding:0 8px 0 0;
+	min-height: 15px;
+	height:auto !important; height: 15px; /*ie6 min-height 'fast-hack' */
+}
+
+a.imgLink:hover {	/*suppress border when hovering over an image*/
+	border:transparent;
+}
+
+a.back {
+	background:url('img/up1.gif') 0 0 no-repeat;
+	position:relative;
+	top:-3px;
+	padding-left:16px;
+}
+a.back:hover {
+	background:url('img/up1-hover.gif') 0 0 no-repeat;
+	border:none;
+}
+
+
+
+/******* Footnotes and Endnotes **********/
+div.notes {
+	margin: 3em 20px 2em 20px;
+}
+
+.notes h1 {
+	margin-left:-20px;
+	font: 15pt Verdana, Arial, sans-serif;
+	letter-spacing: 1px;
+}
+
+.noteTag {
+	/*vertical-align:super; this wrecks the line spacing.*/
+	/*padding-left:1px;*/
+	font-size:9pt; /*absolute size, so they look OK inside <h1>, etc.*/
+}
+.noteTag:before { /* ensure there's a non-breaking space before the tag */
+/*	content: "\00a0[";*/
+}
+.noteTag:after { 
+/*	content: "]"; */
+}
+
+/***************************************/
+
+/* this "see also" usually appears at the end of a sutta, etc., to indicated suttas on related themes*/
+.seeAlso {
+	margin:3em 2em 0 0em;
+}
+
+div.chapter {
+	margin-top:3em;
+	padding-bottom:2em;
+	border-bottom:1px solid #888;
+}
+
+
+
+
+
+/***** VERSE TEXT *****/
+/*	For verses or other indented chunks */
+div.verse {
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0em;
+}
+
+/* The name of the speaker. For example, "[Buddha:]" */
+p.spkr {
+	font-style:italic;
+	margin-left:-3%;
+	margin-bottom:0em;
+}
+p.spkr + p /*close up the space between p.spkr and a following p*/ {margin-top:0;}
+
+.freeverse {
+	margin-left:5%;
+	margin-right:5%;
+	white-space:pre; /*preformatted text*/
+	font-family:Verdana, sans-serif;
+	/*margin-top:-.5em; closes up the space created by the first line of verse*/
+	padding:0;
+	margin-bottom:0;/* To prevent a blank line after a preceding line like "<i>[Ananda:]</i>"*/
+}
+.freeverse p.cite {
+	white-space:normal;
+	margin-bottom:-1em; /* pull up the bottom in a <p> in freeverse's preformatted text*/
+}
+.freeverse p.spkr {
+	display:inline;	
+}
+
+/* For poetry, use preformatted text. */
+.verse pre {
+	font-size:100%;
+	font-family:Verdana, sans-serif;
+	margin-top:0;
+	/* To prevent a blank line after a preceding line like "<i>[Ananda:]</i>"*/
+	margin-bottom:0;
+}
+
+
+
+/******* Pali and chanting **********/
+.pali {
+	font-family: "Arial Unicode MS", "Gentium";
+/*	
+	font-family: "Gentium Basic", "Gentium", "Gentium Book Basic", "DejaVu Sans", "DejaVu Sans Condensed", "DejaVu Serif", "DejaVu Serif Condensed", "Arial Unicode MS", "URW Palladio UNI",Verdana, sans-serif;
+*/	
+}
+
+div.chant {
+	font-family: "Arial Unicode MS", "Gentium";
+/*	
+	font-family: "Gentium Basic", "Gentium", "Gentium Book Basic", "DejaVu Sans", "DejaVu Sans Condensed", "DejaVu Serif", "DejaVu Serif Condensed", "Arial Unicode MS", "URW Palladio UNI",Verdana, sans-serif;
+*/	
+	margin-left:+5%;
+	margin-right:+5%;
+}
+.chant pre {font-family:inherit;}
+.chant .pali {
+	font-style:italic;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+.chant .english {
+	font-style:normal;
+	margin-left:+2%;
+	margin-right:+2%;
+	margin-top:0em;
+	margin-bottom:1em;
+}
+/************************************/
+
+
+
+
+/* A sutta citation (e.g., "[SN XLVI.11]") that follows a sutta verse. */
+.cite {
+	font-size:80%;
+	line-height:1.1em;
+}
+p.cite {
+	text-align:left;
+	margin-left:20%;
+	margin-bottom:1em;	/*if you change this, also change .freeverse p.cite*/
+}
+p + .verse {margin-top:1em;}
+/***************************************/
+
+
+/* quoted blocks of text */
+div.excerpt {
+	margin:1em 2em 2em 2em;
+}
+
+/* short passages, like aphorisms -- e.g., "Gifts He Left Behind"*/
+div.anecdote {
+	margin:1em 2em 4em 2em;
+}
+.anecdote h1 {
+	font: bold 1em Verdana, Arial, sans-serif;
+	letter-spacing: 1.5px;
+	margin-top:1em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+
+/******* ODDS 'N ENDS *********/
+/* For the author's name, address, etc., usually at the end of a Preface.*/
+.tagline {
+	margin-right:10%;
+	text-align:right;
+	font-size:80%;
+	line-height: 100%;
+}
+img {
+	border:none;
+}
+
+img.suttaReadings {
+	padding-right:0.5em;
+}
+
+#F_atiTitle, #F_atiCopy, #F_atiExtra {
+	display:inline;
+}
+#F_sourceTitle, #F_sourceCopy, #F_sourceIsbn, #F_editorsNote, #F_sourceEdition {
+	display:inline;
+}
+
+#F_modTime {
+	font-size:50%;
+}
+
+/* an epigram -- a short excerpt, usually at the beginning of a chapter or section */
+.epi {
+	margin-left:5%;
+	margin-right:5%;
+	font-style:italic;
+}
+
+
+
+
+.notebox {
+	width:400px;
+	margin:.5em auto 1em 120px;
+	text-align:center;
+	border:1px solid #ccc;
+	padding:0 1em 0 1em; /*let <p> control the top/bottom padding */
+}
+
+.notebox .alert {
+	font-weight:bold;
+}
+
+.warningbox {
+	width:75%;
+	border:1px solid red;
+	text-align:left;
+	padding:0 1em 0 1em;
+	margin:.5em auto 1em auto;
+}
+
+/* a table with alternately shaded rows */
+table.oddeven {
+	padding: 0.6em;
+	border:1px solid #ccc;
+}
+table.oddeven tr td {
+	vertical-align:middle;
+	padding: 5px 0 5px 0;
+}
+table.oddeven tr th {
+	vertical-align:middle;
+	padding: 5px 5px 5px 5px;
+}
+
+table.oddeven tr.odd th,
+table.oddeven tr.odd td {
+	background-color: inherit;
+	text-align:center;
+}
+table.oddeven tr.even th,
+table.oddeven tr.even td {
+	background-color: #eee;
+	text-align:center;
+}
+table.oddeven tr th.col1,
+table.oddeven tr td.col1 {
+	text-align:left;
+}
+
+div.dingbat {
+	text-align:center;
+	margin:2em 0 2em 0;
+}
+
+/***********************************/
+/* used in at least one Bodhi Leaf */
+div.play{ }
+div.play p {
+	margin-left:8%;
+	margin-right:8%;
+} 
+div.play p.stagedir {
+	margin-left:0%;
+	margin-right:0%;
+	font-style:italic;
+}
+/***********************************/
+
+div.rawfilelist {
+	 font-family:monospace;
+	 white-space:pre;
+}
+
+
+div.clear {
+	height:0px;
+	width:0px;
+	clear:both;
+}
+
+.transcode {
+	color: green;
+	white-space:pre; /*preformatted text*/
+	font-family:monospace;
+}
+.code {
+	font-family:monospace;
+}
+
+.contactInfo {
+	font-size:smaller;
+}
+
+.contactAddress {
+	margin-left:1em;
+	border-left:3px solid #ddd;
+	padding-left:5px;
+}
+
+#bcbs-footer {
+	margin-top:1em;
+	font-size:80%;
+}

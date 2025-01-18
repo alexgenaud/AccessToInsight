@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<!-- headerBasic.inc.php -->
+<head>
+<title>Coping with Diacritics</title>
+
+<!-- robots content="none" -->
+<meta charset="UTF-8">
+<script src="./../js/sfHover.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./../css/screen.css"  />
+<link rel="icon" href="./../favicon.ico" type="image/x-icon" />
+<link rel="search" type="application/opensearchdescription+xml" title="Access to Insight" href="./../tech/opensearch.xml" />
+<style type='text/css'>
+		.ZZ_paliuni {font-family: 'Arial Unicode MS', 'Gentium Basic', 'Gentium', 'Gentium Book Basic', 'Arial Unicode MS', sans-serif;}
+		table.ZZ_evaluation { 
+		}
+		table.ZZ_evaluation th,
+		table.ZZ_unicode th {
+			font-weight:bold;
+			vertical-align:top;
+		}
+		table.ZZ_evaluation .ZZ_firstCol {
+			min-width:100px;
+			padding-right:10px;
+			text-align:right;
+		}
+		table.ZZ_unicode {
+			margin-bottom:2em;
+		}
+		table.ZZ_unicode th,
+		table.ZZ_unicode td {
+			text-align:center;
+			padding-right:2em;
+		}
+		table.ZZ_unicode .ZZ_col4 {
+			min-width:250px;
+		}
+		</style>
+
+
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107837816-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107837816-1');
+</script>
+
+</head><!-- edit1 -->
+
+<body>
+
+<!-- Begin ATIDoc metadata dump: 
+[ALT_FORMATS]=
+[ALT_ID]={}
+[ALT_STATS]=
+[ALT_TRANS]=
+[ATI_YEAR]={2004}
+[AUTHOR]={}
+[AUTHOR2]={}
+[AUTHOR_ALTNAME]={}
+[AUTHOR_SHORTNAME]={}
+[BY]={}
+[BY2]={}
+[CATEGORY_SLUG]={}
+[CHANGELOG]={}
+[COLOPHON]={}
+[COMMENT]={}
+[CONTACT_DETAILS]={}
+[DERIVED_LICENSE_DATA]=
+{The text of this page ("Coping with Diacritics", by Access to Insight) is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>. To view a copy of the license, visit <a href= "http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>. Documents linked from this page may be subject to other restrictions.}
+{<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License'  style='float:left;border-width:0;padding-right:1em;' src='./../img/cc-by-88x31.png' /></a>}
+{1}
+[DIACRITIC_EQUIVALENTS_FOR_INDEXING]=
+[EDITION]={}
+[EDITORS_NOTE]={}
+[EOD]={}
+[EXTENT]={complete}
+[EXTRA_INFO]={}
+[FORMAT_PRINT]={}
+[FORMAT_SUTTAREADINGS]={}
+[FORMAT_ZIP]={}
+[HEADER_POST]={}
+[HEADER_PRE]={}
+[HEAD_EXTRAS]={<style type='text/css'>
+		.ZZ_paliuni {font-family: 'Arial Unicode MS', 'Gentium Basic', 'Gentium', 'Gentium Book Basic', 'Arial Unicode MS', sans-serif;}
+		table.ZZ_evaluation { 
+		}
+		table.ZZ_evaluation th,
+		table.ZZ_unicode th {
+			font-weight:bold;
+			vertical-align:top;
+		}
+		table.ZZ_evaluation .ZZ_firstCol {
+			min-width:100px;
+			padding-right:10px;
+			text-align:right;
+		}
+		table.ZZ_unicode {
+			margin-bottom:2em;
+		}
+		table.ZZ_unicode th,
+		table.ZZ_unicode td {
+			text-align:center;
+			padding-right:2em;
+		}
+		table.ZZ_unicode .ZZ_col4 {
+			min-width:250px;
+		}
+		</style>
+}
+[LICENSE]={CC-BY}
+[MULTI_AUTHOR]=
+[MY_TITLE]={Coping with Diacritics}
+[NIKAYA]={}
+[NIKAYA_ABBREV]={}
+[NO_COLOPHON]={}
+[NO_LINK]={}
+[NUMBER]={}
+[ORIGIN_YEAR]={}
+[PAGE_COUNT]={}
+[PATH_FetchDoc]={diacritics.html}
+[PATH_my]={}
+[PTS_ID]={}
+[REVISION_HISTORY]={Revised 2012}
+[SECTION]={}
+[SEE_ALSO]={<a href='pali.html'>Pali Language Study Aids</a>}
+[SOURCE]={}
+[SOURCE_COPYRIGHT_OWNER]={}
+[SOURCE_COPYRIGHT_YEAR]={2004}
+[SOURCE_ISBN]={}
+[SPECIAL_HEADER]={}
+[SUBTITLE]={}
+[SUBTITLE2]={}
+[SUMMARY]={There are are many ways to generate Pali diacritics. Here is a review of seven of them.}
+[SUMMARY_SOURCE]={}
+[SURPRISE_ME]={}
+[SUTTA_NOTE]={}
+[TIPITAKA_BOOK]={}
+[TIPITAKA_BOOK_ABBREV]={}
+[TYPE]={unknown}
+
+End ATIDoc metadata dump. -->
+
+<a id="top"> </a><div id='H_container'>
+<div id='H_billboard'>
+
+<div id='H_search'>
+<script>
+  (function() {
+    var cx = '006639875531220445029:2z3mhfokk-u'; // bcbs
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<form action="/search_results.html" id="cse-search-box">
+  <div>
+		<input type="hidden" name="cx" value="006639875531220445029:2z3mhfokk-u" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" value="" name="q" id="q" autocomplete="off" size="31" />
+		<input type="submit" id="searchsubmit" name="sa" value="Search" />
+  </div>
+</form>
+</div>
+
+<div id='H_crumbtrail'>
+    
+<ul class='crumblist'>
+<li class='first'>
+<ul id='toolMenu'> <!-- popupMenu3.inc.php -->
+	<li class='ddTitle'>
+	<a title='go home' href="./../index.html"><img src="./../img/home3.png" alt ="" /></a>
+		<ul>
+			<li><a href="./../index.html">Home</a></li>
+			<li><a href="./../random-sutta.html">Random sutta</a></li>
+			<li><a href="./../random-article.html">Random article</a></li>
+			<li><a href="./../abbrev.html">Abbreviations</a></li>
+			<li><a href="./../glossary.html">Glossary</a></li>
+			<li><a href="./../index-subject.html">Index</a></li>
+			<li><a href="./../help.html">Help!</a></li>
+		</ul>
+	</li>
+</ul>
+</li>
+<li><a href='index.html' title='Back to the Library page'>Library</a></li>
+</ul>
+</div><!-- end #H_crumbtrail -->
+
+<div id='H_tipitakaLinks'>
+</div>
+
+<div class='clear'></div>
+<!-- /robots -->
+<div id="H_meta">
+
+		<div id="H_docTitle">
+		Coping with Diacritics				</div>
+
+		
+				
+		
+					<div id="H_copyright"><a href="#F_termsOfUse" title="See copyright details">&copy; 2004</a></div>
+
+		
+		
+<div id='H_altFormat'></div>
+
+		<div id='H_seeAlso'>See also <a href='pali.html'>Pali Language Study Aids</a></div>
+	
+		
+	
+<!-- robots content="none" -->
+
+
+</div>  <!-- #H_meta -->
+
+</div> <!-- #H_billboard -->
+
+<!-- /robots -->
+
+<div id='H_content'>
+<div id='COPYRIGHTED_TEXT_CHUNK'><!-- BEGIN COPYRIGHTED TEXT CHUNK -->
+
+<p>Summary: There are are many ways to generate Pali diacritics. Here is a review of seven of them.</p> 
+
+<div class='chapter'>
+<h1><a id='writing'>Writing without an alphabet</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h1>
+<p>Pali is a phonetic language with no written alphabet of its own. Students of the language have therefore relied on their own native alphabets to read and write Pali, ever since the 1<sup>st</sup> century BCE, when Sri Lankan scribes first recorded the Tipitaka in the Sinhala alphabet. But when Europeans began to take an interest in South Asian languages in the 19<sup>th</sup> century, they quickly discovered that their own roman alphabet was no match for the wide range of phonemes (sounds) present in South Asian languages. European scholars thus began representing the more problematic Pali phonemes by augmenting the roman alphabet with a system of letter-pairs and diacritics, including the macron (horizontal bar), dot-over, dot-under, and tilde:</p>
+<div>
+<img src="diacritics-images/problems.gif" alt="problematic letters" />
+</div>
+<p>Until well into the mid-20<sup>th</sup> century, Pali typefaces using these characters were used almost exclusively by specialty book publishers; a scholar's day-to-day duties of transcribing, translating, and editing had to be laboriously carried out with typewriter, pen, and a steady hand with which to apply the diacritics. Unfortunately, the first personal computers failed to address the typographic challenge of diacritics, as they were designed around a very limited character set (ASCII) that was only barely able to accommodate the upper- and lower-case roman letters, ten digits, and a modest sprinkling of punctuation marks. The extended-ASCII set, which soon followed, offered a suite of additional special symbols, including many required for northern- and eastern- European alphabets. But still no macrons or dot-unders. In the absence of a universally accepted computer representation of non-ASCII characters, students of non-European languages were left to invent their own stopgap methods. These range from giving ordinary punctuation marks double-duty as stand-ins for diacritics, to designing special diacritic fonts (all of which are incompatible with each other), and everything in between.</p>
+
+<h1><a id='criteria'>Evaluating the methods</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h1>
+<p>A good written phonetic representation of Pali &mdash; indeed, of any language &mdash; using one's native alphabet as a starting point should aspire to each of the following ideals:</p>
+<ol>
+<li>It should be <b><i>readable</i></b> by a wide audience. It should introduce a minimum of special characters that are not already present in the alphabet. It is better to modify an existing letter with a small diacritic than to introduce an entirely new character that may look like an alien squiggle to the uninitiated. A newcomer to Pali, upon seeing a <i>t</i> with a dot-under, should be able to guess immediately that the letter stands for some variant of a <i>t</i> sound.</li>
+<li>It should be <b><i>phonetically precise</i></b>. The written text should precisely and accurately capture the phonetic content. Each phoneme (sound) should be unambiguously represented by a unique letter or combination of letters.</li>
+<li>It should be <b><i>easy to type</i></b>. Writing Pali should not be a cumbersome exercise in keyboard gymnastics. Typing an <i>a-</i>macron should not call for a long series of keystrokes (e.g., Alt-Ctl-Shift-Esc-a).</li>
+<li>It should be <b><i>portable</i></b>. If you hand me a book &mdash; or send me a text file by e-mail &mdash; it should appear to me exactly as it did to you. I should be able to sound out the text phonetically exactly as you intended.</li>
+</ol>
+<p>No single method simultaneously realizes all of these goals; no single method is "best" Your method of choice therefore depends both on your particular needs (e.g., Do you demand phonetic precision? Are you printing a book or dashing off a quick e-mail?) and on the typing, printing, and computing resources at your disposal (e.g., Do you have a Pali font? Does your text-editing app support Unicode?).</p>
+<p>In what follows I've singled out some of the more common strategies that Pali students have used in recent decades, running the gamut from ignoring diacritics altogether to using Unicode fonts. I evaluate the success of each strategy in achieving the above-mentioned goals, to help you decide which method best suits your needs.</p>
+
+<h2><a id='ignore'>Method 1. Ignore the diacritics</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>This is certainly the simplest method. But the cost of that simplicity is heavy: the irretrievable loss of crucial pronunciation details. This is the method often used here at Access to Insight. (I should add that I do make use of the palatal nasal <i>&ntilde;</i> because it is so easy to implement using HTML and because it is contained in the extended-ASCII character set found on practically everyone's computer nowadays.)</p>
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td> panatipata veramani sikkha-padam samadiyami <a class='noteTag' href='#fn-1' id='fnt-1' title='The first of the five precepts: "I undertake the precept to refrain from taking life.".'>[1]</a> 
+		<br />(HTML: panatipata veramani sikkha-padam samadiyami)
+			<p>itihidam ayasmato konda&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-konda&ntilde;&ntilde;o'tveva namam, ahositi 	<a class='noteTag' href='#fn-2' id='fnt-2' title='The last line of the Buddha&#039;s first sermon (SN 56.11): "And that is how Ven. Konda&ntilde;&ntilde;a acquired the name A&ntilde;&ntilde;a-Konda&ntilde;&ntilde;a -- Konda&ntilde;&ntilde;a who knows.".'>[2]</a>			<br />(HTML: itihidam ayasmato konda&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-konda&amp;ntilde;&amp;ntilde;o'tveva namam, ahositi).</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Poor</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Fair. Its phonetic imprecision renders it next to useless in substantive discussions of Pali grammar</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Informal correspondence, email. OK for low-budget print projects that don't require linguistic precision.</td>
+	</tr>
+</table>	
+
+<h2><a id='caps'>Method 2. Use capital letters</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>Capitalized letters represent letters with an accompanying diacritic. The method is simple, but it has ambiguities: how, for example, would you distinguish between the palatal and guttural <i>n</i> (n with a dot-under, and n with a dot-over)?</p>
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td>
+			pANAtipAtA veramaNI sikkhA-padaM samAdiyAmi
+			<br />(HTML: pANAtipAtA veramaNI sikkhA-padaM samAdiyAmi)
+			<p>itihidaM Ayasmato koNDa&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-koNDa&ntilde;&ntilde;o'tveva nAmaM, ahosIti
+			<br />(HTML: itihidaM Ayasmato koNDa&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-koNDa&amp;ntilde;&amp;ntilde;o'tveva nAmaM, ahosIti)</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Poor. The ever-shifting case is disturbing. When caps appear at the end of a word it looks like mirror writing.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Fair. The palatal <i>n</i> and guttural <i>n</i> are indistinguishable.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Good. It may take time to get used to the shift key's new significance.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Fair. The manic appearance of caps at random points is hard to bear.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Informal correspondence, email. Not suitable for print.</td>
+	</tr>
+</table>
+
+<h2><a id='velthuis'>Method 3. The Velthuis scheme: double the vowels, punctuate the consonants</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>In the <a href="../abbrev.html#velthuis">Velthuis scheme</a> two basic rules are observed:</p>
+<ol>
+<li>Long vowels (those usually typeset with a macron (bar) above them) are doubled: <i>aa ii uu</i></li>
+<li>For consonants, the diacritic mark precedes the letter it affects. Thus, the retroflex (cerebral) consonants (usually typeset with a dot underneath) are: <i>.t .th .d .dh .n .l</i>. The pure nasal (niggahiita) m, also typeset with a dot underneath, is <i>.m</i>. The guttural nasal (<i>n</i> with a dot above) is represented as <i>"n .</i> The palatal nasal <i>(n</i> with a tilde) is <i>~n.</i></li>
+</ol>
+<p>Of the plain-ASCII methods, this one is the most precise, as it carefully preserves the significance of each special character. To the uninitiated, however, the sight of all those doubled vowels and misplaced periods is utterly bewildering, perhaps leaving them to wonder if someone's keyboard is broken.</p>
+
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td>
+			paa.naatipaataa verama.nii sikkhaa-pada.m samaadiyaami
+			<br />(HTML: paa.naatipaataa verama.nii sikkhaa-pada.m samaadiyaami)
+			<p>itihida.m aayasmato ko.n.da&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-ko.n.da&ntilde;&ntilde;o'tveva naama.m, ahosiiti
+			<br />(HTML: itihida.m aayasmato ko.n.da&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-ko.n.da&amp;ntilde;&amp;ntilde;o'tveva naama.m, ahosiiti)</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Fair. Text looks like it has been sprinkled with typos.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Excellent.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Good. Requires learning the dual significance of the period and double-quote keys.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Good.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Formal scholarly correspondence, email. Not suitable for print (except low-budget short-run projects that require scholarly precision).</td>
+	</tr>
+</table>
+
+
+<h2><a id='littlehtml'>Method 4. Use a little HTML</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>HTML has access to the extended ASCII character set, which includes many accented non-English European vowels (umlaut, circumflex, etc.), some of which can serve as reasonable stand-ins for the long Pali vowels (<i>&auml; &iuml; &uuml;</i>; <i>&agrave; &igrave; &ugrave;</i>; or <i>&acirc; &icirc; &ucirc;</i> etc.). The palatal <i>n</i> is straightforward: <i>&ntilde;.</i> Whatever type of accent you adopt, use it consistently.</p>
+
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td>
+			p&acirc;.n&acirc;tip&acirc;t&acirc; verama.n&icirc; sikkh&acirc;-pada.m sam&acirc;diy&acirc;mi
+			<br />(HTML: p&amp;acirc;.n&amp;acirc;tip&amp;acirc;t&amp;acirc; verama.n&amp;icirc; sikkh&amp;acirc;-pada.m sam&amp;acirc;diy&amp;acirc;mi)
+			<p>itihidam &acirc;yasmato konda&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-konda&ntilde;&ntilde;o'tveva n&acirc;mam, ahos&icirc;ti 
+			<br />(HTML: itihidam &amp;acirc;yasmato konda&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-konda&amp;ntilde;&amp;ntilde;o'tveva n&amp;acirc;mam, ahos&amp;icirc;ti)</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Very good.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Fair. The consonantal diacritics are missing.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Good. Easy to produce using most HTML authoring tools.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Good. Limited to web browsers and other HTML-savvy software.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Fair-Good. Improves upon the <a href="#caps">capital letter method</a>, but doesn't capture the consonantal diacritics.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Informal correspondence, email, print.</td>
+	</tr>
+</table>
+
+<h2><a id='velthuisplus'>Method 5. Mixed Velthuis/HTML</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>This method attempts to clear up the stuttering of <a href="#velthuis">Method 3</a>'s doubled vowels, by using a little HTML (<a href="#littlehtml">Method 4</a>).</p>
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td>
+			p&acirc;.n&acirc;tip&acirc;t&acirc; verama.n&icirc; sikkh&acirc;-pada.m sam&acirc;diy&acirc;mi
+			<br />(HTML: p&amp;acirc;.n&amp;acirc;tip&amp;acirc;t&amp;acirc; verama.n&amp;icirc; sikkh&amp;acirc;-pada.m sam&amp;acirc;diy&amp;acirc;mi)
+			<p>itihida.m &acirc;yasmato ko.n.da&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-ko.n.da&ntilde;&ntilde;o'tveva n&acirc;ma.m, ahos&icirc;ti
+			<br />(HTML: itihida.m &amp;acirc;yasmato ko.n.da&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-ko.n.da&amp;ntilde;&amp;ntilde;o'tveva n&amp;acirc;ma.m, ahos&amp;icirc;ti)</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Fair. It looks like it has typos, although perhaps not quite as many as pure Velthuis.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Excellent.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Fair. More complex than Velthuis, since it requires a combination of special punctuation <i>and</i> the use of special HTML characters.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Good. Limited to web browsers and other HTML-savvy software.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Fair. Although this hybrid does slightly improve the appearance of Velthuis, it still looks like an error-filled jumble.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Informal correspondence (scholars who demand precision are bound to prefer good old pure Velthuis). Not generally suitable for e-mail or print.</td>
+	</tr>
+</table>
+
+<h2><a id='fonts'>Method 6. Special Pali fonts</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p>For high-quality print projects, nothing beats a well-designed Pali font. For an extensive review of available Pali and Sanskrit fonts, see <a href='http://www.sanskritweb.net/fonts/' title='Visit www.sanskritweb.net' class='offsite' target='offsite' >Transliteration and Devanagari Fonts for Sanskrit</a>, by Ulrich Stiehl. The Association for Insight Meditation's <a href='http://www.aimwell.org/Fonts/fonts.html' title='Visit www.aimwell.org' class='offsite' target='offsite' >Pali Font Resources page</a> offers several ANSI and Unicode fonts suitable for working with Pali.</p>
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Example (in "Normyn" font):</th>
+		<td><img src="diacritics-images/pana+itihi.gif" alt="Example using Normyn font" /></td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Excellent.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Excellent.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Variable &mdash; it depends on the keyboard mappings used by a particular font.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Poor. These fonts don't all share the same coding standards; they are not interchangeable. If I send you a text document that I formatted with  font X, and you display it with font Y, the Pali characters may not show up properly.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Excellent &mdash; but only for documents that are to be shared in print (hard copy) form or as PDF files or GIF images.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Printing. Not suitable for e-mail or the web, except when embedded in PDF files or GIF images.</td>
+	</tr>
+</table>
+
+<h2><a id='unicode'>Method 7. Unicode and Unicode fonts</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h2>
+<p><a href='http://www.unicode.org/' title='Visit www.unicode.org' class='offsite' target='offsite' >Unicode</a> has emerged in recent years as the international standard for representing characters from most of the world's alphabets. All the special characters we need for Pali transliteration may be found in Unicode's <a href='http://www.unicode.org/charts/PDF/U0100.pdf' title='Visit www.unicode.org' class='offsite' target='offsite' >Latin Extended-A</a>, and <a href='http://www.unicode.org/charts/PDF/U1E00.pdf' title='Visit www.unicode.org' class='offsite' target='offsite' >Latin Extended Additional</a> code charts. They can therefore be easily generated using HTML, provided that your web browser uses a Unicode-savvy font.</p>
+<p>There are many Unicode fonts available that contain the characters needed for Pali.</p>
+<p>The following table lists the HTML Unicode entities required to generate each of the special Pali characters. If your web browser supports Unicode, the characters appearing in the last column of the table should resemble those appearing the shaded column. If they do not match, then you may have to upgrade your web browser, install Unicode fonts on your computer, or both. For details about configuring your computer and browser to use Unicode, see the <a href='http://www.unicode.org' title='Visit www.unicode.org' class='offsite' target='offsite' >Unicode website</a>.</p>
+<table class='ZZ_unicode'>
+<tr>
+<th colspan="2">Pali letter</th>
+<th>Velthuis</th>
+<th>HTML</th>
+<th class='ZZ_col4'>Rendered on your browser as <a class='noteTag' href='#fn-3' id='fnt-3' title='These characters will display properly only when your browser is set with a default font that contains appropriate Pali Unicode characters.'>[3]</a></th>
+</tr>
+<tr>
+<td rowspan="2">A macron</td>
+<td><img src="diacritics-images/A-big-macron.gif" alt="A big macron" /></td>
+<td>AA</td>
+<td>&amp;#256;</td>
+<td class="ZZ_paliuni">&#256;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/A-small-macron.gif" alt="A small macron" /></td>
+<td>aa</td>
+<td>&amp;#257;</td>
+<td class="ZZ_paliuni">&#257;</td>
+</tr>
+<tr>
+<td rowspan="2">I macron</td>
+<td><img src="diacritics-images/I-big-macron.gif" alt="I big macron" /></td>
+<td>II</td>
+<td>&amp;#298;</td>
+<td class="ZZ_paliuni">&#298;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/I-small-macron.gif" alt="I small macron" /></td>
+<td>ii</td>
+<td>&amp;#299;</td>
+<td class="ZZ_paliuni">&#299;</td>
+</tr>
+<tr>
+<td rowspan="2">U macron</td>
+<td><img src="diacritics-images/U-big-macron.gif" alt="U big macron" /></td>
+<td>UU</td>
+<td>&amp;#362;</td>
+<td class="ZZ_paliuni">&#362;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/U-small-macron.gif" alt="U small macron" /></td>
+<td>uu</td>
+<td>&amp;#363;</td>
+<td class="ZZ_paliuni">&#363;</td>
+</tr>
+<tr>
+<td rowspan="2">N dot-over</td>
+<td><img src="diacritics-images/N-big-dotover.gif" alt="N big dotover" /></td>
+<td>"N</td>
+<td>&amp;#7748;</td>
+<td class="ZZ_paliuni">&#7748;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/N-small-dotover.gif" alt="N small dotover" /></td>
+<td>"n</td>
+<td>&amp;#7749;</td>
+<td class="ZZ_paliuni">&#7749;</td>
+</tr>
+<tr>
+<td rowspan="2">M dot-under</td>
+<td><img src="diacritics-images/M-big-dotunder.gif" alt="M big dotunder" /></td>
+<td>.M</td>
+<td>&amp;#7746;</td>
+<td class="ZZ_paliuni">&#7746;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/M-small-dotunder.gif" alt="M small dotunder" /></td>
+<td>.m</td>
+<td>&amp;#7747;</td>
+<td class="ZZ_paliuni">&#7747;</td>
+</tr>
+<tr>
+<td rowspan="2">N tilde</td>
+<td><img src="diacritics-images/N-big-tilde.gif" alt="N big tilde" /></td>
+<td>~N</td>
+<td>&amp;Ntilde;</td>
+<td class="ZZ_paliuni">&Ntilde;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/N-small-tilde.gif" alt="N small tilde" /></td>
+<td>~n</td>
+<td>&amp;ntilde;</td>
+<td class="ZZ_paliuni">&ntilde;</td>
+</tr>
+<tr>
+<td rowspan="2">T dot-under</td>
+<td><img src="diacritics-images/T-big-dotunder.gif" alt="T big dotunder" /></td>
+<td>.T</td>
+<td>&amp;#7788;</td>
+<td class="ZZ_paliuni">&#7788;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/T-small-dotunder.gif" alt="T small dotunder" /></td>
+<td>.t</td>
+<td>&amp;#7789;</td>
+<td class="ZZ_paliuni">&#7789;</td>
+</tr>
+<tr>
+<td rowspan="2">D dot-under</td>
+<td><img src="diacritics-images/D-big-dotunder.gif" alt="D big dotunder" /></td>
+<td>.D</td>
+<td>&amp;#7692;</td>
+<td class="ZZ_paliuni">&#7692;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/D-small-dotunder.gif" alt="D small dotunder" /></td>
+<td>.d</td>
+<td>&amp;#7693;</td>
+<td class="ZZ_paliuni">&#7693;</td>
+</tr>
+<tr>
+<td rowspan="2">N dot-under</td>
+<td><img src="diacritics-images/N-big-dotunder.gif" alt="N big dotunder" /></td>
+<td>.N</td>
+<td>&amp;#7750;</td>
+<td class="ZZ_paliuni">&#7750;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/N-small-dotunder.gif" alt="N small dotunder" /></td>
+<td>.n</td>
+<td>&amp;#7751;</td>
+<td class="ZZ_paliuni">&#7751;</td>
+</tr>
+<tr>
+<td rowspan="2">L dot-under</td>
+<td><img src="diacritics-images/L-big-dotunder.gif" alt="L big dotunder" /></td>
+<td>.L</td>
+<td>&amp;#7734;</td>
+<td class="ZZ_paliuni">&#7734;</td>
+</tr>
+<tr>
+<td><img src="diacritics-images/L-small-dotunder.gif" alt="L small dotunder" /></td>
+<td>.l</td>
+<td>&amp;#7735;</td>
+<td class="ZZ_paliuni">&#7735;</td>
+</tr>
+</table>
+
+
+<table class='ZZ_evaluation'>
+	<tr>
+		<th class='ZZ_firstCol'>Examples:</th>
+		<td> <p class="ZZ_paliuni">p&#257;n&#257;tip&#257;t&#257; verama&#7749;&#299; sikkh&#257;-pada&#7745; sam&#257;diy&#257;mi<br />
+			(HTML: p&amp;#257;n&amp;#257;tip&amp;#257;t&amp;#257; verama&amp;#7749;&amp;#299; sikkh&amp;#257;-pada&amp;#7745; sam&amp;#257;diy&amp;#257;mi)</p>
+			<p class="ZZ_paliuni">itihida&#7745; &#257;yasmato Ko&#7751;&#7693;a&ntilde;&ntilde;assa, a&ntilde;&ntilde;a-ko&#7751;&#7693;a&ntilde;&ntilde;o'tveva n&#257;ma&#7745;, ahos&#299;ti<br />
+			(HTML: itihida&amp;#7745; &amp;#257;yasmato Ko&amp;#7751;&amp;#7693;a&amp;ntilde;&amp;ntilde;assa, a&amp;ntilde;&amp;ntilde;a-ko&amp;#7751;&amp;#7693;a&amp;ntilde;&amp;ntilde;o'tveva n&amp;#257;ma&amp;#7745;, ahos&amp;#299;ti)</p>
+		</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Readability:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Phonetics:</th>
+		<td>Excellent</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Ease of use:</th>
+		<td>Poor-Good, depending on the particular software you use (HTML authoring program, word processor, e-mail client, etc.).</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Portability:</th>
+		<td>Good-Excellent. Requires the installation of at least a basic set of Unicode fonts.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Overall:</th>
+		<td>Good. Still a little cumbersome to use in some software apps, a shortcoming that will probably fade in the next few years.</td>
+	</tr>
+	<tr>
+		<th class='ZZ_firstCol'>Uses:</th>
+		<td>Web, email (if email client permits easy typing of Pali characters), print (with well-crafted Unicode fonts).</td>
+	</tr>
+</table>	
+
+</div>
+
+<div class='chapter'>
+<div class="notes">
+<h1><a id='notes'>Notes</a>&nbsp;<a title='Go to top of page' class='back' href='#top'>&nbsp;</a></h1>
+<dl>
+<dt><a href='#fnt-1' id='fn-1'>1</a>.</dt>
+		<dd>The first of the <a href='../ptf/dhamma/sila/pancasila.html'>five precepts</a>: "I undertake the precept to refrain from taking life."</dd>
+<dt><a href='#fnt-2' id='fn-2'>2</a>.</dt>
+		<dd>The last line of the Buddha's first sermon (<a href='../tipitaka/sn/sn56/sn56.011.than.html'>SN 56.11</a>): "And that is how Ven. Konda&ntilde;&ntilde;a acquired the name A&ntilde;&ntilde;a-Konda&ntilde;&ntilde;a &mdash; Konda&ntilde;&ntilde;a who knows."</dd>
+<dt><a href='#fnt-3' id='fn-3'>3</a>.</dt>
+		<dd>These characters will display properly only when your browser is set with a default font that contains appropriate Pali Unicode characters.</dd>
+</dl>
+
+</div>
+</div>
+
+
+</div> <!-- #COPYRIGHTED_TEXT_CHUNK (END OF COPYRIGHTED TEXT CHUNK) -->
+</div> <!--  #content -->
+
+
+<!-- footer.inc.php -->
+
+
+
+<!-- robots content="none" -->
+
+
+<div id="F_footer">
+	<div id='F_colophon'>
+<!-- 
+	<div id='F_newCopyrightSymbol'>
+		<a href='#top' title='Return to top of page'> </a>
+	</div>
+ -->
+	<div id="F_provenance">
+	<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License'  style='float:left;border-width:0;padding-right:1em;' src='./../img/cc-by-88x31.png' /></a>		
+				<div id="F_sourceCopy">&copy;2004 Access to Insight.</div>
+				<div id='F_sourceEdition'></div>
+		<div id="F_sourceTitle">
+		The text of this page ("Coping with Diacritics", by Access to Insight) is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>. To view a copy of the license, visit <a href= "http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>. Documents linked from this page may be subject to other restrictions. 
+						Last revised for Access to Insight on 21 December 2013.		Revised 2012.		
+		</div>
+<!-- 
+		<div id="F_atiCopy">This Access to Insight edition is &copy;2004.</div>
+ -->
+	<div id="F_termsOfUse">
+<!-- 		For additional information about this license, see the <a href='./../faq.html#copyright'>FAQ</a>. -->
+	</div>
+	</div>
+
+
+
+	<div id="F_citation"><b>How to cite this document</b> (a suggested style): "Coping with Diacritics", edited by  Access to Insight. <span style='font-style:italic'>Access to Insight (BCBS Edition)</span>, 21 December 2013, <a href='http://www.accesstoinsight.org/lib/diacritics.html'>http://www.accesstoinsight.org/lib/diacritics.html</a> .</div>
+		<div id="F_alt-formats"></div>
+
+
+	</div> <!--  #colophon -->
+	
+	<div id="F_toenail">
+<!-- not a mobile device -->
+<a href="./../help.html">Help</a>
+		| <a href='./../help.html#map'>Site map</a>
+		| <a href='./../faq.html#whatis'>About</a>
+		| <a href='./../faq.html#contact'>Contact</a> 
+		| <a href='./../faq.html#copyright'>Terms of use</a>
+<div id='bcbs-footer'>Access to Insight is owned and managed by the <a href='http://bcbsdharma.org'>Barre Center for Buddhist Studies</a></div>
+</div> <!--  #toenail -->
+
+
+</div> <!-- #footer -->
+</div> <!-- #container -->
+
+
+
+
+
+<!-- /robots -->
+</body>
+</html>

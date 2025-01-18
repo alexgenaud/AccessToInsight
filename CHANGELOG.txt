@@ -1,3 +1,15 @@
+20170730: jtb preparing "BCBS Edition" for release to BCBS
+
+ati-legacy-2015.12.20.21: Deleted an archaic Bodhi Leaf
+
+ati-legacy-2014.01.21.13: Fixing bug in legacy edition link to bulk download
+
+ati-legacy-2014.01.20.23: restoring google analytics to legacy edition
+
+ati-legacy-2014.01.19.21: ATIVersion() : citations now show simplified version number
+
+ati-legacy-2014.01.14.20: Last-minute correction to SN 35.63 by AG
+
 ati-legacy-2013.12.28.08: Removed file orphaned from last update
 
 ati-legacy-2013.12.28.08: New (corrected) versions of BMC1, BMC2

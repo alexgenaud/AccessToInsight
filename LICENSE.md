@@ -5,13 +5,11 @@ There are several kinds of copyright licenses attached to the pages of Access to
 
 The portions of each page that are subject to copyright are so demarcated in the HTML markup, thus:
 
-<code>
 >&lt;div id='COPYRIGHTED\_TEXT\_CHUNK'&gt;&lt;!-- BEGIN COPYRIGHTED TEXT CHUNK --&gt;
 >
 >....
 >
 >&lt;/div&gt;&lt;!-- #COPYRIGHTED\_TEXT\_CHUNK (END OF COPYRIGHTED TEXT CHUNK) --&gt;
-</code>
 
 The HTML markup itself in these pages is not subject to copyright.	
 

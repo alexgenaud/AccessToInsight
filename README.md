@@ -3,12 +3,11 @@ Access To Insight
 
 Access to Insight is an Internet website dedicated to providing accurate, reliable, and useful information concerning the practice and study of Theravada Buddhism, as it has been handed down to us through both the written word of the Pali canon and the living example of the Sangha.
 
-It was created by John Bullitt as a FidoNet BBS in 1993. In 1995 it moved to [www.accesstoinsight.org](http://www.accesstoinsight.org "Access to Insight")
- where it resides to this day. At the end of 2013 Bullitt retired from actively managing the site.
+Access to Insight is owned and managed by the [Barre Center for Buddhist Studies](http://www.bcbsdharma.org "Barre Center for Buddhist Studies").
 
 The name "Access to Insight" refers to the particular collection of hyperlinked texts that resides at the [official Access to Insight website](http://www.accesstoinsight.org "Access to Insight").
 
-You are invited to download the website for your own use, share it with others, or re-post it elsewhere on the web. I encourage you to incorporate its texts into your own website (within the terms of the copyright licenses, of course),  to use its many articles and sutta translations as the seed for your own online anthology of Buddhist texts, or to develop new and improved tools for accessing, exploring, and sharing them. The possibilities are endless.
+You are invited to download the website for your own use, share it with others, or re-post it elsewhere on the web. You are encouraged to incorporate its texts into your own website (within the terms of the copyright licenses, of course),  to use its many articles and sutta translations as the seed for your own online anthology of Buddhist texts, or to develop new and improved tools for accessing, exploring, and sharing them. The possibilities are endless.
 
 
 ##Building derived works from Access to Insight
@@ -37,4 +36,3 @@ These guidelines also apply when converting the files into entirely different fo
 A few PDF files have been locked and password-protected by their publisher, to restrict reformatting. Please do _not_ attempt to circumvent these security measures. If you are interested in altering or converting password-protected files, please ask the author or publisher for permission.
 
 
-> -- jtb, 20131203

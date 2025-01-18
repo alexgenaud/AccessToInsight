@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<!-- headerBasic.inc.php -->
+<head>
+<title>Cp_utf8</title>
+
+<!-- robots content="none" -->
+<meta charset="UTF-8">
+<script src="./../../js/sfHover.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./../../css/screen.css"  />
+<link rel="icon" href="./../../favicon.ico" type="image/x-icon" />
+<link rel="search" type="application/opensearchdescription+xml" title="Access to Insight" href="./../../tech/opensearch.xml" />
+
+
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107837816-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107837816-1');
+</script>
+
+</head><!-- edit1 -->
+
+<body>
+
+<!-- Begin ATIDoc metadata dump: 
+[ALT_FORMATS]=
+[ALT_ID]={}
+[ALT_STATS]=
+[ALT_TRANS]=
+[ATI_YEAR]={2010}
+[AUTHOR]={}
+[AUTHOR2]={}
+[AUTHOR_ALTNAME]={}
+[AUTHOR_SHORTNAME]={}
+[BY]={}
+[BY2]={}
+[CATEGORY_SLUG]={}
+[CHANGELOG]={}
+[COLOPHON]={}
+[COMMENT]={}
+[CONTACT_DETAILS]={}
+[DERIVED_LICENSE_DATA]=
+{The text of this page ("Cp_utf8", by Public domain) is free of known copyright restrictions. Documents linked from this page may be subject to other restrictions.}
+{<img alt='Public Domain' style='border-width:0;float:left;padding-right:1em;' src='./../../img/cc-public-domain-88x31.png' />}
+{0}
+[DIACRITIC_EQUIVALENTS_FOR_INDEXING]=
+[EDITION]={}
+[EDITORS_NOTE]={}
+[EOD]={}
+[EXTENT]={complete}
+[EXTRA_INFO]={}
+[FORMAT_PRINT]={}
+[FORMAT_SUTTAREADINGS]={}
+[FORMAT_ZIP]={}
+[HEADER_POST]={}
+[HEADER_PRE]={}
+[HEAD_EXTRAS]={}
+[LICENSE]={PUBLIC_DOMAIN}
+[MULTI_AUTHOR]=
+[MY_TITLE]={Cp_utf8}
+[NIKAYA]={}
+[NIKAYA_ABBREV]={}
+[NO_COLOPHON]={}
+[NO_LINK]={}
+[NUMBER]={}
+[ORIGIN_YEAR]={}
+[PAGE_COUNT]={}
+[PATH_FetchDoc]={Cp_utf8.html}
+[PATH_my]={}
+[PTS_ID]={}
+[REVISION_HISTORY]={}
+[SECTION]={}
+[SEE_ALSO]={}
+[SOURCE]={From the Sri Lanka Tripitaka Project, courtesy of the Journal of Buddhist Ethics.}
+[SOURCE_COPYRIGHT_OWNER]={Public domain}
+[SOURCE_COPYRIGHT_YEAR]={}
+[SOURCE_ISBN]={}
+[SPECIAL_HEADER]={}
+[SUBTITLE]={}
+[SUBTITLE2]={}
+[SUMMARY]={}
+[SUMMARY_SOURCE]={}
+[SURPRISE_ME]={}
+[SUTTA_NOTE]={}
+[TIPITAKA_BOOK]={}
+[TIPITAKA_BOOK_ABBREV]={}
+[TYPE]={unknown}
+
+End ATIDoc metadata dump. -->
+
+<a id="top"> </a><div id='H_container'>
+<div id='H_billboard'>
+
+<div id='H_search'>
+<script>
+  (function() {
+    var cx = '006639875531220445029:2z3mhfokk-u'; // bcbs
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<form action="/search_results.html" id="cse-search-box">
+  <div>
+		<input type="hidden" name="cx" value="006639875531220445029:2z3mhfokk-u" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" value="" name="q" id="q" autocomplete="off" size="31" />
+		<input type="submit" id="searchsubmit" name="sa" value="Search" />
+  </div>
+</form>
+</div>
+
+<div id='H_crumbtrail'>
+    
+<ul class='crumblist'>
+<li class='first'>
+<ul id='toolMenu'> <!-- popupMenu3.inc.php -->
+	<li class='ddTitle'>
+	<a title='go home' href="./../../index.html"><img src="./../../img/home3.png" alt ="" /></a>
+		<ul>
+			<li><a href="./../../index.html">Home</a></li>
+			<li><a href="./../../random-sutta.html">Random sutta</a></li>
+			<li><a href="./../../random-article.html">Random article</a></li>
+			<li><a href="./../../abbrev.html">Abbreviations</a></li>
+			<li><a href="./../../glossary.html">Glossary</a></li>
+			<li><a href="./../../index-subject.html">Index</a></li>
+			<li><a href="./../../help.html">Help!</a></li>
+		</ul>
+	</li>
+</ul>
+</li>
+<li>
+<ul id='toolMenu2'> <!-- TipitakaPopupMenu.inc.php -->
+	<li class='ddTitle'>
+	<a href='./../../tipitaka/index.html' title='go to the Tipitaka'>Tipitaka</a>
+		<ul>
+			<li><a href='./../../tipitaka/vin/index.html' title='go to the Vinaya Pitaka'>Vinaya Pitaka</a></li>
+			<li><a href='./../../tipitaka/sutta.html' title='go to the Sutta Pitaka'>Sutta Pitaka</a></li>
+			<li><a href='./../../tipitaka/dn/index.html' title='go to the Digha Nikaya'>DN</a></li>
+			<li><a href='./../../tipitaka/mn/index.html' title='go to the Majjhima Nikaya'>MN</a></li>
+			<li><a href='./../../tipitaka/sn/index.html' title='go to the Samyutta Nikaya'>SN</a></li>
+			<li><a href='./../../tipitaka/an/index.html' title='go to the Anguttara Nikaya'>AN</a></li>
+			<li><a href='./../../tipitaka/kn/index.html' title='go to the Khuddaka Nikaya'>KN</a></li>
+			<li><a href='./../../tipitaka/kn/khp/index.html' title='go to the Khuddakapatha'>Khp</a></li>
+			<li><a href='./../../tipitaka/kn/dhp/index.html' title='go to the Dhammapada'>Dhp</a></li>
+			<li><a href='./../../tipitaka/kn/ud/index.html' title='go to the Udana'>Ud</a></li>
+			<li><a href='./../../tipitaka/kn/iti/index.html' title='go to the Itivuttaka'>Iti</a></li>
+			<li><a href='./../../tipitaka/kn/snp/index.html' title='go to the Sutta Nipata'>Sn</a></li>
+			<li><a href='./../../tipitaka/abhi/index.html' title='go to the Abhidhamma Pitaka'>Abhidhamma</a></li>
+		</ul>
+	</li>
+</ul>
+</li>
+<li><a href='index.html' title='Back to the SLTP page'>SLTP</a></li>
+</ul>
+</div><!-- end #H_crumbtrail -->
+
+<div id='H_tipitakaLinks'>
+</div>
+
+<div class='clear'></div>
+<!-- /robots -->
+<div id="H_meta">
+
+		<div id="H_docTitle">
+		Cp_utf8				</div>
+
+		
+				
+		
+			<div id="H_copyright"><a href="#F_termsOfUse" title="See copyright details"></a></div>
+		
+		
+<div id='H_altFormat'></div>
+
+
+		
+	
+<!-- robots content="none" -->
+
+
+</div>  <!-- #H_meta -->
+
+</div> <!-- #H_billboard -->
+
+<!-- /robots -->
+
+<div id='H_content'>
+<div id='COPYRIGHTED_TEXT_CHUNK'><!-- BEGIN COPYRIGHTED TEXT CHUNK -->
+[CPD Classification 2.5.15]<br />
+[PTS Vol Cp - ] [\z Cp /] [\f I /]    <br />
+[<a id='pts.073a'><b>PTS Page 073</b></a>] [\q  73/]     <br />
+[BJT Vol Cp - ] [\z Cp /] [\w I /]    <br />
+[BJT Page 250] [\x 250/]     <br />
+Cariy&#257;pi&#7789;aka p&#257;&#7735;i <br />
+Namo tassa bhagavato arahato samm&#257; sambuddhassa
+
+<br />&nbsp;<br />
+
+1. D&#257;nap&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+Akitti cariya&#7747;
+
+<br />&nbsp;<br />
+
+[<a id='pts.073b'><b>PTS Page 073</b></a>] [\q  73/]     
+
+<br />&nbsp;<br />
+
+1. Kappe ca satasahasse caturo ca asa&#7749;khiye1<br />
+Etthantare ya&#7747; carita&#7747; sabba&#7747; ta&#7747; bodhip&#257;cana&#7747;. 
+
+<br />&nbsp;<br />
+
+2. At&#299;takappe carita&#7747; &#7789;hapayitv&#257; bhav&#257;bhave<br />
+Imamhi kappe carita&#7747; pavakkhissa&#7747; su&#7751;ohi me. <br />
+3. Yad&#257; aha&#7747; brah&#257;ra&#241;&#241;e su&#241;&#241;e vipina k&#257;nane 2<br />
+Ajjhogahetv&#257;3 vih&#257;r&#257;mi akitti n&#257;ma t&#257;paso. 
+
+<br />&nbsp;<br />
+
+4. Tad&#257; ma&#7747; tapatejena santatto tidiv&#257;dhibh&#363; 4<br />
+Dh&#257;rento br&#257;hma&#7751;ava&#7751;&#7751;a&#7747; bhikkh&#257;ya ma&#7747;up&#257;gami. 
+
+<br />&nbsp;<br />
+
+5. Pavan&#257; &#257;bhata&#7747;5 pa&#7751;&#7751;a&#7747; atela&#241;ca alo&#7751;ika&#7747;<br />
+Mama dv&#257;re &#7789;hita&#7747; disv&#257; saka&#7789;&#257;hena &#257;kiri&#7747;. 
+
+<br />&nbsp;<br />
+
+6. Tassa datv&#257;naha&#7747; pa&#7751;&#7751;a&#7747; nikkujjitv&#257;na bh&#257;jana&#7747;<br />
+Punesana&#7747; jahitv&#257;na p&#257;visa&#7747; pa&#7751;&#7751;as&#257;laka&#7747;. 
+
+<br />&nbsp;<br />
+
+7. Dutiyampi tatiyampi upaga&#241;chi mamantika&#7747;<br />
+Akampito anolaggo evamevamad&#257;saha&#7747;. 
+
+<br />&nbsp;<br />
+
+8. Na me tappaccay&#257; atthi sar&#299;rasmi&#7747; viva&#7751;&#7751;iya&#7747;<br />
+P&#299;tisukhena ratiy&#257; v&#299;tin&#257;memi ta&#7747; diva&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Asa&#7749;kheyya-s&#299;mu. 2. Vijana-si&#7747;, v&#299;vana-sy&#257;. 3. Ajjho g&#257;hetv&#257; machasa&#7747; [PTS] <br />
+4. Tidiv&#257;hibh&#363;, mu-machasa&#7747;, pa. 5. &#256;ha&#7789;a&#7747; - sy&#257;, [PTS] 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 252] [\x 252/]     
+
+<br />&nbsp;<br />
+
+9. Yadi m&#257;sampi dve m&#257;sa&#7747; dakkhi&#7751;eyya&#7747; vara&#7747; labhe<br />
+Akampito anol&#299;no dadeyya&#7747; d&#257;namuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+10. Na tassa d&#257;na&#7747; dadam&#257;no yasa&#7747; l&#257;bha&#241;ca patthayi&#7747;<br />
+Sabba&#241;&#241;uta&#7747; patthay&#257;no t&#257;ni kamm&#257;ni &#257;carinti. 
+
+<br />&nbsp;<br />
+
+Akitti cariya&#7747; pa&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+2. Sa&#7749;kha cariya&#7747;<br />
+[<a id='pts.074'><b>PTS Page 074</b></a>] [\q  74/]      <br />
+11. Pun&#257;para&#7747; yad&#257; homi br&#257;hma&#7751;o sa&#7749;khasavhayo<br />
+Mah&#257;samudda&#7747; tarituk&#257;mo upagacch&#257;mi pa&#7789;&#7789;ana&#7747;1. 
+
+<br />&nbsp;<br />
+
+12. Tatthaddas&#257;mi pa&#7789;ipathe sayambhu&#7747; apar&#257;jita&#7747;<br />
+Kant&#257;raddh&#257;na1 pa&#7789;ipanna&#7747; tatt&#257;ya ka&#7789;hinabh&#363;miy&#257;. 
+
+<br />&nbsp;<br />
+
+13. Tamaha&#7747; pa&#7789;ipathe disv&#257; imamattha&#7747; vicintayi&#7747;<br />
+Ida&#7747;2 khetta&#7747; anuppatta&#7747; pu&#241;&#241;ak&#257;massa jantuno. 
+
+<br />&nbsp;<br />
+
+14. Yath&#257;pi 3 kassako puriso khetta&#7747; disv&#257; mah&#257;gama&#7747;. 4<br />
+Tattha b&#299;ja&#7747; na ropeti na so dha&#241;&#241;ena atthiko. 
+
+<br />&nbsp;<br />
+
+15. Evamev&#257;ha&#7747; pu&#241;&#241;ak&#257;mo disv&#257; khetta 5 varuttama&#7747;<br />
+Yadi tattha k&#257;ra&#7747; na karomi n&#257;ha&#7747; pu&#241;&#241;ena atthiko. 
+
+<br />&nbsp;<br />
+
+16. Yath&#257; amacco muddik&#257;mo ra&#241;&#241;o ante pure jane<br />
+Na deti tesa&#7747; dhanadha&#241;&#241;a&#7747; muddito parih&#257;yati. 
+
+<br />&nbsp;<br />
+
+17. Evamev&#257;ha&#7747; pu&#241;&#241;ak&#257;mo vipula&#7747; disv&#257;na dakkhi&#7751;a&#7747;<br />
+Yadi tassa d&#257;na&#7747; na dad&#257;mi parih&#257;yiss&#257;mi pu&#241;&#241;ato. 
+
+<br />&nbsp;<br />
+
+18. Ev&#257;ha&#7747; vintayitv&#257;na orohitv&#257; up&#257;han&#257;<br />
+Tassa p&#257;d&#257;ni vanditv&#257; ad&#257;si&#7747; chattup&#257;hana&#7747;. 
+
+<br />&nbsp;<br />
+
+19. Tenev&#257;ha&#7747; satagu&#7751;ato sukhum&#257;lo sukhedhito<br />
+Apica d&#257;n&#257;&#7747; parip&#363;rento eva&#7747; tassa ad&#257;sahanti. 
+
+<br />&nbsp;<br />
+
+Sa&#7749;khacariya&#7747; dutiya&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Kant&#257;raddh&#257;na&#7747;-machasa&#7747;. 2. Ima&#7747;-sy&#257;. 3. Yath&#257;-machasa&#7747;. <br />
+Kant&#257;ramaddh&#257;na&#7747;-sy&#257;. 4. Mah&#257;r&#257;ma&#7747;-sy&#257;. 5. Khetaka&#7747;-sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 254] [\x 254/]     
+
+<br />&nbsp;<br />
+
+3. Kurudhammacariya&#7747;
+
+<br />&nbsp;<br />
+
+20. Pun&#257;para&#7747; yad&#257; homi indapatthe1 puruttame<br />
+R&#257;j&#257; dhana&#241;jayo n&#257;ma kusale 2 dasa hup&#257;gato. 
+
+<br />&nbsp;<br />
+
+21. K&#257;li&#7749;ga 3 ra&#7789;&#7789;havisay&#257; br&#257;hma&#7751;&#257; upaga&#241;ju ma&#7747;<br />
+&#256;y&#257;cu&#7747; ma&#7747; hatthin&#257;ga&#7747; dha&#241;&#241;a&#7747; ma&#7749;galasammata&#7747;. 
+
+<br />&nbsp;<br />
+
+22. Avu&#7789;&#7789;hiko janapado dubbhikkho j&#257;tako mah&#257;<br />
+Dad&#257;hi pavara&#7747; n&#257;ga&#7747; n&#299;la&#7747; a&#241;janasavhaya&#7747;. <br />
+[<a id='pts.075'><b>PTS Page 075</b></a>] [\q  75/]      <br />
+23. Na me y&#257;cakamanuppatte pa&#7789;ikkhepo anucchavo<br />
+M&#257; me bhijji sam&#257;d&#257;na&#7747; dass&#257;mi vipula&#7747; gaja&#7747;. 
+
+<br />&nbsp;<br />
+
+24. N&#257;ga&#7747; gahetv&#257; so&#7751;&#7693;&#257;ya bhi&#7749;k&#257;re ratan&#257;maye<br />
+Jala&#7747; hatthe &#257;kiritv&#257; br&#257;hma&#7751;&#257;na&#7747; ada&#7747; gaja&#7747;. 
+
+<br />&nbsp;<br />
+
+25. Tassa n&#257;ge padinnamhi amacc&#257; etadabr&#363;vu&#7747;<br />
+Kinnu tuyha&#7747; vara&#7747; n&#257;ga&#7747; y&#257;cak&#257;na&#7747; padassasi. 
+
+<br />&nbsp;<br />
+
+26. Dha&#241;&#241;a&#7747; ma&#7749;galasampanna&#7747; sa&#7749;g&#257;mavijayuttama&#7747;<br />
+Tasmi&#7747; n&#257;ge padinnamhi kinte rajja&#7747;4 karissati. 
+
+<br />&nbsp;<br />
+
+27. Rajjampi me dade sabba&#7747; sar&#299;ra&#7747; dajjamattano<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; n&#257;ga&#7747; ad&#257;sahanti 5. 
+
+<br />&nbsp;<br />
+
+Kurudhammacariya&#7747; tatiya&#7747;. 
+
+<br />&nbsp;<br />
+
+
+4. Mah&#257;sudassanacariya&#7747;
+
+<br />&nbsp;<br />
+
+28. Kus&#257;vatimhi nagare yad&#257; &#257;si&#7747; mah&#299;pati<br />
+Mah&#257;sudassano n&#257;ma cakkavatti mahabbalo. 
+
+<br />&nbsp;<br />
+
+29. Tatth&#257;ha&#7747;6 divase tikkhattu&#7747; ghos&#257;pemi tahi&#7747; tahi&#7747;<br />
+Ko ki&#7747; icchati pattheti kassa ki&#7747; d&#299;yatu dhana&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Indapatte-s&#299;mu. 2. Kusalehi-sy&#257;. 3. Kali&#7749;ga-machasa&#7747;. 4. Kurur&#257;ja-machasa&#7747;. <br />
+5. Tad&#257;ha&#7747;-pra. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 256] [\x 256/]      
+
+<br />&nbsp;<br />
+
+30. Ko ch&#257;tako ko tasito ko m&#257;la&#7747; ko vilepana&#7747;<br />
+N&#257;n&#257;ratt&#257;ni vatth&#257;ni ko naggo paridahissati. 
+
+<br />&nbsp;<br />
+
+31. Ko pathe chattam&#257;deti ko p&#257;han&#257; mud&#363; subh&#257;<br />
+Iti s&#257;ya&#241;ca p&#257;to ca ghos&#257;pemi tahi&#7747; tahi&#7747;. 
+
+<br />&nbsp;<br />
+
+32. Na ta&#7747; dasasu &#7789;h&#257;nesu na pi1 &#7789;h&#257;nasatesu v&#257;<br />
+Anekasata&#7789;h&#257;nesu pa&#7789;iyatta&#7747; y&#257;cake dhana&#7747;. 
+
+<br />&nbsp;<br />
+
+33. Div&#257; v&#257; yadi v&#257; ratti&#7747; yadi eti va&#7751;ibbako<br />
+Laddh&#257; yadicchaka&#7747; bhoga&#7747; p&#363;rahatthova gacchati. 
+
+<br />&nbsp;<br />
+
+34. Evar&#363;pa&#7747; mah&#257;d&#257;na&#7747; ad&#257;si&#7747; y&#257;vaj&#299;vika&#7747;<br />
+Nap&#257;ha&#7747; dessa&#7747; dhana&#7747; dammi napi natthi nicayo mayi. 
+
+<br />&nbsp;<br />
+
+35. Yath&#257;'pi &#257;turo n&#257;ma rogato parimuttiy&#257;<br />
+Dhanena vejja&#7747; tappetv&#257; rogato parimuccati. 
+
+<br />&nbsp;<br />
+
+36. Tathev&#257;ha&#7747; j&#257;nam&#257;no parip&#363;retumasesato<br />
+&#362;namana&#7747; p&#363;rayitu&#7747; demi d&#257;na&#7747; va&#7751;ibbake<br />
+Nir&#257;layo apacc&#257;so sambodhimanupattiy&#257;ti. 
+
+<br />&nbsp;<br />
+
+Mah&#257;sudassanacariya&#7747; catuttha&#7747;. 
+
+<br />&nbsp;<br />
+
+
+5. Mah&#257;govinda cariya&#7747;. <br />
+[<a id='pts.076'><b>PTS Page 076</b></a>] [\q  76/]      <br />
+37 Pun&#257;para&#7747; yad&#257; homi satta r&#257;japurohito<br />
+P&#363;jito naradevehi mah&#257;govindabr&#257;hma&#7751;o. 
+
+<br />&nbsp;<br />
+
+
+38. Tad&#257;ha&#7747; sattarajjesu ya&#7747; me &#257;si up&#257;yana&#7747; tena demi mah&#257;d&#257;na&#7747; akkhobha&#7747;2 s&#257;gar&#363;pama&#7747;. 
+
+<br />&nbsp;<br />
+
+39. Na me dessa&#7747; dhana&#7747; dha&#241;&#241;a&#7747; napi natthi nivayo mayi<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; demi vara&#7747; dhananti. <br />
+Mah&#257;govinda cariya&#7747; pa&#241;cama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Nahi-sy&#257;. 2. Akekh&#257;khaha&#7747; s&#299;mu - machasa&#7747;<br />
+Acacha&#7747; - pra. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 258] [\x 258/]      
+
+<br />&nbsp;<br />
+
+6. Nimir&#257;ja cariya&#7747;
+
+<br />&nbsp;<br />
+
+40. Pun&#257;para&#7747; yad&#257; homi mithil&#257;ya&#7747; puruttame<br />
+Nimi n&#257;ma mah&#257;r&#257;j&#257; pa&#7751;&#7693;ito kusalatthiko. 
+
+<br />&nbsp;<br />
+
+41. Tad&#257;ha&#7747; m&#257;payitv&#257;na catuss&#257;la&#7747;1 catummukha&#7747;<br />
+Tattha d&#257;na&#7747; pavattesi&#7747; migapakkhinar&#257;dina&#7747;. 
+
+<br />&nbsp;<br />
+
+42. Acch&#257;dana&#241;ca sayana&#241;ca anna&#7747; p&#257;na&#241;ca bhojana&#7747;<br />
+Abbocchinna&#7747; karitv&#257;na mah&#257;d&#257;na&#7747; pavattayi&#7747;. 
+
+<br />&nbsp;<br />
+
+43. Yath&#257;pi sevako s&#257;mi&#7747; dhanahetumup&#257;gato<br />
+K&#257;yena v&#257;c&#257; manas&#257; &#257;r&#257;dhaniyamesati. 
+
+<br />&nbsp;<br />
+
+44. Tathev&#257;ha&#7747; sabbabhave pariyesiss&#257;mi bodhija&#7747;<br />
+D&#257;nena satte tappetv&#257; icch&#257;mi bodhimuttamanti
+
+<br />&nbsp;<br />
+
+Nimir&#257;jacariya&#7747; cha&#7789;&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+7. Candakum&#257;ra cariya&#7747;<br />
+[<a id='pts.077'><b>PTS Page 077</b></a>] [\q  77/]      <br />
+45. Pun&#257;para&#7747; yad&#257; homi ekar&#257;jassa atrajo<br />
+Nagare pupphavatiy&#257; kum&#257;ro candasavhayo. 
+
+<br />&nbsp;<br />
+
+46. Tad&#257;ha&#7747; yajan&#257; mutto nikkhanto ya&#241;&#241;av&#257;&#7789;ato2<br />
+Sa&#7747;vega&#7747; janayitv&#257;na mah&#257;d&#257;na&#7747; pavattayi&#7747;. 
+
+<br />&nbsp;<br />
+
+47. N&#257;ha&#7747; piv&#257;mi kh&#257;d&#257;mi napi bhu&#241;j&#257;mi bhojana&#7747;<br />
+Dakkhi&#7751;eyye adatv&#257;na 3 api chappa&#241;ca rattiyo. 
+
+<br />&nbsp;<br />
+
+48. Yath&#257;pi v&#257;&#7751;ijo n&#257;ma katv&#257;na bha&#7751;&#7693;asa&#241;caya&#7747;<br />
+Yattha l&#257;bho mah&#257; hoti tattha ta&#7747; harati bha&#7751;&#7693;aka&#7747;. 
+
+<br />&nbsp;<br />
+
+49. Tatheva sakabhutt&#257;pi 4 pare dinna&#7747; mahapphala&#7747;<br />
+Tasm&#257; parassa d&#257;tabba&#7747; satabh&#257;go bhavissati. 
+
+<br />&nbsp;<br />
+
+50. Etamatthavasa&#7747; &#241;atv&#257; demi d&#257;na&#7747; bhav&#257;bhave<br />
+Na pa&#7789;ikkam&#257;mi d&#257;nato sambodhimanupattiy&#257;ti. 
+
+<br />&nbsp;<br />
+
+
+Candakum&#257;racariya&#7747; sattama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Catus&#257;la&#7747;-sy&#257;. 2. Ya&#241;&#241;av&#257;tato-sya&#7747;. <br />
+3. Dakkhi&#7751;eyya&#7747;-katthaci<br />
+Ya&#241;&#241;ap&#257;tato-s&#299;mu. 4. Sakaparitutt&#257;pi-pu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 260] [\x 260/]      
+
+<br />&nbsp;<br />
+
+8. Sivir&#257;ja cariya&#7747;
+
+<br />&nbsp;<br />
+
+51. Ari&#7789;&#7789;hasavhaye nagare sivi n&#257;m&#257;si&#7747;1 khattiyo<br />
+Nisajja p&#257;s&#257;davare eva&#7747; cintesaha&#7747; tad&#257;. 
+
+<br />&nbsp;<br />
+
+52. Ya&#7747; ki&#241;ci m&#257;nusa&#7747; d&#257;na&#7747; adinna&#7747; me na vijjati<br />
+Yopi v&#257;ceyya ma&#7747; cakkhu&#7747; dadeyya&#7747; avikampito. 
+
+<br />&nbsp;<br />
+
+53. Mama sa&#7749;kappama&#241;&#241;&#257;ya sakko dev&#257;namissaro<br />
+Nisinno devaparis&#257;ya ida&#7747; vacanamabruvi. 
+
+<br />&nbsp;<br />
+
+54. Nisajjap&#257;s&#257;davare sivir&#257;j&#257; mahiddhiko<br />
+Vintento vividha&#7747; d&#257;na&#7747; adeyya&#7747; so na passati, 
+
+<br />&nbsp;<br />
+
+55. Tathannu vitathanteta&#7747; handa v&#299;ma&#7747;say&#257;mi 2 ta&#7747;<br />
+Muhutta&#7747; &#257;gameyy&#257;tha y&#257;va j&#257;n&#257;mi ta&#7747; mana&#7747;. 
+
+<br />&nbsp;<br />
+
+56. Pavedham&#257;no palitasiro valitagatto jar&#257;turo<br />
+Andhava&#7751;&#7751;ova hutv&#257;na r&#257;j&#257;na&#7747; upasa&#7749;kami. <br />
+[<a id='pts.078'><b>PTS Page 078</b></a>] [\q  78/]      <br />
+57. So tad&#257; paggahetv&#257;na v&#257;ma&#7747; dakkhi&#7751;ab&#257;hu ca <br />
+Sirasmi&#7747; a&#241;jali&#7747; katv&#257; ida&#7747; vacanamabruvi. 
+
+<br />&nbsp;<br />
+
+58. Y&#257;c&#257;mi ta&#7747; mah&#257;r&#257;ja dhammikara&#7789;&#7789;hava&#7693;&#7693;hana<br />
+Tava d&#257;narat&#257; kitti uggat&#257; devam&#257;nuse. 
+
+<br />&nbsp;<br />
+
+59. Ubhopi nett&#257; nayan&#257; andh&#257; upahat&#257; mama <br />
+Eka&#7747; me nayana&#7747; dehi tvampi ekena y&#257;paya. 
+
+<br />&nbsp;<br />
+
+60. Tass&#257;ha&#7747; vacana&#7747; sutv&#257; bha&#7789;&#7789;ho sa&#7747;viggam&#257;naso<br />
+Kata&#241;jal&#299; vedaj&#257;to ida&#7747; vacanamabruvi&#7747;. 
+
+<br />&nbsp;<br />
+
+61. Id&#257;n&#257;ha&#7747; cintayitv&#257;3 p&#257;s&#257;dato idh&#257;gato<br />
+Tva&#7747; mama cittama&#241;&#241;&#257;ya netta&#7747; y&#257;citum&#257;gato. 
+
+<br />&nbsp;<br />
+
+1. N&#257;m&#257;dhi-katthaci 2. Vima&#7747;siss&#257;mi-katthaci 3. C&#299;tatadhitv&#257;na-machasa&#7747;, sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 262] [\x 262/]     
+
+<br />&nbsp;<br />
+
+62. Aho me m&#257;nasa&#7747; siddha&#7747; sa&#7749;kappo parip&#363;rito<br />
+Adinnapubba&#7747; d&#257;navara&#7747; ajja dass&#257;mi y&#257;cake. 
+
+<br />&nbsp;<br />
+
+63. Ehi s&#299;vaka u&#7789;&#7789;hehi m&#257; dandhayi m&#257; pavedhayi ubhopi nayane dehi upp&#257;&#7789;etv&#257; va&#7751;ibbake. 
+
+<br />&nbsp;<br />
+
+64. Tato so vodito mayha&#7747; s&#299;vako vacana&#7749;karo<br />
+Uddharitv&#257;na p&#257;d&#257;si t&#257;lami&#241;ja&#7747;va y&#257;cake. 
+
+<br />&nbsp;<br />
+
+65. Dadam&#257;nassa dennassa dinnad&#257;nassa me sato<br />
+Cittassa a&#241;&#241;ath&#257; natthi bodhiy&#257; yeva k&#257;ra&#7751;&#257;. 
+
+<br />&nbsp;<br />
+
+66. Na me dess&#257; ubho cakkhu att&#257; na me na dessiyo1<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; cakkhu&#7747; ad&#257;sahanti. 2
+
+<br />&nbsp;<br />
+
+Sivir&#257;jacariya&#7747; a&#7789;&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+9. Vessantara cariya&#7747;
+
+<br />&nbsp;<br />
+
+67. Y&#257; me ahosi janik&#257; phusati n&#257;ma 3 khattiy&#257;<br />
+S&#257; at&#299;t&#257;su j&#257;tisu sakkassa mahesi piy&#257;. 4
+
+<br />&nbsp;<br />
+
+68. Tass&#257; &#257;yukkhaya&#7747; disv&#257; devindo etadabruvi<br />
+Dad&#257;mi te dasavare vara5 bhadde yadicchasi. 
+
+<br />&nbsp;<br />
+
+69. Eva&#7747; vutt&#257; ca s&#257; dev&#299; sakka&#7747; punida mabruvi<br />
+Kinn&#363; me apar&#257;dhatthi kinnu dess&#257; aha&#7747; tava<br />
+Ramm&#257; c&#257;vesi ma&#7747; &#7789;h&#257;n&#257; v&#257;tova dhara&#7751;&#299;ruha&#7747;. 
+
+<br />&nbsp;<br />
+
+70. Eva&#7747; vutto ca so sakko puna tass&#299;da6mabruvi<br />
+Na ceva te kata&#7747; p&#257;pa&#7747; na ca me tvamasi appiy&#257;. 
+
+<br />&nbsp;<br />
+
+1. Att&#257;na&#7747; me na dessiy&#257;-pu 2. Ad&#257; aha&#7747;-pra. 3. Pussati sy&#257;-machasa&#7747;. <br />
+Att&#257;pi me na dessiyo-pu 4. Sakkassa mahes&#299;si s&#257;-sy&#257;. <br />
+Sakkassa ca mahesiy&#257;-s&#299;mu. 5. Vara&#7747;-si&#7747; 6. Tasesada-[PTS,] sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 264] [\x 264/]      <br />
+[<a id='pts.079'><b>PTS Page 079</b></a>] [\q  79/]      <br />
+71. Ettaka&#7747; yeva te &#257;yu1 vacanak&#257;lo bhavissati<br />
+Pa&#7789;igga&#7751;ha may&#257; dinne vare dasa varuttame. 
+
+<br />&nbsp;<br />
+
+72. Sakkena s&#257; sinnavar&#257; tu&#7789;&#7789;haha&#7789;&#7789;h&#257; pamodit&#257;<br />
+Mama abbhantara&#7747; katv&#257; phusat&#299; dasavare car&#299;. 
+
+<br />&nbsp;<br />
+
+73. Tato cut&#257; s&#257; phusat&#299; khattiye upapajjatha<br />
+Jetuntaramhi nagare sa&#241;jayena sam&#257;gam&#299;. 
+
+<br />&nbsp;<br />
+
+74. Tad&#257;ha&#7747; ph&#363;satiy&#257; kucchi&#7747; okkanto piyam&#257;tuy&#257;<br />
+Mama tejena me m&#257;t&#257; sad&#257; d&#257;narat&#257; ah&#363;. 
+
+<br />&nbsp;<br />
+
+75. Adhane &#257;ture ji&#7751;&#7751;e y&#257;cake addhike jane 2 <br />
+Sama&#7751;e br&#257;hma&#7751;e 3 kh&#299;&#7751;e deti d&#257;na&#7747; aki&#241;cane. 
+
+<br />&nbsp;<br />
+
+76. Dasam&#257;se dh&#257;rayitv&#257;na karonto4 purapadakkhi&#7751;a&#7747;<br />
+Vess&#257;na&#7747; v&#299;thiy&#257; majjhe janesi phusat&#299; mama&#7747;. 
+
+<br />&nbsp;<br />
+
+77. Na mayha&#7747; mattika&#7747; n&#257;ma&#7747; napi pettikasambhava&#7747;<br />
+J&#257;tomhi vessav&#299;thiy&#257; tasm&#257; vessantaro ah&#363;. 
+
+<br />&nbsp;<br />
+
+78. Yad&#257;ha&#7747; d&#257;rako homi j&#257;tiy&#257; a&#7789;&#7789;havassiko<br />
+Tad&#257; nisajja p&#257;s&#257;de d&#257;na&#7747; d&#257;tu&#7747; vicintayi&#7747;. 
+
+<br />&nbsp;<br />
+
+79. Hadaya&#7747; dadeyya&#7747; cakkhu&#7747; ma&#7747;sampi rudhirampi ca <br />
+Dadeyya&#7747; k&#257;ya&#7747; s&#257;vetv&#257; yadi koci y&#257;caye mama&#7747;. 
+
+<br />&nbsp;<br />
+
+80. S&#257;bhava&#7747; cintayantassa akampitamasa&#7751;adhita&#7747;<br />
+Akamp&#299; tattha pa&#7789;hav&#299; sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+81. Anvaddham&#257;se pa&#7751;&#7751;arase pu&#7751;&#7751;am&#257;se uposathe<br />
+Paccaya&#7747; n&#257;gam&#257;ruyha d&#257;na&#7747; d&#257;tu&#7747; up&#257;gami&#7747;. 
+
+<br />&nbsp;<br />
+
+1. &#256;yu&#7747;-katthaci. 2. Pathike-katthaci. 3. Sama&#7751;a br&#257;hma&#7751;e-katthaci-pa. 4. Karonti-katthaci. 5. Mettika&#7747; n&#257;ma&#7747;-s&#299;mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 266] [\x 266/]     
+
+<br />&nbsp;<br />
+
+82. K&#257;li&#7749;gara&#7789;&#7789;havisay&#257; br&#257;hma&#7751;&#257; upaga&#241;ju ma&#7747;<br />
+&#256;y&#257;cu&#7747; ma&#7747; hatthin&#257;ga&#7747; dha&#241;&#241;a&#7747; ma&#7749;galasammata&#7747;. 
+
+<br />&nbsp;<br />
+
+83. Avu&#7789;&#7789;hiko janapado dubbhikkho ch&#257;tako mah&#257; dad&#257;hi pavara&#7747; n&#257;ga&#7747; sabbaseta&#7747; gajuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+84. Dad&#257;mi na vikamp&#257;mi ya&#7747; ma&#7747; y&#257;canti br&#257;hma&#7751;&#257;<br />
+Santa&#7747; nappatiguh&#257;mi1 d&#257;ne me ramat&#299; 2 mano. 
+
+<br />&nbsp;<br />
+
+85. Na me y&#257;cakamanuppatte pa&#7789;ikkhepo anucchavo m&#257; me bhijji sam&#257;d&#257;na&#7747; dass&#257;mi vipula&#7747; gaja&#7747;. 
+
+<br />&nbsp;<br />
+
+86. N&#257;ga&#7747; gahetv&#257; so&#7751;&#7693;&#257;ya bhi&#7749;k&#257;re 3 ratan&#257;maye<br />
+Jala&#7747; hatthe &#257;kiritv&#257; br&#257;hma&#7751;&#257;na&#7747; ada&#7747; gaja&#7747;. 
+
+<br />&nbsp;<br />
+
+87. Pun&#257;para&#7747; dadantassa sabbaseta&#7747; gajuttama&#7747;<br />
+Tad&#257;pi pa&#7789;hav&#299; kampi sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+88. Tassa n&#257;gassa d&#257;nena sivayo kuddh&#257; sam&#257;gat&#257; <br />
+Pabbojesu&#7747; sak&#257; ra&#7789;&#7789;h&#257; "va&#7749;ka&#7747; gacchatu pabbata. "
+
+<br />&nbsp;<br />
+
+89. Tesa&#7747; nicchuha 4 m&#257;n&#257;na&#7747; akampitamasa&#7751;&#7789;hita&#7747;<br />
+Mah&#257;d&#257;na&#7747; pavattetu&#7747; eka&#7747; varamay&#257;cisa&#7747;5. <br />
+[<a id='pts.080'><b>PTS Page 080</b></a>] [\q  80/]      <br />
+90. Y&#257;cit&#257; sivayo sabbe eka&#7747; varamada&#7747;su me <br />
+S&#257;vayitv&#257; ka&#7751;&#7751;abheri&#7747; mah&#257;d&#257;na&#7747; dad&#257;maha&#7747;. 
+
+<br />&nbsp;<br />
+
+91. Atettha vattat&#299; saddo tumulo bheravo mah&#257;<br />
+D&#257;nena ma&#7747;6 n&#299;haranti puna d&#257;na&#7747; dad&#257;taya&#7747;7. 
+
+<br />&nbsp;<br />
+
+92. Hatthi 8 asse rathe datv&#257; d&#257;sid&#257;sa&#7747; gava&#7747; dhana&#7747;<br />
+Mah&#257;d&#257;na&#7747; daditv&#257;na nagar&#257; nikkhami&#7747; tad&#257;. 
+
+<br />&nbsp;<br />
+
+1. Nappa&#7789;iguyy&#257;mi-sy&#257;. 2. Ramate-machasa&#7747;-pa. 3. Bhi&#7749;g&#257;re-machasa&#7747;-sy&#257;. <br />
+4. Nicavubha-[PTS] 5. Ekavara may&#257;ciha&#7747;-sy&#257;. 6. D&#257;nena-machasa&#7747;, s&#299;mu. <br />
+7. Dad&#257;maha&#7747;-s&#299;mu. 8. Hatthi&#7747;-machasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 268] [\x 268/]      
+
+<br />&nbsp;<br />
+
+93. Nikkhamitv&#257;na nagar&#257; nivattitv&#257; vilokite<br />
+Tad&#257;pi pa&#7789;hav&#299; kamp&#299; sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+94. Catuv&#257;hi&#7747; ratha&#7747; datv&#257; &#7789;hatv&#257; c&#257;tummah&#257;pathe1. <br />
+Ek&#257;kiyo adutiyo maddidevi&#7747; idamabr&#363;vi&#7747;. 
+
+<br />&nbsp;<br />
+
+95. "Tva&#7747; maddi ka&#7751;ha&#7747; ga&#7751;h&#257;hi, lahuk&#257; es&#257; kani&#7789;&#7789;hik&#257;2<br />
+Aha&#7747; j&#257;li&#7747; gahess&#257;mi garuko bh&#257;tiko hi so. 
+
+<br />&nbsp;<br />
+
+96. Paduma&#7747; pu&#7751;&#7693;ar&#299;ka&#7747;'va maddika&#7751;h&#257;jinagg&#299;<br />
+Aha&#7747; suva&#7751;&#7751;abimba&#7747;va j&#257;li&#7747; khattiyamaggahi&#7747;. 
+
+<br />&nbsp;<br />
+
+97. Ahij&#257;t&#257; sukhum&#257;l&#257; khattiy&#257; caturo jan&#257;<br />
+Visama&#7747; sama&#7747; akkamant&#257; va&#7749;ka&#7747; gacch&#257;ma pabbata&#7747;. 
+
+<br />&nbsp;<br />
+
+98. Ye keci manuj&#257; enti 3 anumagge pa&#7789;ippathe<br />
+Magga&#7747; te pa&#7789;i pucch&#257;ma kuhi&#7747; va&#7749;katapabbato4. 
+
+<br />&nbsp;<br />
+
+99. Te tattha amhe passitv&#257; karu&#7751;a&#7747; giramud&#299;rayu&#7747;<br />
+Dukkhante pa&#7789;ivedenti d&#363;re va&#7749;katapabbato. 
+
+<br />&nbsp;<br />
+
+100. Yadi sassanti pavane d&#257;rak&#257; phalite 5 dume tesa&#7747; phal&#257;na&#7747; hetumhi uparodanti d&#257;rak&#257;. <br />
+101. Rodante d&#257;rake disv&#257; ubbigg&#257;6 vipul&#257; dum&#257; sayamevonamitv&#257;na upagacchanti d&#257;rake. 
+
+<br />&nbsp;<br />
+
+102. Ida&#7747; acchariya&#7747; disv&#257; abbhuta&#7747; lomaha&#7747;sana&#7747; s&#257;dhuk&#257;ra&#7747; pavattesi madd&#299; sabba&#7749;gasobhan&#257;. 
+
+<br />&nbsp;<br />
+
+103. Acchera&#7747; vata lokasmi&#7747; abbhuta&#7747; lomaha&#7747;sana&#7747; vessantarassa tejena sayamevonat&#257; dum&#257;. 
+
+<br />&nbsp;<br />
+
+104. Sa&#7749;khipi&#7747;su patha&#7747; yakkh&#257; anukamp&#257;ya d&#257;rake<br />
+Nikkhantadivase yeva 7 cetara&#7789;&#7789;hamup&#257;gamu&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Catumh&#257;, c&#257;tumah&#257;-katthaci. 2. Ka&#7751;i&#7789;&#7789;hik&#257;-s&#299;mu. 3. Yanati [PTS] <br />
+4. Va&#7749;kanana-machasa&#7747;. 5. Phalite-machasa&#7747;. 6. Ubbiddh&#257;-machasa&#7747; ubbhigg&#257;-sy&#257; 7. Divaseneva machasa&#7747;, sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 270] [\x 270/]      
+
+<br />&nbsp;<br />
+
+105. Sa&#7789;&#7789;hir&#257;jasahass&#257;ni tadavasanti m&#257;tule1<br />
+Sabbe pa&#241;jalik&#257; hutv&#257; rodam&#257;n&#257; up&#257;gamu&#7747;. 
+
+<br />&nbsp;<br />
+
+106. Tattha vattetv&#257; sall&#257;pa&#7747; cetehi cetaputtehi<br />
+Te tato nikkhamitv&#257;na va&#7749;ka&#7747; agamu&#7747; pabbata. 
+
+<br />&nbsp;<br />
+
+107. &#256;mantayitv&#257; devindo vissakamma&#7747;2 mahiddhika&#7747;<br />
+Assama&#7747; sukata&#7747; ramma&#7747; pa&#7751;&#7751;as&#257;la&#7747; sum&#257;paya. 
+
+<br />&nbsp;<br />
+
+108. Sakkassa vacana&#7747; sutv&#257; vissakammo mahiddhiko<br />
+Assama&#7747; sukata&#7747; ramma&#7747; pa&#7751;&#7751;as&#257;la&#7747; sum&#257;pay&#299;". <br />
+[<a id='pts.081'><b>PTS Page 081</b></a>] [\q  81/]      <br />
+109. Ajjhogahetv&#257; pavana&#7747; appasadda&#7747; nir&#257;kula&#7747;. <br />
+Caturo jan&#257; maya&#7747; tattha vas&#257;ma pabbatantare. 
+
+<br />&nbsp;<br />
+
+110. Aha&#241;ca maddidev&#299; ca j&#257;l&#299; ka&#7751;h&#257;jin&#257; cuho<br />
+A&#241;&#241;ama&#241;&#241;a&#7747; sokanud&#257; vas&#257;ma assame tad&#257;. 
+
+<br />&nbsp;<br />
+
+111. D&#257;rake anurakkhanto asu&#241;&#241;o3 homi assame<br />
+Madd&#299; phala&#7747; &#257;harati 4 poseti s&#257; tayo jane. 
+
+<br />&nbsp;<br />
+
+112. Pavane vasam&#257;nassa addhiko ma&#7747; up&#257;gami<br />
+&#256;y&#257;ci puttake mayha&#7747; j&#257;li&#7747; ka&#7751;h&#257;jina&#241;cubho. 
+
+<br />&nbsp;<br />
+
+113. Y&#257;caka&#7747; upagata&#7747; disv&#257; h&#257;so me upapajjatha<br />
+Ubho putte gahetv&#257;na ad&#257;si&#7747; br&#257;hma&#7751;e tad&#257;. 
+
+<br />&nbsp;<br />
+
+114. Sake putte cajantassa j&#363;jake 5 br&#257;hma&#7751;e yad&#257;<br />
+Tad&#257;pi pa&#7789;hav&#299; kampi sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+115. Punadeva sakko oruyha hutv&#257; br&#257;hma&#7751;asannibho<br />
+&#256;y&#257;ci ma&#7747; maddidevi&#7747; s&#299;lavanti&#7747;6 patibbata&#7747;. 
+
+<br />&nbsp;<br />
+
+1. M&#257;tul&#257;-sy&#257;. 2. Vissukamba-sy&#257;. 3. Asu&#241;&#241;e-pu. 4. &#256;haritv&#257;-machasa&#7747;. <br />
+5. Y&#257;cake-[PTS] 6. S&#299;lavati&#7747;-sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 272] [\x 272/]     
+
+<br />&nbsp;<br />
+
+116. Maddi&#7747; hatthe gahetv&#257;na udaka&#241;jali p&#363;riya1<br />
+Pasantamanasa&#7749;kappo tassa maddimad&#257;saha&#7747;. 
+
+<br />&nbsp;<br />
+
+117. Maddiy&#257; d&#299;yam&#257;n&#257;ya gagane dev&#257; pamodit&#257;<br />
+Tad&#257;pi pa&#7789;hav&#299; kamp&#299; sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+118. J&#257;li&#7747; ka&#7751;h&#257;jina&#7747; dh&#299;ta&#7747; maddidevi&#7747; patibbata&#7747;<br />
+Cajam&#257;no na cintesi&#7747; bodhiy&#257;yeva k&#257;ra&#7751;&#257;. 
+
+<br />&nbsp;<br />
+
+119. Na me dess&#257; ubho putt&#257; maddi devi na dessiy&#257;<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; piye ad&#257;saha&#7747;. 
+
+<br />&nbsp;<br />
+
+120. Pun&#257;para&#7747; brah&#257;ra&#241;&#241;e m&#257;t&#257;pitusam&#257;game<br />
+Karu&#7751;a&#7747; paridevante' sallapante sukha&#7747; dukha&#7747;2. 
+
+<br />&nbsp;<br />
+
+121. Hirottappena garun&#257;3 ubhinna&#7747; upasa&#7749;kami&#7747;<br />
+Tad&#257;pi pa&#7789;hav&#299; kampi sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+122. Pun&#257;para&#7747; brah&#257;ra&#241;&#241;e nikkhamitv&#257; sa&#241;&#257;tihi<br />
+Pavis&#257;mi 4 pura&#7747; ramma&#7747; jetuttara 5 puruttama&#7747;. 
+
+<br />&nbsp;<br />
+
+123. Ratan&#257;ni satta vassi&#7747;su mah&#257;megho pavassatha<br />
+Tad&#257;pi pa&#7789;hav&#299; kampi sineruvanava&#7789;a&#7747;sak&#257;. 
+
+<br />&nbsp;<br />
+
+124. Acetan&#257;'ya&#7747; pa&#7789;hav&#299; avi&#241;&#241;&#257;ya sukha&#7747; dukha&#7747;<br />
+S&#257;pi d&#257;nabal&#257; mayha&#7747; sattakkhattu&#7747; pakampath&#257;ti. 
+
+<br />&nbsp;<br />
+
+Vessantaracariya&#7747; navama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Udaka&#241;jali&#7747; puraya-katthaci. 2. Dukkha&#7747;-[PTS] s&#299;mu sy&#257;. 3. Gar&#363;na&#7747;-sy&#257;. 4. Paviss&#257;mi-sy&#257;. 5. Jetuttara&#7747;-s&#299;mu [PTS] 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 274] [\x 274/]      
+
+<br />&nbsp;<br />
+
+10. Sasapa&#7751;&#7693;ita cariya&#7747;<br />
+[<a id='pts.082'><b>PTS Page 082</b></a>] [\q  82/]      <br />
+125. Pun&#257;para&#7747; yad&#257; homi sasako pavanac&#257;riko1<br />
+Ti&#7751;apa&#7751;&#7751;as&#257;kaphalahakkho parahe&#7789;hanavivajjito. 
+
+<br />&nbsp;<br />
+
+126. Makke&#7789;&#257; ca sig&#257;lo ca 2 uddapoto caha&#7747; tad&#257;<br />
+Vas&#257;ma ekas&#257;mant&#257; s&#257;ya&#7747; p&#257;to padissare 3. 
+
+<br />&nbsp;<br />
+
+127. Aha&#7747; te anus&#257;s&#257;mi kiriye kaly&#257;&#7751;ap&#257;pake<br />
+P&#257;p&#257;ni parivajjetha kaly&#257;&#7751;ebhinivissatha. 
+
+<br />&nbsp;<br />
+
+128. Uposathamhi divase canda&#7747; disv&#257;na p&#363;rita&#7747;<br />
+Etesa&#7747; tattha &#257;cikkhi&#7747;4 divaso ajjuposatho. 
+
+<br />&nbsp;<br />
+
+129. D&#257;n&#257;ni pa&#7789;iy&#257;detha dakkhi&#7751;eyyassa d&#257;tave<br />
+Datv&#257; d&#257;na&#7747; dakkhi&#7751;eyye upavassathuposathanti. 
+
+<br />&nbsp;<br />
+
+130. Te 5 me s&#257;dh&#363;ti vatv&#257;na yath&#257;satti yath&#257;bala&#7747;<br />
+D&#257;n&#257;ni pa&#7789;iy&#257;detv&#257; dakkhi&#7751;eyya&#7747; gavesisu&#7747;6. 
+
+<br />&nbsp;<br />
+
+131. Aha&#7747; nissajja cintesi&#7747; d&#257;na&#7747; dakkhi&#7751;&#257;nucchava&#7747;<br />
+Yadiha&#7747; labhe dakkhi&#7751;eyya&#7747; ki&#7747; me d&#257;na&#7747; bhavissati. 
+
+<br />&nbsp;<br />
+
+132. Na me atthi til&#257; mugg&#257; m&#257;s&#257; v&#257; ta&#7751;&#7693;ul&#257; ghata&#7747;<br />
+Aha&#7747; ti&#7751;ena y&#257;pemi nasakk&#257; ti&#7751;a d&#257;tave. 
+
+<br />&nbsp;<br />
+
+133. Yadi koci eti 7 dakkhi&#7751;eyyo bhikkh&#257;ya mama santike<br />
+Dajj&#257;ha&#7747; sakamatt&#257;na&#7747; na so tuccho gamissati. 
+
+<br />&nbsp;<br />
+
+134. Mama sa&#7749;kappama&#241;&#241;&#257;ya sakko br&#257;hma&#7751;ava&#7751;&#7751;in&#257;8<br />
+&#256;saya&#7747; me up&#257;ga&#241;ji d&#257;na&#7747; v&#299;ma&#7747;san&#257;ya me. 
+
+<br />&nbsp;<br />
+
+135. Tamaha&#7747; disv&#257;na santu&#7789;&#7789;ho ida&#7747; vacanamabr&#363;vi&#7747;<br />
+S&#257;dhu khosi anuppatto gh&#257;sa hetu mamantike. 
+
+<br />&nbsp;<br />
+
+1. C&#257;rako-machasa&#7747;. 2. Si&#7749;g&#257;lo-machasa&#7747;. 3. P&#257;toc&#257;dissare-s&#299;mu. <br />
+4. &#256;cikkhi-machasa&#7747; s&#299;mu. 5. Ta&#7747;me-machasa&#7747;. 6. Gavesiyu&#7747;-s&#299;mu. Gaveseyayu&#7747;-machasa&#7747;. <br />
+7. Yadi eti - [PTS] 8. Va&#7751;&#7751;ino - s&#299;mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 276] [\x 276/]      
+
+<br />&nbsp;<br />
+
+136. Adinnapubba&#7747;1 d&#257;navara&#7747; ajja dass&#257;mi te aha&#7747;<br />
+Tuva&#7747; s&#299;lagu&#7751;&#363;peto ayuttante parahe&#7789;hana&#7747;. 
+
+<br />&nbsp;<br />
+
+137. Ehi aggi&#7747; pad&#299;pehi n&#257;n&#257; ka&#7789;&#7789;he sam&#257;niya<br />
+Aha&#7747; pacissamatt&#257;na&#7747; pakka&#7747; tva&#7747; bhakkhayissasi. 
+
+<br />&nbsp;<br />
+
+138. S&#257;dh&#363;ti so ha&#7789;&#7789;hamano n&#257;n&#257; ka&#7789;&#7789;he sam&#257;nayi<br />
+Mahanta&#7747; ad&#257;si citaka&#7747; katv&#257; na&#7749;g&#257;ra 2 gabbhaka&#7747;. 
+
+<br />&nbsp;<br />
+
+139. Aggi&#7747; tattha pad&#299;pesi yath&#257;so khippa&#7747; mah&#257; bhave<br />
+Pho&#7789;etv&#257; rajagate gatte ekamanta&#7747; up&#257;visi&#7747;. 
+
+<br />&nbsp;<br />
+
+140. Yad&#257; mah&#257; ka&#7789;&#7789;hapu&#241;jo &#257;ditto'dhama dham&#257;yati3<br />
+Taduppatitv&#257; papati&#7747;4 majjhe j&#257;lasikhantare. <br />
+[<a id='pts.083'><b>PTS Page 083</b></a>] [\q  83/]      <br />
+141. Yath&#257; s&#299;todaka&#7747; n&#257;ma pavi&#7789;&#7789;ha&#7747; yassa kassaci<br />
+Sameti darathapari&#7735;&#257;ha&#7747; ass&#257;da&#7747; deti p&#299;ti ca 5. 
+
+<br />&nbsp;<br />
+
+142. Tatheva jalata&#7747; aggi&#7747; pavi&#7789;&#7789;hassa mama&#7747;6 tad&#257;<br />
+Sabba&#7747; sameti daratha&#7747; yath&#257; s&#299;todaka&#7747; viya. 
+
+<br />&nbsp;<br />
+
+143. Chavi chamma&#7747; ma&#7747;sa&#7747;naharu&#7747;7 a&#7789;&#7789;hi&#7747; hadaya bandhana&#7747;<br />
+Kevala&#7747; sakala&#7747; k&#257;ya&#7747; br&#257;hma&#7751;assa ad&#257;sahant&#299;. 
+
+<br />&nbsp;<br />
+
+Sasapa&#7751;&#7693;ita cariya&#7747; dasama&#7747;. 
+
+<br />&nbsp;<br />
+
+Akitti br&#257;hma&#7751;o sa&#7749;kho kur&#257;r&#257;j&#257; dhana&#241;jayo<br />
+Mah&#257; sudassano r&#257;j&#257; mah&#257;govinda br&#257;hma&#7751;o. 
+
+<br />&nbsp;<br />
+
+Nimi canda kum&#257;ro ca sivi vessantaro saso<br />
+Ahameva tad&#257; &#257;si&#7747; yo te d&#257;navare ad&#257;. <br />
+Ete d&#257;naparikkh&#257;r&#257; ete d&#257;nassa p&#257;ram&#299;<br />
+J&#299;vita&#7747;8 y&#257;cake datv&#257; ima&#7747; p&#257;rami 9 p&#363;rayi&#7747;. <br />
+Bhikkh&#257;yupagata&#7747; disv&#257; sakatt&#257;na&#7747; pariccaji&#7747;<br />
+D&#257;nena me samo natthi es&#257; me d&#257;nap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+D&#257;nap&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+1. Pubba-machasa&#7747;. 2. A&#7749;g&#257;ra-machasa&#7747;. 3. Dh&#363;ma dh&#363;m&#257;yati-s&#299;. Mu. Dhumm&#257;yati-machasa&#7747;. <br />
+4. Pasati-si&#7747;. Machasa&#7747;. 5. P&#299;ti&#241;ca-machasa&#7747;. 6. Mama-machasa&#7747;. 7. Nah&#257;ru-machasa&#7747;. <br />
+8. J&#299;vita-majyaya&#7747;. 9. P&#257;rami&#7747;-yajasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 278] [\x 278/]      
+
+<br />&nbsp;<br />
+
+2. S&#299;lap&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+1. M&#257;tuposaka cariya&#7747;<br />
+[<a id='pts.084'><b>PTS Page 084</b></a>] [\q  84/]      <br />
+144. Yad&#257; ahosi1 pavane ku&#241;jaro m&#257;tuposako<br />
+Na tad&#257; atthi mahiy&#257; gu&#7751;ena mama s&#257;diso. 
+
+<br />&nbsp;<br />
+
+145. Pavane disv&#257; vanacaro ra&#241;&#241;o ma&#7747; pa&#7789;ivedayi<br />
+Tav&#257;nucchavo mah&#257;r&#257;ja gajo vasati k&#257;nane. 
+
+<br />&nbsp;<br />
+
+146. Na tassa parikh&#257;ya'tthe 2 napi &#257;&#7735;hakak&#257;suy&#257;3<br />
+Sama&#7747; gahite so&#7751;&#7693;&#257;ya sayameva idhehiti 4. 
+
+<br />&nbsp;<br />
+
+147. Tassa ta&#7747; vacana&#7747; sutv&#257; r&#257;j&#257;pi tu&#7789;&#7789;ham&#257;naso<br />
+Pesesi hatthidamaka&#7747; chek&#257;cariya&#7747; susikkhita&#7747;. 
+
+<br />&nbsp;<br />
+
+148. Gantv&#257;na 5 so hatthidamako addasa padumassare<br />
+Bhisamul&#257;la&#7747; uddharanta&#7747; y&#257;panatth&#257;ya m&#257;tuy&#257;. 
+
+<br />&nbsp;<br />
+
+149. Vi&#241;&#241;&#257;ya me s&#299;lagu&#7751;a&#7747; lakkha&#7751;a&#7747; upadh&#257;rayi<br />
+Ehi putt&#257;ni vatv&#257;na mama so&#7751;&#7693;&#257;ya aggahi. 
+
+<br />&nbsp;<br />
+
+150. Yamme tad&#257; p&#257;katika&#7747; sar&#299;r&#257;nugata&#7747; bala&#7747;<br />
+Ajja n&#257;gasahass&#257;na&#7747; balena samas&#257;disa&#7747;. 
+
+<br />&nbsp;<br />
+
+151. Yadiha&#7747; tesa&#7747; pakuppeyya&#7747; upet&#257;na&#7747;6 gahan&#257;ya ma&#7747;<br />
+Pa&#7789;ibalo bhave tesa&#7747; y&#257;va rajjampi m&#257;nusa&#7747;. 
+
+<br />&nbsp;<br />
+
+152. Api c&#257;ha&#7747; s&#299;la7 rakkh&#257;ya s&#299;lap&#257;ram&#299; p&#363;riya 8<br />
+Na karomi citte a&#241;&#241;athatta&#7747; pakkhipante mam&#257;&#7735;hake. 
+
+<br />&nbsp;<br />
+
+153. Yadi te ma&#7747; tattha ko&#7789;&#7789;eyyu&#7747; eras&#363;hi tomarehi ca<br />
+Neva tesa&#7747; pakuppeyya&#7747; s&#299;lakha&#7751;&#7693;abhay&#257; mam&#257;ti. 
+
+<br />&nbsp;<br />
+
+M&#257;tuposakacariya&#7747; pa&#7789;hama&#7747;9. 
+
+<br />&nbsp;<br />
+
+1. Ahosi-machasa&#7747;. 2. Parikkh&#257;-machasa&#7747;. 3. Napiy&#257;&#7735;haka-s&#299;mu napi&#7735;&#257;laka-[PTS-]napi&#257;&#7735;aka-machasa&#7747;. <br />
+4. Iteyehiti-machasa&#7747;. 5. Gantv&#257;-s&#299;mu. 6. Upeta&#7747;-katthaci. <br />
+7. S&#299;la&#7747;rakkh&#257;ya-s&#299;mu. 8. P&#363;riy&#257;-n&#257;-machasa&#7747;, 9. S&#299;lavan&#257;gacariya&#7747; pa&#7789;hama&#7747;-si&#7747;. <br />
+P&#363;rayi&#7747;-si&#7747;. 
+
+<br />&nbsp;<br />
+
+[BJT Page 280] [\x 280/]      
+
+<br />&nbsp;<br />
+
+2. Bh&#363;ridatta cariya&#7747;<br />
+[<a id='pts.085'><b>PTS Page 085</b></a>] [\q  85/]      <br />
+154. Pun&#257;para&#7747; yad&#257; homi bh&#363;ridatto mahiddhiko<br />
+Vir&#363;pakkhena mah&#257;ra&#241;&#241;&#257; devalokamagacchaha&#7747;. 
+
+<br />&nbsp;<br />
+
+155. Tattha passitvaha&#7747; deve ekanta&#7747; sukha samappite<br />
+Ta&#7747; sagga&#7747; gamanatth&#257;ya s&#299;labbata&#7747; sam&#257;diyi&#7747;. 
+
+<br />&nbsp;<br />
+
+156. Sar&#299;rakicca&#7747; katv&#257;na bh&#363;tv&#257; y&#257;panamattaka&#7747;<br />
+Caturo a&#7749;ge adhi&#7789;&#7789;h&#257;ya semi vammika muddhani. 
+
+<br />&nbsp;<br />
+
+157. Chaviy&#257; cammena ma&#7747;sena nah&#257;rua&#7789;&#7789;hikehi v&#257;<br />
+Yassa etena kara&#7751;&#299;ya&#7747; dinna&#7747; eva har&#257;tu1 so. 
+
+<br />&nbsp;<br />
+
+158. Sa&#7747;sito akata&#241;&#241;un&#257; &#257;lambano2 mamaggahi<br />
+Pe&#7735;&#257;ya pakkhipitv&#257;na 3 k&#299;&#7735;eti ma&#7747; tahi&#7747; tahi&#7747;. 
+
+<br />&nbsp;<br />
+
+159. Pe&#7735;&#257;ya pakkhipantepi sammaddantepi p&#257;&#7751;in&#257;<br />
+&#256;lambane 4 na kupp&#257;mi s&#299;lakha&#7751;&#7693;abhay&#257; mama. 
+
+<br />&nbsp;<br />
+
+160. Sakaj&#299;vita paricc&#257;go ti&#7751;ato lahuko kama<br />
+S&#299;lav&#299;tikkamo mayha&#7747; pa&#7789;hav&#299;ubbattan&#257;5 viya. 
+
+<br />&nbsp;<br />
+
+161. Nirantara&#7747; j&#257;tisata&#7747; cajeyya&#7747; mama j&#299;vita&#7747;<br />
+Neva s&#299;la&#7747; pabhindeyya&#7747; catud&#299;p&#257;nahetupi. 
+
+<br />&nbsp;<br />
+
+162. Api c&#257;ha&#7747; s&#299;la 6 rakkh&#257;ya s&#299;lap&#257;ramip&#363;riy&#257;<br />
+Na karomi citte a&#241;&#241;athatta&#7747; pakkhipantamhi pe&#7735;aketi. 
+
+<br />&nbsp;<br />
+
+Bh&#363;ridatta cariya&#7747; dutiya&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Haratu-s&#299;mu. 2. &#256;lamp&#257;yano-machasa&#7747;. 3. Pakkhipetv&#257;na-machasa&#7747;. <br />
+&#256;lampano-[PTS] 4. &#256;lampane-machasa&#7747;. 5. Uppatan&#257;-si&#7747;-uppattan&#257;-machasa&#7747;. 6. S&#299;la&#7747; rakkh&#257;ya-s&#299;. Mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 282] [\x 282/]      
+
+<br />&nbsp;<br />
+
+3. Campeyyan&#257;ga cariya&#7747;
+
+<br />&nbsp;<br />
+
+167. Pun&#257;para&#7747; yad&#257; homi campeyyako mahiddhiko<br />
+Tad&#257;pi dhammiko &#257;si&#7747;1 s&#299;labbatasamappito. 
+
+<br />&nbsp;<br />
+
+168. Tad&#257;pi ma&#7747; dhammac&#257;ri&#7747; upavuttha&#7747; uposatha&#7747;<br />
+Ahitu&#7751;&#7693;iko2 gahetv&#257;na r&#257;jadv&#257;ramhi k&#299;&#7735;ati. 
+
+<br />&nbsp;<br />
+
+169. Ya&#7747;3 so va&#7751;&#7751;a&#7747; cintayati n&#299;la&#7747; p&#299;ta&#241;ca 4 lohita&#7747;<br />
+Tassa citt&#257;nuvattento homi cint&#299;ta santibho. <br />
+[<a id='pts.086'><b>PTS Page 086</b></a>] [\q  86/]      <br />
+170. Thala&#7747; kareyya&#7747;5 udaka&#7747; udakamp&#299; thala&#7747; kare<br />
+Yadiha&#7747; tassa pakuppeyya&#7747; kha&#7751;ena j&#257;rika&#7747; kare. 
+
+<br />&nbsp;<br />
+
+171. Yadi cittavas&#299; hessa&#7747; parih&#257;yiss&#257;mi s&#299;lato<br />
+S&#299;lena parih&#299;&#7751;assa uttamattho na sijjhati. 
+
+<br />&nbsp;<br />
+
+172. K&#257;ma&#7747; bhijjatu ya&#7747; k&#257;yo idheva vikir&#299;yatu<br />
+Neva s&#299;la&#7747; pabhindeyya&#7747; vikirante bhusa&#7747; viy&#257;ti. 
+
+<br />&nbsp;<br />
+
+Campeyya n&#257;gacariya&#7747; tatiya&#7747;. 
+
+<br />&nbsp;<br />
+
+
+4. Cullabodhi cariya&#7747;
+
+<br />&nbsp;<br />
+
+173. Pun&#257;para&#7747; yad&#257; homi cullabodhi 6 sus&#299;lav&#257;<br />
+Bhava&#7747; disv&#257;na bhayato nekkhamma&#7747; abhinikkhami&#7747;7. 
+
+<br />&nbsp;<br />
+
+174. Y&#257;me dut&#299;yik&#257; &#257;si br&#257;hma&#7751;&#299; kanakasantibh&#257;<br />
+S&#257;pi va&#7789;&#7789;e anapekkh&#257; nekkhamma&#7747; abhinikkham&#299;. 
+
+<br />&nbsp;<br />
+
+175. Nir&#257;lay&#257; jinna bandhu anapekkha kule ga&#7751;e<br />
+Carant&#257;g&#257;manigama&#7747; b&#257;r&#257;&#7751;asi mup&#257;gamu&#7747;. 
+
+<br />&nbsp;<br />
+
+176. Tattha vas&#257;ma nipak&#257; asa&#7747;sa&#7789;&#7789;h&#257; kule ga&#7751;e<br />
+Nir&#257;kule appasadde r&#257;juyy&#257;ne vas&#257;mubho. 
+
+<br />&nbsp;<br />
+
+1. &#256;s&#299;-si&#7747;-[PTS] 2] Ahigu&#7751;&#7693;iko si&#7747;. 3. Ya&#7747; ya&#7747; - machasa&#7747;. <br />
+4. N&#299;lap&#299;ta&#7747;ca-[PTS-]n&#299;la&#7747;ca p&#299;ta&#7747; machasa&#7747;. <br />
+N&#299;la&#241;ca p&#299;ta&#7747;lohita&#7747;-s&#299;. Mu. 5. Kareyya mudaka&#7747; - machasa&#7747;. <br />
+6. C&#363;&#7735;a- machasa&#7747;. 7. Abhinikkhami -s&#299;mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 284] [\x 284/]     
+
+<br />&nbsp;<br />
+
+177. Uyy&#257;na dassana&#7747; gantv&#257; r&#257;j&#257; addasa br&#257;hma&#7751;i&#7747;<br />
+Upagamma mama&#7747; pucchi tuyhes&#257; kassa bh&#257;riy&#257;1. 
+
+<br />&nbsp;<br />
+
+178. Eva&#7747; vutte aha&#7747; tassa ida&#7747; vacanamabravi<br />
+Na mayha&#7747; bhariy&#257; es&#257; sahadhamm&#257;2 ekas&#257;san&#299;. 
+
+<br />&nbsp;<br />
+
+179. Tass&#257;3s&#257;ratt&#257;dhigato4 g&#257;h&#257;petv&#257;na ve&#7789;ake 5<br />
+Nipp&#299;&#7735;ayanto balas&#257; antepura&#7747; pavesay&#299;. 
+
+<br />&nbsp;<br />
+
+180. Odapattakiy&#257;6 mayha&#7747; sahaj&#257; ekas&#257;san&#299;<br />
+&#256;ka&#7693;&#7693;hitv&#257; nayantiy&#257;7 kopo me uppajjatha. 
+
+<br />&nbsp;<br />
+
+181. Saha kope samuppanne s&#299;labbatamanussari&#7747;<br />
+Tattheva kopa&#7747; nigga&#7751;hi&#7747; n&#257;d&#257;si&#7747; va&#7693;&#7693;hit&#363;pari 8 
+
+<br />&nbsp;<br />
+
+182. Yadiha&#7747;9 br&#257;hma&#7751;i&#7747; koci ko&#7789;&#7789;eyya ti&#7751;hasattiy&#257;<br />
+Neva s&#299;la&#7747; pabhindeyya&#7747; bodhiy&#257;yeva k&#257;ra&#7751;&#257;. 
+
+<br />&nbsp;<br />
+
+183. Name s&#257; br&#257;hma&#7751;&#299; dess&#257; na pi me bala&#7747; na vijjati<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; s&#299;l&#257;nurakkhissanti. <br />
+Cullabodhicariya&#7747; catuttha&#7747;. 
+
+<br />&nbsp;<br />
+
+
+5. Mahisar&#257;ja cariya&#7747;<br />
+[<a id='pts.087'><b>PTS Page 087</b></a>] [\q  87/]      <br />
+184. Pun&#257;para&#7747; yad&#257; homi mahiso10 pavanac&#257;riko11<br />
+Pava&#7693;&#7693;hak&#257;yo balav&#257; mahanto bh&#299;ma dassano. 
+
+<br />&nbsp;<br />
+
+185. Pabbh&#257;re giri dugge ca rukkham&#363;le dak&#257;saye<br />
+Hotettha &#7789;h&#257;na&#7747; mahis&#257;na&#7747;12 koci koci tahi&#7747; tahi&#7747;. 
+
+<br />&nbsp;<br />
+
+186. Vicaranto brah&#257;ra&#241;&#241;e &#7789;h&#257;na&#7747; addasa bhaddaka&#7747;<br />
+Ta&#7747; &#7789;h&#257;na&#7747; upagantv&#257;na ti&#7789;&#7789;h&#257;mi ca say&#257;mi ca. 
+
+<br />&nbsp;<br />
+
+1. Bh&#257;riy&#257;ti-machasa&#7747;. 2. Sahaj&#257;-machasa&#7747;. 3. Tiss&#257;-machasa&#7747;. 4. S&#257;rattagadhito-s&#299;mu<br />
+5. Cetake-machasa&#7747;. 6. Odapattikiy&#257;-[PTS] 7. N&#299;yantiy&#257;-[PTS] <br />
+8. Va&#7693;a&#7693;tuppari-machasa&#7747;. 9. Yadida&#7747;-machasa&#7747;. 10. Mahi&#7747;s&#257;-machasa&#7747;. <br />
+Vu&#7693;a&#7693;hitupari-[PTS] 11. C&#257;rako-si&#7747;. 12. Mahis&#257;na&#7747;-machasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 286] [\x 286/]     
+
+<br />&nbsp;<br />
+
+187. Athettha kapim&#257;gantv&#257; p&#257;po anariyo lah&#363;<br />
+Khandhe nal&#257;&#7789;e bhamuke mutteti oha&#7751;eti ma&#7747;. 
+
+<br />&nbsp;<br />
+
+188. Sakimpi divasa&#7747; dutiya&#7747; tatiya&#7747; catutthampi ca <br />
+D&#363;seti ma&#7747; sabbak&#257;la&#7747; tena homi upadduto. 
+
+<br />&nbsp;<br />
+
+189. Mama&#7747; upadduta&#7747; disv&#257; yakkho ma&#7747; idamabravi<br />
+N&#257;seheta&#7747;1 chava&#7747; p&#257;pa&#7747; si&#7749;gehi ca khurehi ca. 
+
+<br />&nbsp;<br />
+
+190. Eva&#7747; vutte tad&#257; yakkhe aha&#7747; ta&#7747; idamabravi&#7747;<br />
+Ki&#7747;tva&#7747; makkhesi ku&#7751;apena p&#257;pena anariyena ma&#7747;2. 
+
+<br />&nbsp;<br />
+
+191. Yadiha&#7747; tassa kuppeyya&#7747; tato h&#299;nataro bhave<br />
+S&#299;la&#241;ca me pabhijjeyya vi&#241;&#241;&#363; ca garaheyyu ma&#7747;. 
+
+<br />&nbsp;<br />
+
+192. H&#299;&#7735;it&#257; j&#299;vit&#257; c&#257;pi parisuddhena mata&#7747; vara&#7747;<br />
+Ky&#257;ha&#7747; j&#299;vitahetupi k&#257;h&#257;mi parahe&#7789;hana&#7747;. 
+
+<br />&nbsp;<br />
+
+193. Mame v&#257;ya 3 ma&#241;&#241;am&#257;no a&#241;&#241;epeva&#7747; karissati<br />
+Teva tattha vadhissanti s&#257; me mutti bhavissati. 
+
+<br />&nbsp;<br />
+
+194. H&#299;namajjhimaukka&#7789;&#7789;he sahanto avam&#257;nita&#7747;<br />
+Eva&#7747; labhati sappa&#241;&#241;o manas&#257; yath&#257;patthitanti. 
+
+<br />&nbsp;<br />
+
+Mahisa 4 r&#257;jacariya&#7747; pa&#241;cama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+6. Rurumigar&#257;ja cariya&#7747;
+
+<br />&nbsp;<br />
+
+195. Pun&#257;para&#7747; yad&#257; homi suttanta kanakasann&#299;bho<br />
+Migar&#257;j&#257; r&#363;run&#257;ma paramas&#299;la sam&#257;hito. 
+
+<br />&nbsp;<br />
+
+196. Ramme padese rama&#7751;&#299;ye vivitte amanussake<br />
+Tattha v&#257;sa&#7747; upaga&#241;ji&#7747; ga&#7747;g&#257;k&#363;le manorame. 
+
+<br />&nbsp;<br />
+
+[X] &#363;hadaki itibhavitabba&#7747;<br />
+1. N&#257;saheta&#7747;-simu. 2. Anariyena-machasa&#7747;. 3. Ma&#7747;-&#7735;uv&#257;ya&#7747;-[PTS] 4. Mahi&#7747;sa-machasa&#7747;<br />
+[<a id='pts.088'><b>PTS Page 088</b></a>] [\q  88/]      <br />
+[BJT Page 288] [\x 288/]     <br />
+197. Atho upariga&#7747;g&#257;ya dhanikehi parip&#299;&#7735;ito<br />
+Puriso ga&#7747;g&#257;ya papati1 j&#299;v&#257;mi v&#257; mar&#257;mi v&#257;
+
+<br />&nbsp;<br />
+
+198. Rattindiva&#7747; so ga&#7749;g&#257;ya vuyham&#257;no mahodake<br />
+Ravanto karu&#7751;a&#7747; r&#257;va&#7747;2 majjhe ga&#7749;g&#257;ya gacchati. 
+
+<br />&nbsp;<br />
+
+199. Tass&#257;ha&#7747; sadda&#7747; sutv&#257;na karu&#7751;a&#7747; paridevato<br />
+Ga&#7749;g&#257;ya t&#299;re &#7789;hatv&#257;na apucchi&#7747; kosi tva&#7747; naro. 
+
+<br />&nbsp;<br />
+
+200. So me pu&#7789;&#7789;ho ca vy&#257;k&#257;si attano k&#257;ra&#7751;a&#7747; tad&#257;<br />
+Dhanikehi bh&#299;to tasito pakkhannoha&#7747; mah&#257;nadi&#7747;. 
+
+<br />&nbsp;<br />
+
+201. Tassa katv&#257;na k&#257;ru&#241;&#241;a&#7747; cajitv&#257; mama j&#299;vita&#7747;<br />
+Pavisitv&#257; n&#299;hari&#7747; tassa andhak&#257;ramhi rattiy&#257;. 
+
+<br />&nbsp;<br />
+
+202. Assattha 3 k&#257;lama&#241;&#241;&#257;ya tass&#257;ha&#7747; idamabruvi&#7747;<br />
+Eka&#7747; ta&#7747; vara&#7747; y&#257;c&#257;mi m&#257; ma&#7747; kassaci p&#257;vada. 
+
+<br />&nbsp;<br />
+
+203. Nagara&#7747; gantv&#257;na &#257;cikkhi pucchito dhana hetuko<br />
+R&#257;j&#257;na&#7747; so gahetv&#257;na upaga&#241;ch&#299; mamantika&#7747;. 
+
+<br />&nbsp;<br />
+
+204. Y&#257;vat&#257; k&#257;ra&#7751;a&#7747; sabba&#7747; ra&#241;&#241;o &#257;rocita&#7747; may&#257;<br />
+R&#257;j&#257; sutv&#257;na vacana&#7747; usu&#7747;4 tassa pakappay&#299;<br />
+Idheva gh&#257;tayiss&#257;mi mitta dubbhi&#7747;5 an&#257;riya&#7747;. 
+
+<br />&nbsp;<br />
+
+205. Tamaha&#7747; anurakkhanto nimmini&#7747; mama attano<br />
+Ti&#7789;&#7789;hate so mah&#257;r&#257;ja k&#257;ma&#7749;k&#257;ro6 bhav&#257;mi te. 
+
+<br />&nbsp;<br />
+
+206. Anurakkhi&#7747; mama s&#299;la&#7747; n&#257;rakkhi&#7747; mama j&#299;vita&#7747;<br />
+S&#299;lav&#257; hi tad&#257; &#257;si&#7747; bodhiy&#257; eva k&#257;ra&#7751;&#257;ti. 
+
+<br />&nbsp;<br />
+
+Rurur&#257;ja cariya&#7747; cha&#7789;&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Patati-machasa&#7747;-n&#257;-[PTS] 2. Rava&#7747;-machasa&#7747;-[PTS] 3. Assatta-s&#299;mu. <br />
+4. Ussu&#7747;-machasa&#7747;-[PTS] 5. Dubhi&#7747;-s&#299;mu-dubbhi-n&#257;. 6. K&#257;mak&#257;ro-s&#299;. Mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 290] [\x 290/]      
+
+<br />&nbsp;<br />
+
+7. M&#257;ta&#7749;ga cariya&#7747;
+
+<br />&nbsp;<br />
+
+207. Pun&#257;para&#7747; yad&#257; homi ja&#7789;ilo uggat&#257;pano<br />
+M&#257;ta&#7749;go n&#257;ma n&#257;mena s&#299;lav&#257; supam&#257;hito. 
+
+<br />&nbsp;<br />
+
+208. Aha&#241;ca br&#257;hma&#7751;o eko ga&#7749;g&#257;k&#363;le vas&#257;mubho<br />
+Aha&#7747; vas&#257;mi upari he&#7789;&#7789;h&#257; vasati br&#257;hma&#7751;o. 
+
+<br />&nbsp;<br />
+
+209. Vicaranto anuk&#363;lamhi uddha&#7747; me assamaddasa<br />
+Tattha ma&#7747; paribh&#257;setv&#257;1 abhisapi muddhaph&#257;lana&#7747;. 
+
+<br />&nbsp;<br />
+
+210. Yadiha&#7747; tassa pakuppeyya&#7747; yadi s&#299;la&#7747; na gopaye<br />
+Oloketv&#257;na 'ha&#7747; tassa kareyya&#7747; ch&#257;rika&#7747; viya. <br />
+[<a id='pts.089'><b>PTS Page 089</b></a>] [\q  89/]      <br />
+211. Ya&#7747; so tad&#257; ma&#7747; abhisapi kupito du&#7789;&#7789;ham&#257;naso<br />
+Tasseva matthake nipati yogena ta&#7747; pamocayi&#7747;. 
+
+<br />&nbsp;<br />
+
+212. Anurakkhi&#7747; mama s&#299;la&#7747; n&#257;rakkhi&#7747; mama j&#299;vita&#7747;<br />
+S&#299;lav&#257; hi tad&#257; &#257;si&#7747; bodhiy&#257; yeva k&#257;ra&#7751;&#257;ti. 
+
+<br />&nbsp;<br />
+
+M&#257;ta&#7749;gacariya&#7747; sattama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+8. Dhammadevaputta cariya&#7747;
+
+<br />&nbsp;<br />
+
+213. Pun&#257;para&#7747; yad&#257; homi mahesakko2 mahiddhiko<br />
+Dhammo n&#257;ma mah&#257;yakkho sabbalok&#257;nukampako. 
+
+<br />&nbsp;<br />
+
+214. Dasa kusalakammapathe sam&#257;dapento mah&#257;jana&#7747;<br />
+Car&#257;mi g&#257;manigama&#7747; samitto saparijjano. 
+
+<br />&nbsp;<br />
+
+215. P&#257;po kadariyo yakkho d&#299;pento dasa p&#257;pake<br />
+Sopettha 3 mahiy&#257; carati samitto saparijjano. 
+
+<br />&nbsp;<br />
+
+216. Dhammav&#257;d&#299; adhammo ca ubho paccanik&#257; maya&#7747;<br />
+Dh&#363;re dh&#363;ra&#7747; gha&#7789;&#7789;ayant&#257; samimh&#257; pa&#7789;ipathe ubho. 
+
+<br />&nbsp;<br />
+
+1. Paribh&#257;sitv&#257;-s&#299;mu. 2. Mah&#257;yakkho-si&#7747;-[PTS] 3. Socettha-s&#299;mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 292] [\x 292/]      
+
+<br />&nbsp;<br />
+
+217. Kalaho vattat&#299; bhesm&#257; kaly&#257;&#7751;ap&#257;pakassa ca <br />
+Magg&#257; okkamanatth&#257;ya1 mah&#257;yuddho upa&#7789;&#7789;hito. 
+
+<br />&nbsp;<br />
+
+218. Yadiha&#7747; tassa pakuppeyya&#7747; yadi bhinde tapogu&#7751;a&#7747;<br />
+Saha parijana&#7747; tassa rajabh&#363;ta&#7747; kareyyaha&#7747;. 
+
+<br />&nbsp;<br />
+
+219. Apic&#257;'ha&#7747; s&#299;larakkh&#257;ya nibb&#257;petv&#257;na m&#257;nasa&#7747;<br />
+Saha janenokkamitv&#257; patha&#7747; p&#257;passa 'd&#257;saha&#7747;. 
+
+<br />&nbsp;<br />
+
+220. Saha pathato okkante katv&#257; cittassa nibbuti&#7747;<br />
+C&#299;vara&#7747; ad&#257;si pa&#7789;hav&#299; p&#257;payakkhassa t&#257;vadeti. <br />
+Dhamma 2devaputta cariya&#7747; a&#7789;&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+9. Al&#299;nasatta cariya&#7747;<br />
+[<a id='pts.090'><b>PTS Page 090</b></a>] [\q  90/]      <br />
+221. Pa&#241;c&#257;lara&#7789;&#7789;he nagaravare 3 kampill&#257;ya&#7747;4 puruttame<br />
+R&#257;j&#257; jayaddiso n&#257;ma s&#299;lagu&#7751;amup&#257;gato. 
+
+<br />&nbsp;<br />
+
+222. Tasasa ra&#241;&#241;o aha&#7747; putto sutadhammo sus&#299;lav&#257;<br />
+Al&#299;nasatto gu&#7751;av&#257; anurattaparijano5 sad&#257;. 
+
+<br />&nbsp;<br />
+
+223. Pit&#257; me migava&#7747; gantv&#257; poris&#257;da&#7747; up&#257;gami<br />
+So me pitumaggahesi bhakkhosi mama m&#257; cali. 
+
+<br />&nbsp;<br />
+
+224. Tassa ta&#7747; vacana&#7747; sutv&#257; bh&#299;to tasitavedhito<br />
+&#362;rukkhambho ah&#363; tassa disv&#257;na poris&#257;daka&#7747;. 
+
+<br />&nbsp;<br />
+
+225. Migava&#7747; gahetv&#257; mu&#241;cassu katv&#257; &#257;gamana&#7747; puna<br />
+Br&#257;hma&#7751;assa dhana&#7747; datv&#257; pit&#257; &#257;mantay&#299; mama&#7747;. 
+
+<br />&nbsp;<br />
+
+226. Rajja&#7747; putta, pa&#7789;ipajja m&#257; pamajj&#299; pura&#7747; ida&#7747; <br />
+Kata&#7747; me poris&#257;dena mama &#257;gamana&#7747; puna. 
+
+<br />&nbsp;<br />
+
+1. Ukkamanatth&#257;ya-sy&#257;. 2. Dhamm&#257; dhamma deva putta-s&#299;. Mu. 3. Nagare-[PTS] 4. Kapil&#257;ya&#7747;-s&#299;. Mu. <br />
+Kappil&#257;ya-[PTS-]kappi<br />
+L&#257;ya&#7747;-sy&#257;. 5. Anurakkha parijano-[PTS-]sy&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 294] [\x 294/]     
+
+<br />&nbsp;<br />
+
+227. M&#257;tu pit&#363; ca vanditv&#257; nissajitv&#257;na att&#257;na&#7747;1<br />
+Nikkhipitv&#257; dhanu&#7747;2 khagga&#7747; poris&#257;da mup&#257;gami&#7747;. 
+
+<br />&nbsp;<br />
+
+228. Sasatthahatth&#363;pagata&#7747; kad&#257;ci so tasissat&#299;<br />
+Tena bhijjissat&#299; s&#299;la&#7747; paritt&#257;sa&#7747; kate3 mayi. 
+
+<br />&nbsp;<br />
+
+229. S&#299;la kha&#7751;&#7693;abhay&#257;, mayha&#7747; tassa dessa&#7747; na by&#257;hari&#7747;<br />
+Mettacitto hitav&#257;d&#299; ida&#7747; vacanamabruvi&#7747;. 
+
+<br />&nbsp;<br />
+
+230. Ujj&#257;lehi mah&#257;aggi&#7747; papatiss&#257;mi rukkhato<br />
+Sampakka k&#257;lama&#241;&#241;&#257;ya bhakkhaya tva&#7747;4 pit&#257;maha. 
+
+<br />&nbsp;<br />
+
+231. Iti s&#299;lavata&#7747; hetu n&#257;rakkhi&#7747; mama j&#299;vita&#7747;<br />
+Pabb&#257;jesi&#7747; caha&#7747;5 tassa sad&#257; p&#257;&#7751;&#257;tip&#257;tikanti. 
+
+<br />&nbsp;<br />
+
+Al&#299;nasatta cariya&#7747; navama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+10. Sa&#7749;khap&#257;la cariya&#7747;<br />
+[<a id='pts.091'><b>PTS Page 091</b></a>] [\q  91/]      <br />
+232. Pun&#257;para&#7747; yad&#257; homi sa&#7749;khap&#257;lo mahiddhiko<br />
+D&#257;&#7789;h&#257;vudho ghoraviso dvijivho ur&#257;g&#257;dhibh&#363; 6. 
+
+<br />&nbsp;<br />
+
+233. Catuppathe mah&#257;magge n&#257;n&#257; janasam&#257;kule<br />
+Caturo a&#7749;ge adhi&#7789;&#7789;h&#257;ya tattha v&#257;samakappayi&#7747;. 
+
+<br />&nbsp;<br />
+
+234. Chaviy&#257; cammena ma&#7747;sena nah&#257;ru a&#7789;&#7789;hikehi v&#257;<br />
+Yassa etena kara&#7751;&#299;ya&#7747; dinna&#7747; yeva har&#257;tu so. 
+
+<br />&nbsp;<br />
+
+235. Addasa&#7747;su bhojaputt&#257; khar&#257; ludd&#257; ak&#257;ru&#7751;&#257;<br />
+Upaga&#241;chu&#7747; mama&#7747; tattha da&#7751;&#7693;amuggarap&#257;&#7751;ino. 
+
+<br />&nbsp;<br />
+
+236. N&#257;s&#257;ya vinivijjhitv&#257; na&#7749;gu&#7789;&#7789;he pi&#7789;&#7789;hika&#7751;&#7789;ake<br />
+K&#257;je &#257;ropayitv&#257;na bhojaputt&#257; hari&#7747;su ma&#7747;. 
+
+<br />&nbsp;<br />
+
+
+1. Nimminitv&#257;na attan&#257;-s&#299;. Mu, pa. 2. Dhanu-[PTS] 3. Gate-s&#299;. Mu. <br />
+4. Bhakkhaya ma&#7747;-s&#299;. Mu. 5. Pabb&#257;jesimha&#7747; s&#299;. Mu. <br />
+Pabb&#257;jesi&#7747;c&#257;ha&#7747; [PTS] 6. Urag&#257;bhigu s&#299;. Mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 296] [\x 296/]      
+
+<br />&nbsp;<br />
+
+237. Sap&#257;garanta&#7747; pa&#7789;havi&#7747; sak&#257;nana&#7747; sapabbata&#7747; iccham&#257;no caha&#7747;1 tattha n&#257;s&#257;v&#257;tena 2 jh&#257;paye. <br />
+238. S&#363;lehi vijjhiyantepi ko&#7789;&#7789;ayantepi sattihi<br />
+Bhojaputte na kupp&#257;mi es&#257; me s&#299;lap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Sa&#7749;khap&#257;la cariya&#7747; dasama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+Hatthi n&#257;go bh&#363;ridatto campeyyo bodhi m&#257;hiso<br />
+Rur&#257;m&#257;ta&#7749;go dhammo ca atrajo ca jayaddiso. <br />
+Ete sabbe s&#299;labal&#257; parikkh&#257;r&#257; padesik&#257;<br />
+J&#299;vita&#7747; parirakkhitv&#257; s&#299;l&#257;ni anurakkhissa&#7747;. <br />
+Sa&#7749;khap&#257;lassa me sato sabbak&#257;lampi j&#299;vita&#7747;<br />
+Yassa kassaci n&#299;yanta&#7747; tasm&#257; s&#257; s&#299;lap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+S&#299;la p&#257;ram&#299;niddeso ni&#7789;&#7789;hito. 
+
+<br />&nbsp;<br />
+
+1. Maha&#7747; s&#299;. Mu. 2. N&#257;sa v&#257;tena - [PTS]<br />
+[BJT Page 298] [\x 298/]     
+
+<br />&nbsp;<br />
+
+3. Nekkhamma p&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+1. Yudha&#241;jaya cariya&#7747;<br />
+[<a id='pts.092'><b>PTS Page 092</b></a>] [\q  92/]      <br />
+239. Yad&#257; aha&#7747; amitayaso r&#257;japutto yudha&#241;jayo<br />
+Uss&#257;vabindu&#7747; suriy&#257;tape patita&#7747; disv&#257;na sa&#7747;viji&#7747;1. 
+
+<br />&nbsp;<br />
+
+240. Ta&#241;&#241;ev&#257;dhipati&#7747; katv&#257; sa&#7747;vegamanubr&#363;hayi&#7747;<br />
+M&#257;t&#257;pitu 2 ca vanditv&#257; pabbajjamanuy&#257;caha&#7747;. 
+
+<br />&nbsp;<br />
+
+241. Y&#257;canti ma&#7747; pa&#241;jalik&#257; sanegam&#257; sara&#7789;&#7789;hak&#257;<br />
+Ajjeva putta pa&#7789;ipajja iddha&#7747; ph&#299;ta&#7747; mah&#257;mahi&#7747;. 
+
+<br />&nbsp;<br />
+
+242. Sar&#257;jake sahorodhe sanegame sara&#7789;&#7789;hake<br />
+Karu&#7751;a&#7747; paridevante anepekkho hi pabbaji&#7747;3. 
+
+<br />&nbsp;<br />
+
+243. Kevala&#7747; pa&#7789;havi&#7747; rajja&#7747; &#241;&#257;ti parijana 4 yasa&#7747;<br />
+Vajam&#257;no na cintesi&#7747; bodhiy&#257;yeva k&#257;ra&#7751;&#257;. <br />
+244. M&#257;t&#257; pit&#257; na me dess&#257; napi 5 dessa&#7747; mah&#257;yasa&#7747;<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; rajja&#7747; pariccajinti. 
+
+<br />&nbsp;<br />
+
+Yudha&#241;jaya cariya&#7747; pa&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+2. Somanassa cariya&#7747;
+
+<br />&nbsp;<br />
+
+245. Pun&#257;para&#7747; yad&#257; homi indapatte puruttame<br />
+K&#257;mito dayito putto somanassoti vissuto. 
+
+<br />&nbsp;<br />
+
+246. S&#299;lav&#257; gu&#7751;a sampanno kaly&#257;&#7751;apa&#7789;ibh&#257;&#7751;av&#257;<br />
+Vuddh&#257;pac&#257;y&#299; hirim&#257; sa&#7749;gahesu ca kovido. 
+
+<br />&nbsp;<br />
+
+247. Tassa ra&#241;&#241;o patikaro ahosi kuhakat&#257;paso<br />
+&#256;r&#257;ma&#7747; m&#257;l&#257;vaccha&#241;ca ropayitv&#257;na j&#299;vati
+
+<br />&nbsp;<br />
+
+1. Sa&#7747;viji-[PTS] 2. M&#257;t&#257; pitu-[PTS] 3. Anapekkho pariccaji&#7747;-s&#299;. Mu. <br />
+4. Parijjana&#7747;-[PTS] 5. Napi me dessa&#7747;-s&#299;. Mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 300] [\x 300/]     <br />
+[<a id='pts.093'><b>PTS Page 093</b></a>] [\q  93/]      <br />
+248. Tamaha&#7747; disv&#257;na kuhaka&#7747; thusar&#257;si&#7747;va ata&#7751;&#7693;ula&#7747;1<br />
+Duma&#7747; anto va susira&#7747; kadali&#7747;va as&#257;raka&#7747;. 
+
+<br />&nbsp;<br />
+
+249. Natthi'massa sata&#7747; dhammo s&#257;ma&#241;&#241;&#257;pagato aya&#7747;<br />
+Hiri sukkadhammajahito j&#299;vitavuttik&#257;ra&#7751;&#257;. 
+
+<br />&nbsp;<br />
+
+250. Kupito ahosi paccanto a&#7789;av&#299;hi parantihi<br />
+Ta&#7747; nisedhetu&#7747; gacchanto anus&#257;si pit&#257; mama&#7747;. 
+
+<br />&nbsp;<br />
+
+251. M&#257; pamajji tuva&#7747; t&#257;ta ja&#7789;ila&#7747; uggat&#257;pana&#7747;<br />
+Yadicchaka&#7747; pavattehi sabbak&#257;madado hi so. 
+
+<br />&nbsp;<br />
+
+252. Tamaha&#7747; gantv&#257;nu' pa&#7789;&#7789;h&#257;na&#7747; ida&#7747; vacanamabravi&#7747;<br />
+Kaccite gahapati kusala&#7747; ki&#7747; v&#257; te &#257;har&#299;yatu. <br />
+253. Tena so kupito &#257;si kuhako m&#257;nanissito<br />
+Gh&#257;t&#257;pemi tuva&#7747; ajja ra&#7789;&#7789;h&#257; pabb&#257;jay&#257;mi v&#257;. 
+
+<br />&nbsp;<br />
+
+254. Nisedhayitv&#257; paccanta&#7747; r&#257;j&#257; kuhakamabravi<br />
+Kacci te bhante khaman&#299;ya&#7747; samm&#257;no te pavattito<br />
+Tassa &#257;cikkhati p&#257;po kum&#257;ro yath&#257; n&#257;siyo. 
+
+<br />&nbsp;<br />
+
+255. Tassa ta&#7747; vacana&#7747; sutv&#257; &#257;&#7751;&#257;pesi mah&#299;pati<br />
+S&#299;sa&#7747; tattheva chinditv&#257; katv&#257;na catukha&#7751;&#7693;ika&#7747;<br />
+Rathiy&#257; rathiya&#7747; dassetha s&#257; gat&#299; ja&#7789;ilah&#299;&#7735;ito. 2
+
+<br />&nbsp;<br />
+
+256. Tattha k&#257;ra&#7751;ik&#257; gantv&#257; ca&#7751;&#7693;&#257; ludd&#257; ak&#257;ru&#7751;&#257;<br />
+M&#257;tu a&#7749;ke nisissassa &#257;ka&#7693;&#7693;hitv&#257; nayanti ma&#7747;. 
+
+<br />&nbsp;<br />
+
+257. Tes&#257;ha&#7747; evamavaca&#7747; bandhata&#7747; g&#257;&#7735;habandhana&#7747;<br />
+"Ra&#241;&#241;o dassetha ma&#7747; khippa&#7747; r&#257;jakiriy&#257;ni atthime". 
+
+<br />&nbsp;<br />
+
+1. R&#257;si&#7747;va ta&#7751;&#7693;ula&#7747;-s&#299;. Mu. 2. H&#299;&#7735;it&#257;-s&#299;. Mu [PTS]
+
+<br />&nbsp;<br />
+
+
+[BJT Page 302] [\x 302/]     
+
+<br />&nbsp;<br />
+
+258. Te ma&#7747; ra&#241;&#241;o dassayi&#7747;su p&#257;passa p&#257;pasevino<br />
+Disv&#257;na ta&#7747; sa&#241;&#241;apesi&#7747;1 mama&#241;ca vasam&#257;nayi&#7747;. 
+
+<br />&nbsp;<br />
+
+259. So ma&#7747; tattha kham&#257;pesi mah&#257;rajjamad&#257;si me<br />
+Soha&#7747; tama&#7747; d&#257;&#7735;ayitv&#257; pabbaji&#7747; anag&#257;riya&#7747;. 
+
+<br />&nbsp;<br />
+
+260. Name dessa&#7747; mah&#257;rajja&#7747; k&#257;mabhogo na dessiyo<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; rajja&#7747; pariccajinti. 
+
+<br />&nbsp;<br />
+
+Somanassa cariya&#7747; dutiya&#7747;. 
+
+<br />&nbsp;<br />
+
+
+3. Ayoghara cariya&#7747;<br />
+[<a id='pts.094'><b>PTS Page 094</b></a>] [\q  94/]      <br />
+261. Pun&#257;para&#7747; yad&#257; homi k&#257;sir&#257;jassa atrajo<br />
+Ayogharamhi sa&#7747;va&#7693;&#7693;ho n&#257;men&#257;si ayogharo. 
+
+<br />&nbsp;<br />
+
+262. Dukkhena j&#299;vito laddho samp&#299;&#7735;e patiposito<br />
+Ajjeva putta pa&#7789;ipajja kevala&#7747; vasudha&#7747; ima&#7747;. 
+
+<br />&nbsp;<br />
+
+263. Sara&#7789;&#7789;haka&#7747; sanigama&#7747; sajana&#7747; vanditv&#257; khattiya&#7747;<br />
+A&#241;jalimpaggahetv&#257;na ida&#7747; vacanamabruvi&#7747;. 
+
+<br />&nbsp;<br />
+
+264. Ye keci mahiy&#257; satt&#257; h&#299;namukka&#7789;&#7789;hamajjhim&#257;<br />
+Nir&#257;rakkh&#257; sake gehe va&#7693;&#7693;hanti saha &#241;&#257;tihi. 2 <br />
+265. Ida&#7747; loke uttariya&#7747; samp&#299;&#7735;e mama posana&#7747;<br />
+Ayogharamhi sa&#7747;va&#7693;&#7693;ho appabhe'candas&#363;riye. 
+
+<br />&nbsp;<br />
+
+266. P&#363;tiku&#7751;apasampu&#7751;&#7751;&#257;3 muccitv&#257; m&#257;tu kucchito<br />
+Tato ghoratare dukkhe puna pakkhitto ayoghare
+
+<br />&nbsp;<br />
+
+267. Yadiha&#7747; t&#257;disa&#7747; patv&#257; dukkha&#7747; paramad&#257;ru&#7751;a&#7747;<br />
+Rajjesu yadi ra&#241;j&#257;mi 4 p&#257;p&#257;na&#7747; uttamo siy&#257;5. 
+
+<br />&nbsp;<br />
+
+1. Sa&#241;&#241;&#257;pesi&#7747;-s&#299;mu-[PTS] 2. &#209;&#257;tihi-[PTS] katthaci. 3. Sampu&#7751;&#7751;o-s&#299;mu. 4. Rajj&#257;mi-pa. 5. Siya&#7747;-[PTS,] katthaci. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 304] [\x 304/]     
+
+<br />&nbsp;<br />
+
+271. Ukka&#7751;a&#7789;hitomhi k&#257;yena rajjenamhi anatthiko<br />
+Nibbuti&#7747; pariyesissa&#7747; yattha maccu na maddiye. 
+
+<br />&nbsp;<br />
+
+272. Ev&#257;ha&#7747; cintayitv&#257;na viravanta&#7747; mah&#257;jana&#7747;<br />
+N&#257;gova bandhana&#7747; chetv&#257; p&#257;visi&#7747;1 k&#257;nana&#7747; vana&#7747;. 
+
+<br />&nbsp;<br />
+
+273. M&#257;t&#257; pit&#257; na me dess&#257; napi me dessa&#7747; mah&#257;yasa&#7747;<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; rajja&#7747; pariccajinti. 
+
+<br />&nbsp;<br />
+
+Ayoghara cariya&#7747; tatiya&#7747;. 
+
+<br />&nbsp;<br />
+
+
+4. Bhisa cariya&#7747;
+
+<br />&nbsp;<br />
+
+274. Pun&#257; para&#7747; yad&#257; homi k&#257;s&#299;na&#7747; puravaruttame bhagin&#299; bh&#257;taro satta nibbatt&#257; sotthiye kule. 
+
+<br />&nbsp;<br />
+
+275. Etesa&#7747; pubbajo &#257;si&#7747; giri sukkamup&#257;gato<br />
+Bhava&#7747; disv&#257;na bhayato nekkhamm&#257;bhirato aha&#7747;. <br />
+[<a id='pts.095'><b>PTS Page 095</b></a>] [\q  95/]      <br />
+276. M&#257;t&#257; pit&#363;hi pahit&#257;2 sah&#257;y&#257; ekam&#257;nas&#257; <br />
+k&#257;mehi ma&#7747; nimantenti kulava&#7747;sa&#7747; dhareh&#299;ti. 
+
+<br />&nbsp;<br />
+
+277. Ya&#7747; tesa&#7747; vacana&#7747; vutta&#7747; gih&#299; dhamme sukh&#257;vaha&#7747;<br />
+Tamme ahosi ka&#7789;hina&#7747; tattaph&#257;lasama&#7747;3 viya. 
+
+<br />&nbsp;<br />
+
+278. Te ma&#7747; tad&#257; ukkh&#299;panta&#7747; pucchi&#7747;su patthita&#7747; mama<br />
+Ki&#7747; tva&#7747; patthayas&#299;? Samma ! Yadik&#257;me na bhu&#241;jas&#299;. 
+
+<br />&nbsp;<br />
+
+279. Tes&#257;ha&#7747; evamavaca&#7747; atthak&#257;mo4 hitesina&#7747;<br />
+N&#257;ha&#7747; patthemi gih&#299;bh&#257;va&#7747; nekkhamm&#257;bhirato aha&#7747;. 
+
+<br />&nbsp;<br />
+
+280. Te mayha&#7747; vacana&#7747; sutv&#257; pitu m&#257;tu ca s&#257;vayu&#7747;5<br />
+M&#257;t&#257; pit&#257; evam&#257;hu sabbepi 6 pabbaj&#257;ma bho. 
+
+<br />&nbsp;<br />
+
+281. Ubho m&#257;t&#257; pit&#257; mayha&#7747; bhagin&#299; ca 7 satta bh&#257;taro<br />
+Amita&#7747; dhana&#7747; cha&#7693;&#7693;hayitv&#257; p&#257;visimh&#257;8 mah&#257;vananti. 
+
+<br />&nbsp;<br />
+
+Bhisa cariya&#7747; catuttha&#7747;. 
+
+<br />&nbsp;<br />
+
+1. P&#257;visi-[PTS] 2. Pahito-s&#299;mu. 3. Tattap&#257;la-s&#299;mu-santatta-machasa&#7747;. <br />
+4. Atthak&#257;ma hitesina&#7747;-s&#299;mu. 5. S&#257;veyyu&#7747;-n&#257;-s&#257;vesu-machasa&#7747;. 6. Sabbeva-s&#299;mu-pa. 7. Bhagin&#299;-s&#299;mu. 8. P&#257;visi-n&#257;-[PTS] 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 306] [\x 306/]      
+
+<br />&nbsp;<br />
+
+5. So&#7751;apa&#7751;&#7693;ita cariya&#7747;
+
+<br />&nbsp;<br />
+
+282. Pun&#257;para&#7747; yad&#257; homi nagare brahmava&#7693;&#7693;hane<br />
+Tattha kulavare se&#7789;&#7789;he mah&#257;s&#257;&#7735;e aj&#257;yaha&#7747;1. 
+
+<br />&nbsp;<br />
+
+283. Tad&#257;pi loka&#7747; disv&#257;na andhabh&#363;ta&#7747;2 tamotthata&#7747;3<br />
+Citta&#7747; bhavato patiku&#7789;ati tuttavegahata&#7747; viya. 
+
+<br />&nbsp;<br />
+
+284. Disv&#257;na vividha&#7747; p&#257;pa&#7747; eva&#7747; cintesaha&#7747; tad&#257;<br />
+Kad&#257;ha&#7747; geh&#257; nikkhamma pavisiss&#257;mi k&#257;nana&#7747;. 
+
+<br />&nbsp;<br />
+
+285. Tad&#257;pi ma&#7747; nimanti&#7747;su 4 k&#257;mabhogehi &#241;&#257;tayo<br />
+Tesampi chandam&#257;cikkhi&#7747; m&#257;nimantetha tehi ma&#7747;5. 
+
+<br />&nbsp;<br />
+
+286. Yome ka&#7751;i&#7789;&#7789;hako bh&#257;t&#257; nandon&#257;m&#257;si pa&#7751;&#7693;ito<br />
+Sopi ma&#7747; anusikkhanto pabbajja&#7747; samarocay&#299;. 
+
+<br />&nbsp;<br />
+
+287. Aha&#7747; so&#7751;o ca nando ca ubho m&#257;t&#257; pit&#257; mama<br />
+Tad&#257;pi bhoge cha&#7693;&#7693;etv&#257; p&#257;visimh&#257;6 mah&#257;vananti. 
+
+<br />&nbsp;<br />
+
+So&#7751;apa&#7751;&#7693;ita cariya&#7747; pa&#241;cama&#7747;. 
+
+<br />&nbsp;<br />
+
+Nekkhammap&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+1. Aj&#257;yiha&#7747;-machasa&#7747;. 2. Andhibh&#363;ta&#7747;-machasa&#7747;. 3. Tamottha&#7789;a&#7747;-s&#299;mu pa. <br />
+4. Nimantesu&#7747;-s&#299;mu. 5. Tenima&#7747;-mu&#7747;-tehi mama&#7747;-machasa&#7747;. 6. P&#257;visimha-mu. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 308] [\x 308/]     
+
+<br />&nbsp;<br />
+
+Adhi&#7789;&#7789;h&#257;na p&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+6. Temiya pa&#7751;&#7693;ita cariya&#7747;<br />
+[<a id='pts.096'><b>PTS Page 096</b></a>] [\q  96/]      <br />
+288. Pun&#257; para&#7747; yad&#257; homi k&#257;sir&#257;jassa atrajo<br />
+M&#363;gapakkhoti n&#257;mena temiyoti vadanti ma&#7747;. 
+
+<br />&nbsp;<br />
+
+289. No&#7735;asitthi sahass&#257;na&#7747; na vijjati pumo tad&#257;1<br />
+Ahoratt&#257;na&#7747; accayena nibbatto ahamekako. 
+
+<br />&nbsp;<br />
+
+290. Kicch&#257; laddha&#7747; piya&#7747; putta&#7747; abhij&#257;ta&#7747; jutindhara&#7747;<br />
+Setacchatta&#7747; dh&#257;rayitv&#257;na sayane poseti ma&#7747; pit&#257;. 
+
+<br />&nbsp;<br />
+
+291. Nidd&#257;yam&#257;no sayanavare pabujjhitv&#257;naha&#7747; tad&#257;<br />
+Addasa&#7747; pa&#7751;&#7693;ara&#7747; chatta&#7747; yen&#257;ha&#7747; niraya&#7747; gato. 
+
+<br />&nbsp;<br />
+
+292. Sahadi&#7789;&#7789;hassa me chatta&#7747; t&#257;so uppajji bheravo<br />
+Vinicchaya&#7747; sam&#257;panno kad&#257;ha&#7747;2 ima&#7747; mu&#241;cissa&#7747;3. 
+
+<br />&nbsp;<br />
+
+293. Pubbas&#257;lohit&#257; mayha&#7747; devat&#257; atthak&#257;min&#299;<br />
+S&#257;ma&#7747; disv&#257;na dukkhita&#7747; t&#299;su &#7789;h&#257;nesu yojay&#299;. 
+
+<br />&nbsp;<br />
+
+294. M&#257;pa&#7751;&#7693;icca&#7747;4 vih&#257;ya b&#257;lamato bhava sabbap&#257;&#7751;ina&#7747;5<br />
+Sabbo jano ocin&#257;yatu 6 eva&#7747; tava attho7 bhavissati. 
+
+<br />&nbsp;<br />
+
+295. Eva&#7747; vutt&#257;ya ha&#7747; tass&#257; ida&#7747; vacanamabravi&#7747;8<br />
+Karomi te na&#7747; vacana&#7747; ya&#7747; tva&#7747;9 bha&#7751;asi devate<br />
+Atthak&#257;m&#257;si me amma! Hitak&#257;m&#257;si devate!. 
+
+<br />&nbsp;<br />
+
+296. Tass&#257;ha&#7747; vacana&#7747; sutv&#257; s&#257;gareva thala&#7747; labhi&#7747;<br />
+Ha&#7789;&#7789;ho sa&#7747;viggam&#257;naso tayo a&#7749;ge adhi&#7789;&#7789;hahi&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Sad&#257;-s&#299;mu. 2. Kath&#257;ha&#7747;-s&#299;-mu-pa. 3. Muccissa&#7747;-machasa&#7747;. <br />
+4. M&#257; pa&#7751;&#7693;iccaya&#7747;-s&#299;mu-pa. 5. Bahumata&#7747; sapp&#257;&#7751;i&#7747;-katthaci. 6. Ojin&#257;yatu-s&#299;mu. <br />
+7. Eva&#7747; attho-katthaci. 8. Mabruvi-n&#257;-katthaci. 9. Ya&#7747; ma&#7747; - katthaci. 
+
+<br />&nbsp;<br />
+
+[BJT Page 310] [\x 310/]     
+
+<br />&nbsp;<br />
+
+297. M&#363;go ahosi&#7747; badhiro pakkho gati vivajjito<br />
+Ete a&#7749;ge adhi&#7789;&#7789;h&#257;ya vass&#257;na&#7747; so&#7735;asa&#7747;1 vasi&#7747;. 
+
+<br />&nbsp;<br />
+
+298. Tato me hatthap&#257;de ca jivha&#7747;2 sota&#241;ca maddiya<br />
+An&#363;nata&#7747; me passitv&#257; k&#257;laka&#7747;&#7751;&#299;ti nindisu&#7747;3. 
+
+<br />&nbsp;<br />
+
+299. Tato j&#257;napad&#257;4 sabbe sen&#257;pati purohit&#257;<br />
+Sabbe ekaman&#257; hutv&#257; cha&#7693;&#7693;ana&#7747; anumodi&#7747;su. 5
+
+<br />&nbsp;<br />
+
+300. Soha&#7747; tesa&#7747; mati&#7747; sutv&#257; ha&#7789;&#7789;ho sa&#7747;viggam&#257;naso<br />
+Yassatth&#257;ya tapo ci&#7751;&#7751;o some attho samijjhatha. 
+
+<br />&nbsp;<br />
+
+301. Nah&#257;petv&#257;6 anulimpitv&#257; ve&#7789;hetv&#257; r&#257;jave&#7789;hana&#7747;<br />
+Chattena abhisi&#241;citv&#257;7 k&#257;resu&#7747; pura 8 padakkhi&#7751;a&#7747;. <br />
+302. Satta ha&#7747; dh&#257;rayitv&#257;na uggate ravima&#7751;&#7693;ale<br />
+Rathena ma&#7747; n&#299;haritv&#257; s&#257;rath&#299; vanamup&#257;gam&#299;. <br />
+[<a id='pts.097'><b>PTS Page 097</b></a>] [\q  97/]      <br />
+303. Ekok&#257;se ratha&#7747; katv&#257; sajjassa 9 hatthamu&#241;cito10<br />
+S&#257;rath&#299; kha&#7751;at&#299; k&#257;su&#7747; nikh&#257;tu&#7747; pa&#7789;haviy&#257;11 mama&#7747;12. 
+
+<br />&nbsp;<br />
+
+304. Adhi&#7789;&#7789;hitamadhi&#7789;&#7789;h&#257;na&#7747; tajjento13 vividhak&#257;ra&#7751;&#257;<br />
+N&#257;bhindi&#7747;14 vatamadhi&#7789;&#7789;h&#257;na&#7747; bodhiy&#257; yeva k&#257;ra&#7751;&#257;. 
+
+<br />&nbsp;<br />
+
+305. M&#257;t&#257; pit&#257; na me dess&#257; att&#257; me na ca15 dessiyo<br />
+Sabba&#241;&#241;uta&#7747; piya&#7747; mayha&#7747; tasm&#257; vatamadhi&#7789;&#7789;hahi&#7747;. 
+
+<br />&nbsp;<br />
+
+306. Ete a&#7749;ge adhi&#7789;&#7789;h&#257;ya vass&#257;ni so&#7735;asi&#7747;16 vasi&#7747;17. <br />
+Adhi&#7789;&#7789;h&#257;nena samo natthi es&#257; me adhi&#7789;&#7789;h&#257;nap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Temiya18 cariya&#7747; cha&#7789;&#7789;hama&#7747;. <br />
+Adhi&#7789;&#7789;h&#257;nap&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+1. Vass&#257;ni so&#7735;asa&#7747;-katthaci 2. Jivh&#257;-machasa&#7747;. 3. Niddisu&#7747;-mu-n&#257;-niddi&#7747;su-machasa&#7747; vass&#257;ni so&#7735;asi&#7747;-s&#299;mu. 6. N&#257;hapetv&#257;-machasa&#7747;. 7. Abhisicetva-katthaci. 8. Pura&#7747;-machasa&#7747;. <br />
+9. Sajjissa&#7747;-machasa&#7747;. 10. Muccito-machasa&#7747;. 11. Pa&#7789;haviya&#7747;-s&#299;mu. <br />
+12. Mama-machasa&#7747;. 13. Tajjento-s&#299;mu. 14. Nabhindivatamadhi&#7789;&#7789;h&#257;na&#7747;-n&#257;-. Gacchanto-katthaci. Nabhindita madhi&#7789;&#7789;h&#257;na&#7747;-ma. 15. Att&#257;nameva-n&#257;-katthaci. 16. So&#7735;asa&#7747;-katthaci. <br />
+17. Ima&#7747;g&#257;thaddha&#7747; marammapotthakesu natthi. 18. Temiya pa&#7751;&#7693;ita cariya&#7747;-s&#299;mu-. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 312] [\x 312/]     
+
+<br />&nbsp;<br />
+
+5. Sacca p&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+7. Kapir&#257;ja cariya&#7747;
+
+<br />&nbsp;<br />
+
+307. Yad&#257; aha&#7747; kapi &#257;si&#7747; nad&#299; kule ar&#299;saye<br />
+P&#299;&#7735;ito su&#7747;sum&#257;rena1 gamana&#7747; nalabh&#257;miha&#7747;2. 
+
+<br />&nbsp;<br />
+
+308. Yambhok&#257;se aha&#7747; &#7789;hatv&#257; ora 3 p&#257;ra&#7747; pat&#257;maha&#7747;<br />
+Tatthacchi sattu 4 vadhako kumbh&#299;lo ludda5 dassano. 
+
+<br />&nbsp;<br />
+
+309. Soma&#7747; asa&#7747;si 6 eh&#299;ti ahamem&#299;ti 7 ta&#7747; vadi&#7747;8<br />
+Tassa matthakamakkamma parakule pati&#7789;&#7789;hahi&#7747;. 
+
+<br />&nbsp;<br />
+
+310. Na tassa alika&#7747; bha&#7751;ita&#7747; yath&#257; v&#257;ca&#7747; ak&#257;saha&#7747;<br />
+Saccena me samo natthi es&#257; me sacca p&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Kapir&#257;ja cariya&#7747; sattama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+8. Sacca t&#257;pasa cariya&#7747;
+
+<br />&nbsp;<br />
+
+311. Pun&#257; para&#7747; yad&#257; homi t&#257;paso saccasavhayo<br />
+Saccena loka&#7747; p&#257;lesi&#7747;9 samagga&#7747; janamak&#257;sahanti. 
+
+<br />&nbsp;<br />
+
+Sacca pa&#7751;&#7693;ita cariya&#7747; a&#7789;&#7789;hama&#7747;. 
+
+<br />&nbsp;<br />
+
+9. Va&#7789;&#7789;apotaka cariya&#7747;. <br />
+[<a id='pts.098'><b>PTS Page 098</b></a>] [\q  98/]      <br />
+312. Pun&#257;para&#7747; yad&#257; homi magadhe va&#7789;&#7789;a potako<br />
+Aj&#257;tapakkho taru&#7751;o ma&#7747;sapesi kul&#257;vake. 
+
+<br />&nbsp;<br />
+
+313. Mukhatu&#7751;&#7693;ake10 n&#257;haritv&#257; m&#257;t&#257; posayat&#299; mama&#7747;<br />
+Tass&#257; phassena j&#299;v&#257;mi natthi me k&#257;yika&#7747; bala&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Susum&#257;rena-machasa&#7747;. 2. Labh&#257; maha&#7747;-s&#299;mu. 3. Or&#257;-machasa&#7747;. 4. Satthu-n&#257;-. <br />
+5. Rudda-n&#257;-katthaci. 6. &#256;si&#7747;si-s&#299;mu- 7. Aha&#7747;pem&#299;ti-machasa&#7747;. <br />
+8. Vadi-n&#257;-katthaci. 9. P&#257;lemi-s&#299;mu. 10. Tu&#7751;&#7693;en&#257;haritv&#257;-sumu-epa. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 314] [\x 314/]     
+
+<br />&nbsp;<br />
+
+314. Sa&#7747;vacchare gimhasamaye dava&#7693;&#257;ho1 padippati<br />
+Upagacchati amh&#257;ka&#7747; p&#257;vako ka&#7751;havattan&#299;. 
+
+<br />&nbsp;<br />
+
+315. Dh&#363;ma&#7747; dh&#363;ma&#7747; janitveva&#7747;2 sadd&#257;yanto mah&#257;sikh&#299;<br />
+Anupubbena jh&#257;pento agg&#299; mama mup&#257;gami. 
+
+<br />&nbsp;<br />
+
+316. Aggivegabhay&#257; bh&#299;t&#257; tasit&#257; m&#257;t&#257; pit&#257; mama<br />
+Kul&#257;vake ma&#7747; cha&#7693;&#7693;hetv&#257; att&#257;na&#7747; parimocayu&#7747;. 
+
+<br />&nbsp;<br />
+
+317. P&#257;de pakkhe pajah&#257;mi natthi me k&#257;yika&#7747; bala&#7747;<br />
+So, ha&#7747; agatiko tattha eva&#7747; cintesaha&#7747; tad&#257;. 
+
+<br />&nbsp;<br />
+
+318. Yes&#257;ha&#7747; upadh&#257;veyya&#7747; bh&#299;to tasitavedhito<br />
+Tema&#7747; oh&#257;ya pakkhant&#257; katha&#7747; me ajja k&#257;tave. 
+
+<br />&nbsp;<br />
+
+319. Atthi loke s&#299;lagu&#7751;o sacca&#7747; soceyya nudday&#257;<br />
+Tena saccena k&#257;h&#257;mi saccakiriyamuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+320. &#256;vajjetv&#257; dhamma bala&#7747; saritv&#257; pubbako jine<br />
+Saccabalamavass&#257;ya sacca kiriya mak&#257;saha&#7747;. 
+
+<br />&nbsp;<br />
+
+321. Santi pakkh&#257; apatan&#257; santi p&#257;d&#257; ava&#241;can&#257;3 <br />
+M&#257;t&#257; pit&#257; ca nikkhant&#257; j&#257;taveda pa&#7789;ikkama. 
+
+<br />&nbsp;<br />
+
+322. Saha sacce kata&#7747; mayha&#7747; mah&#257; pajjalito sikh&#299;<br />
+Vajjesi so&#7735;asa kar&#299;s&#257;ni udakampatv&#257;4 yath&#257; sikh&#299;<br />
+Saccena me samo natthi es&#257; me saccap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Va&#7789;&#7789;apotaka 5 cariya&#7747; navama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+10. Macchar&#257;ja cariya&#7747;<br />
+[<a id='pts.099'><b>PTS Page 099</b></a>] [\q  99/]      <br />
+323. Pun&#257;para&#7747; yad&#257; homi macchar&#257;j&#257; mah&#257;sare<br />
+U&#7751;he suriyasant&#257;pe sare udaka&#7747; kh&#299;yatha 6. 
+
+<br />&nbsp;<br />
+
+324. Tato k&#257;k&#257; ca gijjh&#257; ca bak&#257;7 ku&#7735;ala senak&#257;<br />
+Bhakkhayant&#299; div&#257; ratti&#7747; macche upanis&#299;diya. 
+
+<br />&nbsp;<br />
+
+1. Vanad&#257;ho-machasa&#7747;-davadh&#257;ho-n&#257;. 2. Dhuma dh&#363;ma&#7747; iti eva&#7747;-machasa&#7747;. <br />
+3. Ava&#241;jan&#257;-s&#299;mu-katthaci. 4. Udakampatet&#257;-n&#257;. 5. Va&#7789;&#7789;akar&#257;ja cariya&#7747;-pa. <br />
+6. Kh&#299;yyatha-machasa&#7747;kh&#299;yetha-s&#299;mu-. 7. Ka&#7747;k&#257;-machasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 316] [\x 316/]      
+
+<br />&nbsp;<br />
+
+325. Eva&#7747; cintesaha&#7747; tattha saha &#241;&#257;t&#299;hi p&#299;&#7735;ito<br />
+Kena nukho up&#257;yena &#241;&#257;ti dukkh&#257; pamocaye. 
+
+<br />&nbsp;<br />
+
+326. Vicintayitv&#257; dhammattha&#7747; sacca&#7747; addasa passaya&#7747;<br />
+Sacce &#7789;hatv&#257; pamocesi&#7747; &#241;&#257;t&#299;na&#7747; ta&#7747; atikkhaya&#7747;. 
+
+<br />&nbsp;<br />
+
+327. Anussaritv&#257; saddhamma&#7747;1 paramattha&#7747; vicintaya&#7747;<br />
+Ak&#257;si&#7747; saccakiriya&#7747; ya&#7747; loke dhuvasassata&#7747;. 
+
+<br />&nbsp;<br />
+
+328. Yato sar&#257;mi att&#257;na&#7747; yato pattosmi vi&#241;&#241;uta&#7747;<br />
+N&#257;bhij&#257;n&#257;mi sa&#241;cicca ekap&#257;&#7751;a&#7747; vihi&#7747;sita&#7747;2<br />
+Etena saccavajjena pajjunno abhivassatu. 
+
+<br />&nbsp;<br />
+
+329. Abhitthanaya pajjunna nidhi&#7747; k&#257;kassa n&#257;saya<br />
+K&#257;ka&#7747; sok&#257;ya rundhehi 3 macche sok&#257; pamocaya. 
+
+<br />&nbsp;<br />
+
+330. Sahakate saccavare pajjunto4 c&#257;bhigajjiya<br />
+Thala&#7747; ninna&#241;ca p&#363;rento kha&#7751;ena abhivassatha. 
+
+<br />&nbsp;<br />
+
+331. Evar&#363;pa&#7747; saccavara&#7747; katv&#257; viriyamuttama&#7747;<br />
+Vass&#257;pesi&#7747; mah&#257; megha&#7747;5 saccateja balassito<br />
+Saccena me samo natthi es&#257; me saccap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Macchar&#257;ja cariya&#7747; dasama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+11. Ka&#7751;had&#299;p&#257;yana cariya&#7747;
+
+<br />&nbsp;<br />
+
+332. Pun&#257;para&#7747; yad&#257; homi ka&#7751;had&#299;p&#257;yano is&#299;<br />
+Paro pa&#241;&#241;&#257;savass&#257;ni anabhirato cari&#7747;6 aha&#7747;. 
+
+<br />&nbsp;<br />
+
+333. Na koci eta&#7747; j&#257;n&#257;ti anabhiratimana&#7747; mama<br />
+Aha&#7747;7 kassavi n&#257;cikkhi&#7747; arati me carati 8 m&#257;nase. 
+
+<br />&nbsp;<br />
+
+[<a id='pts.100'><b>PTS Page 100</b></a>] [\q 100/]      <br />
+334. Sabrahmac&#257;ri ma&#7751;&#7693;abyo9 sah&#257;yo me mah&#257;is&#299;<br />
+Pubbakammasam&#257;yutto s&#363;lam&#257;ropa&#7751;a&#7747; labh&#299;. 
+
+<br />&nbsp;<br />
+
+1. Sata&#7747; dhamma-machasa&#7747;. 2. Eka&#7747;p&#257;&#7751;a&#7747; pihi&#7747;sita&#7747;-n&#257;-machasa&#7747;. <br />
+Ekap&#257;&#7751;ampi hi&#7747;sita&#7747;-s&#299;mu. 3. Randhehi-machasa&#7747;. <br />
+4. Cagigajjiya-n&#257;-abhigajjiya-katthaci. 5. Vass&#257;pesimaha&#7747; megha&#7747;-machasa&#7747;. <br />
+6. Cariya&#7747;-katthaci-cari&#7747;-n&#257;-. 7. Ahampi-katthaci-n&#257;-. <br />
+8. Ara&#7747;timeratim&#257;nasa&#7747;-katthaci-. <br />
+Ara&#7747;ti merati m&#257;nase-n&#257;-. 9. Ma&#7751;&#7693;abbo-katthaci. 
+
+<br />&nbsp;<br />
+
+[BJT Page 318] [\x 318/]     
+
+<br />&nbsp;<br />
+
+335. Tamaha&#7747; upa&#7789;&#7789;hahitv&#257;na &#257;rogya manup&#257;payi&#7747;1<br />
+&#256;pucchitv&#257;na &#257;ga&#241;ji&#7747;2 ya&#7747; mayha&#7747; sakamassama&#7747;. 
+
+<br />&nbsp;<br />
+
+336. Sah&#257;yo br&#257;hmano mayha&#7747; bhariya&#7747;3 &#257;d&#257;ya puttaka&#7747;<br />
+Tayo jan&#257; sam&#257;gantv&#257;4 &#257;ga&#241;ju&#7747; p&#257;hun&#257;gata&#7747;. 
+
+<br />&nbsp;<br />
+
+337. Sammodam&#257;no tehi 5 saha nisinno sakamassame<br />
+D&#257;rako va&#7789;&#7789;amanukkhipa&#7747; &#257;sivisamakopay&#299;. 
+
+<br />&nbsp;<br />
+
+338. Tato so va&#7789;&#7789;agata&#7747; magga&#7747; anve 6 santo kum&#257;rako<br />
+&#256;sivisassa hatthena uttama&#7749;ga&#7747; par&#257;mas&#299;. 
+
+<br />&nbsp;<br />
+
+339. Tassa &#257;masane kuddho sappo visa balassito<br />
+Kupito paramakopena a&#7693;a&#7747;si 7 d&#257;raka&#7747; kha&#7751;e. 
+
+<br />&nbsp;<br />
+
+340. Saha da&#7789;&#7789;ho &#257;sivisena 8 d&#257;rako papati bh&#363;miya&#7747;<br />
+Ten&#257;ha&#7747; dukkhito &#257;si&#7747; mama v&#257;hasi ta&#7747; dukkha&#7747;. 
+
+<br />&nbsp;<br />
+
+341. Ty&#257;ha&#7747; ass&#257;sa yitv&#257;na dukkhite sokasallite<br />
+Pa&#7789;hama&#7747; &#257;k&#257;si&#7747;9 tiriya&#7747; agga&#7747; sacca&#7747; varuttama&#7747;. <br />
+342. Satt&#257;hamev&#257;ha&#7747; pasannacitto pu&#241;&#241;atthiko acari&#7747; brahmacariya&#7747;<br />
+Ath&#257;para&#7747; ya&#241;carita&#7747; mamayida&#7747; vass&#257;ni pa&#241;&#241;&#257;sa sam&#257;dhik&#257;ni. 10
+
+<br />&nbsp;<br />
+
+343. Ak&#257;mako v&#257;hi11 aha&#7747; car&#257;mi etena saccena suvatthi hoti<br />
+Hata&#7747; visa&#7747; j&#299;vatu ya&#241;&#241;adatto. <br />
+344. Sahasacce kate mayha&#7747; visavegena vedhito<br />
+Abujjhitv&#257;na vu&#7789;&#7789;h&#257;si &#257;rogo c&#257;si m&#257;&#7751;avo <br />
+Saccena me samo natthi es&#257; me saccap&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Ka&#7751;had&#299;p&#257;yana cariya&#7747; ek&#257;dasama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Manup&#257;payi-n&#257;-katthaci. 2. &#256;ga&#241;ji-n&#257;-tatthami. 3. Bh&#257;riya&#7747;-katthami-ariya&#7747;-machasa&#7747;. <br />
+4. Sam&#257;- machasa&#7747;. 5. Teti-n&#257;-. Bhariyam&#257;d&#257;ya-n&#257;-. 6. Anne santo-n&#257;-. 7. Adasi&#7747;-n&#257;-katthaci. <br />
+8. Ativisena-n&#257;-katthaci. 9. Ak&#257;s&#299;-machasa&#7747;. 10. Sam&#257;dhik&#257;ki-n&#257;-. <br />
+11. Ak&#257;ma kev&#257;ha&#7747;-machasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 320] [\x 320/]     
+
+<br />&nbsp;<br />
+
+Sutasoma cariya&#7747; 
+
+<br />&nbsp;<br />
+
+345. Pun&#257;para&#7747; yad&#257; homi sutasomo map&#299;pat&#299;<br />
+Gahito poris&#257;dena br&#257;hma&#7751;o sa&#7749;gara&#7747;1 sari&#7747;. <br />
+346. Khattiy&#257;na&#7747; ekasata&#7747; &#257;vu&#7751;itv&#257; karatale 2<br />
+Ete sampamil&#257;petv&#257; ya&#241;&#241;atthe upanay&#299; 3 mama&#7747;. <br />
+[<a id='pts.101'><b>PTS Page 101</b></a>] [\q 101/]     <br />
+347. Apucchi4 ma&#7747; poris&#257;do kintva&#7747; icchasi nissaja&#7747;5. <br />
+Yath&#257;mati te k&#257;h&#257;mi yadi me tva&#7747; punehisi. <br />
+348. Tassa pa&#7789;issu&#7751;itv&#257;na 6 pa&#7751;he &#257;gamana&#7747; mama<br />
+Up&#257;gantv&#257; pura&#7747; ramma&#7747; rajja&#7747; n&#299;y&#257;dayi&#7747; tad&#257; <br />
+349. Anussaritv&#257; saddhamma&#7747;7 pubbaka&#7747; jinasevita&#7747;<br />
+Br&#257;hma&#7751;assa dhana&#7747; datv&#257; poris&#257;da&#7747; up&#257;gami&#7747;. 
+
+<br />&nbsp;<br />
+
+350. Natthi me sa&#7747;sayo tattha gh&#257;tayissati 8 v&#257; nav&#257;<br />
+Saccav&#257;c&#257;nurakkhanto j&#299;vita&#7747; cajitu mup&#257;gami&#7747;<br />
+Saccena me samo natthi es&#257; me sacca p&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Sutasoma cariya&#7747; dv&#257;dasama&#7747;. 
+
+<br />&nbsp;<br />
+
+Sacca p&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+1. Sakhak&#257;ra&#7747;-n&#257;-katthaci. 2. Kara&#7747;tale-katthaci-karattale-machasa&#7747;. <br />
+3. Upan&#257;may&#299;-katthaci. 4. &#256;pucchi&#7747;-s&#299;mu. 5. Nissajja&#7747;-machasa&#7747;. <br />
+6. Pa&#7789;isu&#7751;itv&#257;-machasa&#7747;. 7. Sata&#7747; dhamma&#7747;-machasa&#7747;-n&#257;-katthaci. <br />
+8. Gh&#257;tayiss&#257;mi-n&#257;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 322] [\x 322/]     
+
+<br />&nbsp;<br />
+
+6. Mett&#257; p&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+13. Suva&#7751;&#7751;as&#257;ma cariya&#7747;
+
+<br />&nbsp;<br />
+
+351. S&#257;mo yad&#257; vane &#257;si&#7747; sakkena abhinimmito<br />
+Pavane s&#299;habyageghahiva mett&#257;ya mupan&#257;mayi&#7747;. 
+
+<br />&nbsp;<br />
+
+352. S&#299;habyageghahi d&#299;p&#299;hi acchehi mahi1sehi ca<br />
+Pasadamigavar&#257;hehi pariv&#257;retv&#257; vane vasi&#7747;. 
+
+<br />&nbsp;<br />
+
+353. Na ma&#7747; koci uttasati, napiha&#7747; bh&#257;y&#257;mi kassaci, <br />
+Mett&#257;balenupatattha'ddho ram&#257;mi pavane tad&#257;ti. 
+
+<br />&nbsp;<br />
+
+Suva&#7751;&#7751;a s&#257;ma cariya&#7747; terasama&#7747;. 
+
+<br />&nbsp;<br />
+
+
+14. Ekar&#257;ja cariya&#7747;
+
+<br />&nbsp;<br />
+
+354. Pun&#257;para&#7747; yad&#257; homi ekar&#257;j&#257;ti vissuto<br />
+Parama&#7747; s&#299;la&#7747; adhi&#7789;&#7789;h&#257;ya 2 pas&#257;s&#257;mi mah&#257;mahi&#7747;. 
+
+<br />&nbsp;<br />
+
+355. Dasakusalakammapathe vatt&#257;mi anavasesato<br />
+Cat&#363;hi sa&#7749;gahavatth&#363;hi sa&#7749;ga&#7751;h&#257;mi 3 mah&#257;jana&#7747;. <br />
+[<a id='pts.102'><b>PTS Page 102</b></a>] <br />
+356. Eva&#7747; me appamattassa idhaloke parattha ca <br />
+Dabbaseno up&#257;gantv&#257; acchindanto pura&#7747; mama&#7747;. 4
+
+<br />&nbsp;<br />
+
+357. R&#257;j&#363;paj&#299;ve nigame sabala&#7789;&#7789;he sara&#7789;&#7789;hake 5. <br />
+Sabba&#7747; hatthagata&#7747; katv&#257; k&#257;suya&#7747; nikha&#7751;&#299; mama&#7747;. 
+
+<br />&nbsp;<br />
+
+358. Amaccama&#7751;&#7693;ala&#7747; rajja&#7747; ph&#299;ta&#7747; antepura&#7747; mama<br />
+Acchinditv&#257;na gahita&#7747; piya&#7747; putta&#7747;va passaha&#7747;<br />
+Mett&#257;ya me samo natthi es&#257; me mett&#257;p&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Ekar&#257;jacariya&#7747; cuddasama&#7747;. 
+
+<br />&nbsp;<br />
+
+Mett&#257; p&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+1. Mahi&#7747;sehi ca-machasa&#7747;. 2. Parama&#7747;s&#299;la madhi&#7789;a&#7789;h&#257;ya-n&#257;-<br />
+Paramas&#299;la&#7747; adhi&#7789;&#7789;h&#257;ya-sumu-. <br />
+3. Sa&#7747;gah&#257;mi-machasa&#7747;. 4. Pura&#7747; mama-samu-. 5. Sarala&#7789;&#7789;hake-n&#257;-. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 324] [\x 324/]     
+
+<br />&nbsp;<br />
+
+7. Upekkh&#257; p&#257;ramit&#257;
+
+<br />&nbsp;<br />
+
+15. Mah&#257;lomaha&#7747;sa cariya&#7747;
+
+<br />&nbsp;<br />
+
+359. Sus&#257;ne seyya&#7747; kappemi java&#7789;&#7789;hika&#7747; upanidh&#257;ya ha&#7747;1<br />
+Goma&#7751;&#7693;al&#257;2 up&#257;gantv&#257; r&#363;pa&#7747; dassenti nappaka&#7747;4. 
+
+<br />&nbsp;<br />
+
+360. Apare gandha&#241;ca m&#257;la&#241;ca 5 bhojana&#7747; vividha&#7747; bahu&#7747;<br />
+Up&#257;yan&#257;nyupanenti ha&#7789;&#7789;h&#257; sa&#7747;viggam&#257;nas&#257;. 
+
+<br />&nbsp;<br />
+
+361. Ye me dukkha&#7747; upadahanti ye ca denti sukha&#7747; mama<br />
+Sabbesa&#7747; samako homi day&#257;kopo6 navijjati. 
+
+<br />&nbsp;<br />
+
+362. Sukhadukkhatul&#257; bh&#363;to yasesu ayasesuca<br />
+Sabbattha samako homi es&#257; me upekkh&#257; p&#257;ram&#299;ti. 
+
+<br />&nbsp;<br />
+
+Mah&#257;lomaha&#7747;sa cariya&#7747; pa&#7751;&#7751;arasama&#7747;. 
+
+<br />&nbsp;<br />
+
+Upekkh&#257; p&#257;ramit&#257; ni&#7789;&#7789;hit&#257;. 
+
+<br />&nbsp;<br />
+
+
+Udd&#257;na g&#257;th&#257;: 
+
+<br />&nbsp;<br />
+
+363. Yudha&#241;jayo somanasso ayoghara bhisenaca <br />
+So&#7751;anando7 m&#363;gapakkho kapir&#257;j&#257;8 saccasavhayo. 
+
+<br />&nbsp;<br />
+
+364. Va&#7789;&#7789;ako macchar&#257;j&#257;ca ka&#7751;had&#299;p&#257;yano isi<br />
+Sutasomo puna &#257;si&#7747; s&#257;moca ekar&#257;jahu<br />
+Upekkh&#257; p&#257;ram&#299; &#257;si iti vutta&#7747; mahesin&#257;. 
+
+<br />&nbsp;<br />
+
+365. Eva&#7747; bahuvidhi&#7747; dukkha&#7747; sampatti ca 9 bahuvidh&#257;10<br />
+Bhav&#257; bhave anubhavitv&#257; patto sambodhimuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+366. Datv&#257; d&#257;tabbaka&#7747; d&#257;na&#7747; s&#299;la&#7747; p&#363;retv&#257; asesato<br />
+Nekkhamme11 p&#257;rami&#7747; gantv&#257; patto sambodhimuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+1. Upanidh&#257;-machasa&#7747; java&#7789;&#7789;hi&#7747; upadh&#257;yaha&#7747;- 2. G&#257;ma&#7751;&#7693;al&#257;-machasa&#7747;. 3. Upaganatv&#257;-n&#257;machasa&#7747;. 4. Dassenta nappaka-pa. 5. Gandham&#257;la bhuca-machasa&#7747;. 6. Dayakopo-n&#257;. <br />
+7. So&#7751;ada&#7751;&#7693;o-n&#257;- 8. Kapir&#257;ja-n&#257;. 9. Sampatti&#7747;ca-machasa&#7747;. 10. Bahuvidha&#7747;-machasa&#7747;-tatthaci. 11. Nekkhamma-machasa&#7747;. 
+
+<br />&nbsp;<br />
+
+
+[BJT Page 326] [\x 326/]     
+
+<br />&nbsp;<br />
+
+367. Pa&#7751;&#7693;ite paripucchitv&#257; viriya&#7747; katv&#257;na muttama&#7747;1. <br />
+Khantiy&#257; p&#257;rami&#7747; gantv&#257; patto sambodhi muttama&#7747;. <br />
+[<a id='pts.103'><b>PTS Page 103</b></a>] [\q 103/]      <br />
+368. Katv&#257; da&#7735;hamadhi&#7789;&#7789;h&#257;na&#7747; saccav&#257;v&#257;nurakkhiya 2<br />
+Mett&#257;ya p&#257;rami&#7747; gantv&#257; patto sambodhimuttama&#7747;. 
+
+<br />&nbsp;<br />
+
+369. L&#257;bh&#257;l&#257;bhe yasa yase samm&#257;nan&#257;vam&#257;nane<br />
+Sabbattha samako hutv&#257; patto samb&#257;dhi muttama&#7747;. 
+
+<br />&nbsp;<br />
+
+370. Kosajja&#7747; bhayato disv&#257; viriy&#257;rambha&#241;ca khemato<br />
+&#256;raddhaviriy&#257; hotha es&#257; buddh&#257;nus&#257;san&#299; 3. 
+
+<br />&nbsp;<br />
+
+371. Viv&#257;da&#7747; bhayato disv&#257; aviv&#257;da&#241;ca khemato<br />
+Samagg&#257; sakhil&#257; hotha es&#257; buddh&#257;nus&#257;san&#299; 4. 
+
+<br />&nbsp;<br />
+
+Yudha&#241;jayavaggo tatiyo. 
+
+<br />&nbsp;<br />
+
+Ittha&#7747; suda&#7747; bhagav&#257; attano pubbacariya&#7747; sambh&#257;vayam&#257;no<br />
+Buddh&#257;pad&#257;niya&#7747; n&#257;ma dhammapariy&#257;ya&#7747; abh&#257;sitth&#257;ti. <br />
+Cariy&#257;pi&#7789;akap&#257;&#7735;i samatt&#257;5 
+
+<br />&nbsp;<br />
+
+1. Uttama&#7747;-s&#299;mu- 2. Rakkhiy&#257;-n&#257;- 3. Buddh&#257;na s&#257;san&#299;-a&#7789;&#7789;ha-s&#299;mu-. 4. Buddh&#257;nas&#257;san&#299;-a&#7789;&#7789;ha-s&#299;mu- 5. Cariy&#257; pi&#7789;aka&#7747; ni&#7789;&#7789;hata&#7747;-katthaci. <br />
+ 
+
+
+</div> <!-- #COPYRIGHTED_TEXT_CHUNK (END OF COPYRIGHTED TEXT CHUNK) -->
+</div> <!--  #content -->
+
+
+<!-- footer.inc.php -->
+
+
+
+<!-- robots content="none" -->
+
+
+<div id="F_footer">
+	<div id='F_colophon'>
+<!-- 
+	<div id='F_newCopyrightSymbol'>
+		<a href='#top' title='Return to top of page'> </a>
+	</div>
+ -->
+	<div id="F_provenance">
+	<img alt='Public Domain' style='border-width:0;float:left;padding-right:1em;' src='./../../img/cc-public-domain-88x31.png' />		
+				<div id='F_sourceEdition'></div>
+		<div id="F_sourceTitle">
+		The text of this page ("Cp_utf8", by Public domain) is free of known copyright restrictions. Documents linked from this page may be subject to other restrictions. 
+		From the Sri Lanka Tripitaka Project, courtesy of the Journal of Buddhist Ethics.				Last revised for Access to Insight on 30 November 2013.				
+		</div>
+<!-- 
+		<div id="F_atiCopy">This Access to Insight edition is &copy;2010.</div>
+ -->
+	<div id="F_termsOfUse">
+<!-- 		For additional information about this license, see the <a href='./../../faq.html#copyright'>FAQ</a>. -->
+	</div>
+	</div>
+
+
+
+	<div id="F_citation"><b>How to cite this document</b> (a suggested style): "Cp_utf8", edited by  Access to Insight. <span style='font-style:italic'>Access to Insight (BCBS Edition)</span>, 30 November 2013, <a href='http://www.accesstoinsight.org/tipitaka/sltp/Cp_utf8.html'>http://www.accesstoinsight.org/tipitaka/sltp/Cp_utf8.html</a> .</div>
+		<div id="F_alt-formats"></div>
+
+
+	</div> <!--  #colophon -->
+	
+	<div id="F_toenail">
+<!-- not a mobile device -->
+<a href="./../../help.html">Help</a>
+		| <a href='./../../help.html#map'>Site map</a>
+		| <a href='./../../faq.html#whatis'>About</a>
+		| <a href='./../../faq.html#contact'>Contact</a> 
+		| <a href='./../../faq.html#copyright'>Terms of use</a>
+<div id='bcbs-footer'>Access to Insight is owned and managed by the <a href='http://bcbsdharma.org'>Barre Center for Buddhist Studies</a></div>
+</div> <!--  #toenail -->
+
+
+</div> <!-- #footer -->
+</div> <!-- #container -->
+
+
+
+
+
+<!-- /robots -->
+</body>
+</html>
